@@ -1,0 +1,51 @@
+import type { Metadata } from "next";
+import { PageShell } from "@/components/PageShell";
+
+const description =
+  "Scopri il ruolo di SessoChat.net come guida editoriale italiana per adulti che confrontano chat webcam live e piattaforme partner.";
+
+export const metadata: Metadata = {
+  title: "Chi siamo",
+  description,
+  alternates: {
+    canonical: "/chi-siamo"
+  },
+  openGraph: {
+    title: "Chi siamo | SessoChat.net",
+    description,
+    url: "https://sessochat.net/chi-siamo"
+  },
+  twitter: {
+    title: "Chi siamo | SessoChat.net",
+    description
+  }
+};
+
+export default function ChiSiamoPage() {
+  return (
+    <PageShell path="/chi-siamo" title="Chi siamo" description={description}>
+      <article className="page-card">
+        <h2>Una guida, non una piattaforma di chat</h2>
+        <p>
+          SessoChat.net è un progetto editoriale in lingua italiana dedicato agli adulti che
+          vogliono orientarsi tra webcam live, chat privata, accesso mobile e scoperta modelli prima
+          di registrarsi su servizi esterni.
+        </p>
+        <p>
+          Non ci presentiamo come attività locale italiana e non gestiamo direttamente le piattaforme
+          partner. Il nostro ruolo è rendere più semplice capire differenze, aspettative di
+          pagamento, impostazioni di privacy e punti da controllare prima di entrare.
+        </p>
+      </article>
+      <article className="page-card">
+        <h2>Che cosa vogliamo rendere chiaro</h2>
+        <ul>
+          <li>Quali funzioni possono essere visibili prima della registrazione.</li>
+          <li>Quando una chat privata webcam può richiedere credito o pagamento.</li>
+          <li>Perché profili, anteprime e disponibilità possono cambiare sulle piattaforme esterne.</li>
+          <li>Come navigare con un approccio più ordinato e attento alla privacy.</li>
+        </ul>
+      </article>
+    </PageShell>
+  );
+}
