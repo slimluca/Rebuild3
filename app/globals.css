@@ -59,12 +59,20 @@ img {
   max-width: 100%;
 }
 
+h1,
+h2,
+h3,
+p {
+  overflow-wrap: break-word;
+}
+
 .site-main {
   min-height: 70vh;
 }
 
 .container {
-  width: min(var(--max), calc(100% - 32px));
+  width: calc(100% - 32px);
+  max-width: var(--max);
   margin: 0 auto;
 }
 
@@ -133,6 +141,9 @@ img {
   min-height: 44px;
   border-radius: 999px;
   font-weight: 760;
+  max-width: 100%;
+  text-align: center;
+  white-space: normal;
 }
 
 .button {
@@ -480,6 +491,36 @@ img {
   padding: 62px 0 24px;
 }
 
+.siti-hero {
+  padding: 62px 0 22px;
+}
+
+.siti-hero-panel {
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  background:
+    linear-gradient(135deg, rgba(55, 20, 16, 0.88), rgba(18, 14, 14, 0.96)),
+    linear-gradient(90deg, rgba(214, 174, 103, 0.06), transparent 58%);
+  box-shadow: var(--shadow);
+  padding: clamp(24px, 5vw, 48px);
+}
+
+.siti-hero h1 {
+  max-width: 1040px;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.1rem, 5.2vw, 4.7rem);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.siti-hero p:last-child {
+  max-width: 920px;
+  margin: 20px 0 0;
+  color: var(--text-muted);
+  font-size: clamp(1rem, 1.7vw, 1.14rem);
+}
+
 .page-hero h1 {
   font-size: clamp(2.1rem, 5vw, 4.3rem);
 }
@@ -515,6 +556,94 @@ img {
   gap: 14px;
   padding: clamp(20px, 4vw, 30px);
   background: rgba(23, 18, 18, 0.88);
+}
+
+.siti-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.siti-card,
+.editorial-panel,
+.check-panel,
+.faq-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(23, 18, 18, 0.88);
+}
+
+.siti-card {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  gap: 12px;
+  padding: 19px;
+}
+
+.siti-card h3,
+.faq-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.siti-card p,
+.editorial-panel p,
+.check-panel p,
+.faq-card p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.siti-card .text-link {
+  align-self: flex-start;
+  min-height: 32px;
+  margin-top: auto;
+}
+
+.editorial-stack {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.editorial-panel {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+  padding: clamp(20px, 3vw, 28px);
+}
+
+.editorial-panel h2,
+.check-panel h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+  line-height: 1.12;
+}
+
+.check-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 20px;
+  align-items: start;
+  padding: clamp(22px, 4vw, 34px);
+  background:
+    linear-gradient(135deg, rgba(42, 23, 18, 0.86), rgba(23, 18, 18, 0.94)),
+    var(--surface);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.faq-card {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
 }
 
 .field {
@@ -597,16 +726,19 @@ img {
   .hero-notes,
   .quick-grid,
   .guide-grid,
-  .resource-grid {
+  .resource-grid,
+  .siti-card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .model-grid,
+  .editorial-stack,
   .metric-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .split-section,
+  .check-panel,
   .footer-grid {
     grid-template-columns: 1fr;
   }
@@ -614,7 +746,14 @@ img {
 
 @media (max-width: 620px) {
   .container {
-    width: min(100% - 24px, var(--max));
+    width: calc(100vw - 24px);
+    max-width: calc(100vw - 24px);
+  }
+
+  .header-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 
   .brand span:last-child {
@@ -622,15 +761,16 @@ img {
   }
 
   .header-actions {
+    order: 2;
     width: 100%;
-    justify-content: space-between;
   }
 
   .header-actions .button {
-    flex: 1;
+    width: 100%;
   }
 
   .nav {
+    order: 3;
     overflow-x: auto;
     justify-content: flex-start;
     padding-bottom: 2px;
@@ -641,11 +781,54 @@ img {
     padding: 24px;
   }
 
+  .siti-hero-panel,
+  .hero-panel,
+  .cta-band,
+  .fallback-panel,
+  .section-header {
+    width: 100%;
+    max-width: calc(100vw - 24px);
+  }
+
+  .hero h1,
+  .siti-hero h1,
+  .page-hero h1 {
+    width: 100%;
+    max-width: 300px;
+    font-size: clamp(1.85rem, 8vw, 2.45rem);
+    overflow-wrap: anywhere;
+  }
+
+  .hero p,
+  .siti-hero p:last-child,
+  .page-hero p {
+    width: 100%;
+    max-width: 300px;
+    overflow-wrap: anywhere;
+  }
+
+  .section-header h2,
+  .section-header p,
+  .fallback-panel h3,
+  .fallback-panel p {
+    max-width: 300px;
+    overflow-wrap: anywhere;
+  }
+
+  .section h2,
+  .cta-band h2 {
+    font-size: clamp(1.55rem, 7vw, 2.25rem);
+  }
+
   .hero-actions,
   .section-header,
   .fallback-panel {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .fallback-panel {
+    grid-template-columns: 1fr;
   }
 
   .hero-actions .button,
@@ -658,7 +841,10 @@ img {
   .quick-grid,
   .guide-grid,
   .resource-grid,
+  .siti-card-grid,
   .model-grid,
+  .editorial-stack,
+  .faq-grid,
   .metric-grid {
     grid-template-columns: 1fr;
   }

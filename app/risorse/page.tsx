@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
+import { sitiHubCards } from "@/lib/siti-pages";
 
 const description =
-  "Risorse iniziali di SessoChat.net con pagine pubbliche Phase 1 e aree guida previste per le fasi successive.";
+  "Risorse di SessoChat.net con pagine editoriali, sezione siti webcam e aree guida previste per le fasi successive.";
 
 export const metadata: Metadata = {
   title: "Risorse",
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
 };
 
 const existingResources = [
+  { href: "/siti", title: "Siti webcam", copy: "Hub editoriale per scegliere siti webcam live con criterio." },
   { href: "/chi-siamo", title: "Chi siamo", copy: "Il ruolo editoriale del progetto." },
   { href: "/politica-editoriale", title: "Politica editoriale", copy: "Standard di chiarezza e trasparenza." },
   { href: "/privacy-policy", title: "Privacy Policy", copy: "Informazioni iniziali su privacy e dati tecnici." },
@@ -31,7 +33,6 @@ const existingResources = [
 ];
 
 const futureAreas = [
-  "Guide sui siti webcam live",
   "Confronti tra piattaforme",
   "Categorie di chat cam live",
   "Approfondimenti su chat privata e pagamenti"
@@ -40,6 +41,24 @@ const futureAreas = [
 export default function RisorsePage() {
   return (
     <PageShell path="/risorse" title="Risorse" description={description}>
+      <article className="page-card">
+        <h2>Siti webcam</h2>
+        <p>
+          La sezione siti raccoglie le guide Phase 2 per valutare webcam live, cam gratis, chat
+          private, accesso mobile, navigazione senza registrazione, pagamenti e modelli verificati.
+        </p>
+      </article>
+      <section className="resource-grid" aria-label="Guide siti webcam">
+        {sitiHubCards.map((resource) => (
+          <article className="resource-card" key={resource.href}>
+            <h2>{resource.title}</h2>
+            <p>{resource.copy}</p>
+            <Link className="text-link" href={resource.href}>
+              Apri guida
+            </Link>
+          </article>
+        ))}
+      </section>
       <section className="resource-grid" aria-label="Risorse disponibili">
         {existingResources.map((resource) => (
           <article className="resource-card" key={resource.href}>

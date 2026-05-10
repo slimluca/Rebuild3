@@ -1,3 +1,5 @@
+import { sitiPublicPages } from "@/lib/siti-pages";
+
 export const siteConfig = {
   name: "SessoChat.net",
   domain: "sessochat.net",
@@ -7,6 +9,7 @@ export const siteConfig = {
     "Guida italiana per confrontare chat webcam live, modelli online, chat private, opzioni mobile, privacy e accesso prima della registrazione.",
   publicPages: [
     { path: "/", label: "Home" },
+    ...sitiPublicPages,
     { path: "/chi-siamo", label: "Chi siamo" },
     { path: "/contatti", label: "Contatti" },
     { path: "/politica-editoriale", label: "Politica editoriale" },

@@ -1,41 +1,41 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 const cards = [
   {
     id: "chat-gratis",
     title: "Chat gratis",
     copy: "Capire quali anteprime gratuite sono utili, quali limiti aspettarsi e quando serve un account.",
-    href: "#chat-gratis"
+    href: "/siti/siti-cam-gratis"
   },
   {
     id: "chat-privata",
     title: "Chat privata",
     copy: "Valutare controlli, costi e funzioni prima di entrare in una chat privata webcam.",
-    href: "#chat-privata"
+    href: "/siti/siti-cam-private"
   },
   {
     id: "senza-registrazione",
     title: "Webcam senza registrazione",
-    copy: "Distinguere accesso pubblico, preview e aree che richiedono registrazione adulta.",
-    href: "#senza-registrazione"
+    copy: "Distinguere accesso pubblico, anteprime e aree che richiedono registrazione adulta.",
+    href: "/siti/siti-webcam-senza-registrazione"
   },
   {
     id: "senza-carta",
     title: "Senza carta di credito",
     copy: "Orientarsi tra anteprime, iscrizione iniziale e pagamenti richiesti solo per funzioni avanzate.",
-    href: "#senza-carta"
+    href: "/siti/siti-webcam-senza-carta-di-credito"
   },
   {
     id: "modelli-verificati",
     title: "Modelli verificati",
     copy: "Cercare piattaforme con controlli chiari sui profili e informazioni trasparenti.",
-    href: "#modelli-verificati"
+    href: "/siti/siti-webcam-con-modelli-verificati"
   },
   {
     id: "webcam-mobile",
     title: "Webcam mobile",
     copy: "Scegliere siti cam live leggibili da telefono, con pagine rapide e comandi semplici.",
-    href: "#webcam-mobile"
+    href: "/siti/siti-webcam-mobile"
   }
 ];
 
@@ -49,7 +49,7 @@ export function QuickPathCards() {
             <h2 id="percorsi-title">Scegli il punto di partenza più adatto</h2>
             <p className="section-copy">
               Sei aree pratiche per capire meglio siti cam gratis, chat private, accesso mobile e
-              registrazione senza creare percorsi interni non ancora pronti.
+              registrazione con collegamenti alle guide già disponibili nella sezione siti.
             </p>
           </div>
         </div>
@@ -59,7 +59,7 @@ export function QuickPathCards() {
               <h3>{card.title}</h3>
               <p>{card.copy}</p>
               <Link className="text-link" href={card.href}>
-                Vai al tema
+                Leggi guida
               </Link>
             </article>
           ))}

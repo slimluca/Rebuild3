@@ -50,3 +50,31 @@ export function breadcrumbSchema(items: Array<{ name: string; path: string }>): 
     }))
   };
 }
+
+export function faqPageSchema(faq: Array<{ question: string; answer: string }>): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  };
+}
+
+export function itemListSchema(items: Array<{ name: string; path: string }>): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      url: canonicalUrl(item.path)
+    }))
+  };
+}

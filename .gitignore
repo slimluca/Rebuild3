@@ -14,6 +14,7 @@ yarn-error.log*
 pnpm-debug.log*
 dev.log
 dev.err.log
+.verification/
 
 *.tsbuildinfo
 .DS_Store
