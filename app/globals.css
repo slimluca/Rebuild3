@@ -270,6 +270,10 @@ p {
   padding: 44px 0;
 }
 
+.model-section {
+  padding-top: 22px;
+}
+
 .section-header {
   display: flex;
   align-items: flex-end;
@@ -369,6 +373,13 @@ p {
   gap: 18px;
   padding: 22px;
   background: linear-gradient(135deg, rgba(42, 23, 18, 0.88), rgba(23, 18, 18, 0.98));
+}
+
+.fallback-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
 }
 
 .fallback-panel h3 {
@@ -831,9 +842,15 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .fallback-actions {
+    flex-direction: column;
+    justify-content: stretch;
+  }
+
   .hero-actions .button,
   .hero-actions .button-secondary,
-  .fallback-panel .button {
+  .fallback-panel .button,
+  .fallback-panel .button-secondary {
     width: 100%;
   }
 

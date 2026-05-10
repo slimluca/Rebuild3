@@ -1,4 +1,5 @@
 import { JsonLd } from "@/components/JsonLd";
+import { ModelGrid } from "@/components/ModelGrid";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 import type { ReactNode } from "react";
 
@@ -28,6 +29,7 @@ export function PageShell({ path, title, description, children }: PageShellProps
           <p>{description}</p>
         </div>
       </section>
+      <ModelGrid />
       <div className="container page-grid">{children}</div>
     </>
   );

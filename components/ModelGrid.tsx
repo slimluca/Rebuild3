@@ -6,19 +6,20 @@ export async function ModelGrid() {
   const feed = await getLiveModels(8);
 
   return (
-    <section className="section" id="modelli-live">
+    <section className="section model-section" id="modelli-live" aria-labelledby="modelli-live-title">
       <div className="container">
         <div className="section-header">
           <div>
             <p className="section-kicker">Modelli live</p>
-            <h2>Anteprime webcam disponibili dal feed partner</h2>
+            <h2 id="modelli-live-title">Modelli webcam live disponibili</h2>
             <p className="section-copy">
-              Questa area mostra solo dati reali quando il collegamento LiveJasmin è configurato.
-              Non vengono inventati nomi, stati, valutazioni o conteggi.
+              Le anteprime live possono variare in base alla disponibilità della piattaforma
+              partner. Questa sezione mostra solo dati reali dal feed configurato, senza nomi,
+              stati, valutazioni o conteggi inventati.
             </p>
           </div>
           <Link className="button-secondary" href="/go/livejasmin" prefetch={false}>
-            Apri LiveJasmin
+            Guarda le opzioni live
           </Link>
         </div>
         {feed.models.length > 0 ? (
@@ -32,13 +33,19 @@ export async function ModelGrid() {
             <div>
               <h3>Le anteprime live possono variare</h3>
               <p>
-                Il feed dei modelli non è configurato o non restituisce profili in questo momento.
-                Puoi comunque entrare nella piattaforma partner tramite il percorso interno sicuro.
+                Le anteprime dei modelli live possono cambiare in base alla disponibilità della
+                piattaforma partner. Puoi comunque aprire l’accesso live tramite il collegamento
+                interno sicuro e valutare le opzioni disponibili prima della registrazione.
               </p>
             </div>
-            <Link className="button" href="/go/livejasmin" prefetch={false}>
-              Vai alla piattaforma
-            </Link>
+            <div className="fallback-actions">
+              <Link className="button" href="/go/livejasmin" prefetch={false}>
+                Guarda le opzioni live
+              </Link>
+              <Link className="button-secondary" href="/go/signup" prefetch={false}>
+                Apri accesso partner
+              </Link>
+            </div>
           </div>
         )}
       </div>

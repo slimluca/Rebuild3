@@ -14,6 +14,8 @@ yarn-error.log*
 pnpm-debug.log*
 dev.log
 dev.err.log
+start.log
+start.err.log
 .verification/
 
 *.tsbuildinfo

@@ -6,7 +6,7 @@ type ModelCardProps = {
 };
 
 export function ModelCard({ model }: ModelCardProps) {
-  const label = model.displayName ?? model.username ?? "Profilo webcam";
+  const label = model.displayName ?? model.username ?? "Profilo dal feed partner";
   const targetId = model.username ?? model.id;
 
   return (
@@ -15,9 +15,9 @@ export function ModelCard({ model }: ModelCardProps) {
         {model.imageUrl ? (
           // Feed image hosts can vary by partner endpoint, so this stays as a plain HTML image.
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={model.imageUrl} alt={`Anteprima profilo ${label}`} loading="lazy" />
+          <img src={model.imageUrl} alt={`Anteprima webcam ${label}`} loading="lazy" />
         ) : (
-          <div className="model-placeholder">Anteprima non disponibile</div>
+          <div className="model-placeholder">Immagine non disponibile dal feed</div>
         )}
       </div>
       <div className="model-body">
@@ -26,7 +26,7 @@ export function ModelCard({ model }: ModelCardProps) {
           Scheda dal feed partner. I dettagli disponibili possono variare in base alla piattaforma.
         </p>
         {model.tags && model.tags.length > 0 ? (
-          <p className="model-meta">{model.tags.join(" · ")}</p>
+          <p className="model-meta">{model.tags.join(" - ")}</p>
         ) : null}
         <Link className="button-secondary" href={`/go/model/${encodeURIComponent(targetId)}`} prefetch={false}>
           Apri profilo

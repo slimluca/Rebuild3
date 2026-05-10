@@ -21,20 +21,6 @@ export function Hero() {
                 Vedi modelli live
               </Link>
             </div>
-            <div className="hero-notes" aria-label="Punti principali">
-              <div className="hero-note">
-                <strong>Prima di registrarti</strong>
-                <span>Capisci accesso, pagamenti e funzioni senza fretta.</span>
-              </div>
-              <div className="hero-note">
-                <strong>Privacy al centro</strong>
-                <span>Indicazioni semplici per navigare con maggiore controllo.</span>
-              </div>
-              <div className="hero-note">
-                <strong>Scoperta modelli</strong>
-                <span>Anteprime reali quando il feed partner è disponibile.</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
