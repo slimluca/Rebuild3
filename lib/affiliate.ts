@@ -20,7 +20,12 @@ function appendAffiliateParams(url: URL) {
 }
 
 function isAllowedLiveJasminHost(hostname: string) {
-  return hostname === "livejasmin.com" || hostname.endsWith(".livejasmin.com");
+  return (
+    hostname === "livejasmin.com" ||
+    hostname.endsWith(".livejasmin.com") ||
+    hostname === "ctwmsg.com" ||
+    hostname.endsWith(".ctwmsg.com")
+  );
 }
 
 function cleanPath(path = "/") {

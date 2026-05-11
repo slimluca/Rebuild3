@@ -1,134 +1,138 @@
 import type { LiveModel, ModelFeedResult } from "@/types/model";
 
-type RawModelRecord = Record<string, unknown>;
+const DEFAULT_LIVEJASMIN_FEED_URL = "https://atwmcd.com/api/model/feed";
+const DEFAULT_LIVEJASMIN_ACCESS_KEY = "0861d4a47cf6a25b6e7c5406352b2f92";
+const LIVEJASMIN_FEED_TIMEOUT_MS = 8_000;
+const LIVEJASMIN_FEED_REVALIDATE_SECONDS = 120;
 
-const FEED_URL = process.env.LIVEJASMIN_FEED_URL;
-const FEED_TOKEN = process.env.LIVEJASMIN_FEED_TOKEN;
+type LiveJasminProfilePictureUrl = {
+  size320x240?: string;
+  size800x600?: string;
+  [key: string]: string | undefined;
+};
 
-function asString(value: unknown) {
-  return typeof value === "string" && value.trim() ? value.trim() : undefined;
-}
+type LiveJasminModel = {
+  uniqueModelId: string;
+  performerId: string;
+  displayName: string;
+  status: string;
+  chatRoomUrl: string;
+  profilePictureUrl?: LiveJasminProfilePictureUrl | null;
+};
 
-function firstString(values: unknown[]) {
-  for (const value of values) {
-    const stringValue = asString(value);
-    if (stringValue) {
-      return stringValue;
-    }
-  }
+type LiveJasminFeedResponse = {
+  data?: {
+    models?: unknown[];
+  };
+};
 
-  return undefined;
-}
-
-function getImageUrl(record: RawModelRecord) {
-  const direct = firstString([
-    record.image,
-    record.imageUrl,
-    record.thumbnail,
-    record.thumbnailUrl,
-    record.preview,
-    record.previewUrl,
-    record.profilePicture
-  ]);
-
-  if (direct) {
-    return direct;
-  }
-
-  const pictures = record.pictures ?? record.images ?? record.photos;
-  if (Array.isArray(pictures)) {
-    for (const item of pictures) {
-      if (typeof item === "string") {
-        return item;
-      }
-
-      if (item && typeof item === "object") {
-        const nested = item as RawModelRecord;
-        const nestedUrl = firstString([nested.url, nested.src, nested.imageUrl, nested.thumbnail]);
-        if (nestedUrl) {
-          return nestedUrl;
-        }
-      }
-    }
-  }
-
-  return undefined;
-}
-
-function getRawModelList(payload: unknown): RawModelRecord[] {
-  if (Array.isArray(payload)) {
-    return payload.filter((item): item is RawModelRecord => Boolean(item && typeof item === "object"));
-  }
-
-  if (!payload || typeof payload !== "object") {
-    return [];
-  }
-
-  const record = payload as RawModelRecord;
-  const candidates = [record.models, record.data, record.results, record.performers, record.items];
-
-  for (const candidate of candidates) {
-    if (Array.isArray(candidate)) {
-      return candidate.filter((item): item is RawModelRecord => Boolean(item && typeof item === "object"));
-    }
-  }
-
-  return [];
-}
-
-function normalizeModel(record: RawModelRecord): LiveModel | null {
-  const id = firstString([record.id, record.modelId, record.userId, record.performerId, record.username]);
-  const username = firstString([record.username, record.screenName, record.slug, record.nick]);
-
-  if (!id && !username) {
-    return null;
-  }
-
-  const tags = Array.isArray(record.tags)
-    ? record.tags.map((tag) => asString(tag)).filter((tag): tag is string => Boolean(tag)).slice(0, 3)
-    : undefined;
-
+function getFeedParams() {
   return {
-    id: id ?? username ?? "",
-    username,
-    displayName: firstString([record.displayName, record.name, record.username, record.screenName]),
-    imageUrl: getImageUrl(record),
-    profileUrl: firstString([record.url, record.link, record.profileUrl, record.chatUrl]),
-    tags
+    psId: process.env.LIVEJASMIN_FEED_PS_ID || "affil28",
+    accessKey: process.env.LIVEJASMIN_FEED_ACCESS_KEY || DEFAULT_LIVEJASMIN_ACCESS_KEY,
+    siteId: process.env.LIVEJASMIN_FEED_SITE_ID || "jsm",
+    responseFormat: "json",
+    imageSizes: process.env.LIVEJASMIN_FEED_IMAGE_SIZES || "320x240,800x600",
+    category: process.env.LIVEJASMIN_FEED_CATEGORY || "girl",
+    extendedDetails: process.env.LIVEJASMIN_FEED_EXTENDED_DETAILS || "1",
+    showOffline: process.env.LIVEJASMIN_FEED_SHOW_OFFLINE || "0"
+  } as const;
+}
+
+function buildFeedUrl() {
+  const url = new URL(process.env.LIVEJASMIN_FEED_URL || DEFAULT_LIVEJASMIN_FEED_URL);
+
+  for (const [key, value] of Object.entries(getFeedParams())) {
+    url.searchParams.set(key, value);
+  }
+
+  return url;
+}
+
+function isLiveJasminModel(value: unknown): value is LiveJasminModel {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  const candidate = value as Partial<LiveJasminModel>;
+
+  return (
+    typeof candidate.uniqueModelId === "string" &&
+    typeof candidate.performerId === "string" &&
+    typeof candidate.displayName === "string" &&
+    typeof candidate.chatRoomUrl === "string" &&
+    typeof candidate.status === "string"
+  );
+}
+
+function getImageUrl(model: LiveJasminModel) {
+  return model.profilePictureUrl?.size800x600 ?? model.profilePictureUrl?.size320x240;
+}
+
+function normalizeModel(model: LiveJasminModel): LiveModel {
+  return {
+    id: model.performerId || model.uniqueModelId,
+    username: model.uniqueModelId,
+    displayName: model.displayName,
+    imageUrl: getImageUrl(model),
+    profileUrl: model.chatRoomUrl
   };
 }
 
+async function getLiveJasminModels(limit?: number): Promise<LiveModel[]> {
+  const headers: HeadersInit = {
+    accept: "application/json"
+  };
+
+  if (process.env.LIVEJASMIN_FEED_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.LIVEJASMIN_FEED_TOKEN}`;
+  }
+
+  const response = await fetch(buildFeedUrl(), {
+    headers,
+    next: {
+      revalidate: LIVEJASMIN_FEED_REVALIDATE_SECONDS
+    },
+    signal: AbortSignal.timeout(LIVEJASMIN_FEED_TIMEOUT_MS)
+  });
+
+  if (!response.ok) {
+    throw new Error(`LiveJasmin feed request failed with ${response.status}`);
+  }
+
+  const payload = (await response.json()) as LiveJasminFeedResponse;
+  const models = (payload.data?.models ?? []).filter(isLiveJasminModel).map(normalizeModel);
+
+  return typeof limit === "number" ? models.slice(0, limit) : models;
+}
+
 export async function getLiveModels(limit = 8): Promise<ModelFeedResult> {
-  if (!FEED_URL) {
-    return { models: [], configured: false };
-  }
-
   try {
-    const headers: HeadersInit = {
-      Accept: "application/json"
+    const models = await getLiveJasminModels(limit);
+
+    return {
+      models,
+      configured: true
     };
-
-    if (FEED_TOKEN) {
-      headers.Authorization = `Bearer ${FEED_TOKEN}`;
-    }
-
-    const response = await fetch(FEED_URL, {
-      headers,
-      next: { revalidate: 300 }
-    });
-
-    if (!response.ok) {
-      return { models: [], configured: true, error: "Feed non disponibile" };
-    }
-
-    const payload = (await response.json()) as unknown;
-    const models = getRawModelList(payload)
-      .map(normalizeModel)
-      .filter((model): model is LiveModel => Boolean(model))
-      .slice(0, limit);
-
-    return { models, configured: true };
   } catch {
-    return { models: [], configured: true, error: "Feed non raggiungibile" };
+    return {
+      models: [],
+      configured: true,
+      error: "Feed non raggiungibile"
+    };
   }
+}
+
+export async function getLiveModelById(id: string): Promise<LiveModel | null> {
+  const safeId = id.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 80);
+
+  if (!safeId) {
+    return null;
+  }
+
+  const feed = await getLiveModels(100);
+
+  return (
+    feed.models.find((model) => model.id === safeId || model.username === safeId) ?? null
+  );
 }
