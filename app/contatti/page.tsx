@@ -26,8 +26,8 @@ export default function ContattiPage() {
     <PageShell path="/contatti" title="Contatti" description={description}>
       <form className="contact-form" aria-describedby="contact-note">
         <p className="form-help" id="contact-note">
-          Il modulo è una base grafica di Phase 1 e sarà attivato in una fase successiva. Per ora
-          non invia messaggi.
+          Il modulo è una base grafica e sarà attivato in una fase successiva. Per ora non invia
+          messaggi.
         </p>
         <div className="field">
           <label htmlFor="nome">Nome</label>

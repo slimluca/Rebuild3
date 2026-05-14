@@ -11,6 +11,7 @@ export function Header() {
         <nav className="nav" aria-label="Navigazione principale">
           <Link href="/">Home</Link>
           <Link href="/siti">Siti</Link>
+          <Link href="/guida">Guida</Link>
           <Link href="/risorse">Risorse</Link>
           <Link href="/chi-siamo">Chi siamo</Link>
           <Link href="/contatti">Contatti</Link>

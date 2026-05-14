@@ -1,3 +1,4 @@
+import { guidaPublicPages } from "@/lib/guida-pages";
 import { sitiPublicPages } from "@/lib/siti-pages";
 
 export const siteConfig = {
@@ -10,6 +11,7 @@ export const siteConfig = {
   publicPages: [
     { path: "/", label: "Home" },
     ...sitiPublicPages,
+    ...guidaPublicPages,
     { path: "/chi-siamo", label: "Chi siamo" },
     { path: "/contatti", label: "Contatti" },
     { path: "/politica-editoriale", label: "Politica editoriale" },

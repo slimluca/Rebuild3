@@ -1,15 +1,20 @@
+import Link from "next/link";
+
 const guides = [
   {
+    href: "/guida/consigli-per-principianti",
     title: "Chat webcam per principianti",
-    copy: "Una futura guida spiegherà cosa guardare prima dell’iscrizione, dai profili alle funzioni base."
+    copy: "Termini base, anteprime, registrazione, crediti e privacy spiegati con un percorso semplice."
   },
   {
-    title: "LiveJasmin Italia e alternative",
-    copy: "Uno spazio editoriale per confrontare approcci, anteprime, privacy e differenze tra piattaforme."
+    href: "/guida/chat-webcam-sicura",
+    title: "Chat webcam sicura",
+    copy: "Controlli pratici su browser, account, pagamenti e segnali di affidabilità prima di registrarti."
   },
   {
-    title: "Siti webcam sicuri",
-    copy: "Controlli pratici su privacy, pagamenti, trasparenza e navigazione mobile senza toni allarmistici."
+    href: "/guida/prezzi-chat-webcam",
+    title: "Prezzi chat webcam",
+    copy: "Come leggere crediti, chat private e funzioni a pagamento senza affidarsi a numeri inventati."
   }
 ];
 
@@ -19,19 +24,25 @@ export function GuidePreviewSection() {
       <div className="container">
         <div className="section-header">
           <div>
-            <p className="section-kicker">Guide in arrivo</p>
-            <h2 id="guide-title">Anteprima delle risorse italiane più utili</h2>
+            <p className="section-kicker">Guide pratiche</p>
+            <h2 id="guide-title">Risorse italiane per scegliere con più controllo</h2>
             <p className="section-copy">
-              Le sezioni complete arriveranno nelle fasi successive. In Phase 1 teniamo solo una
-              mappa editoriale chiara, senza creare pagine vuote o link rotti.
+              Approfondimenti già disponibili per capire privacy, prezzi, registrazione e uso
+              responsabile delle chat webcam live.
             </p>
           </div>
+          <Link className="button-secondary" href="/guida">
+            Apri guida
+          </Link>
         </div>
         <div className="guide-grid">
           {guides.map((guide) => (
-            <article className="guide-card" key={guide.title}>
+            <article className="guide-card" key={guide.href}>
               <h3>{guide.title}</h3>
               <p>{guide.copy}</p>
+              <Link className="text-link" href={guide.href}>
+                Leggi la guida
+              </Link>
             </article>
           ))}
         </div>

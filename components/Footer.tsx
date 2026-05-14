@@ -2,6 +2,9 @@ import Link from "next/link";
 
 const footerLinks = [
   { href: "/siti", label: "Siti webcam" },
+  { href: "/guida", label: "Guida" },
+  { href: "/guida/come-scegliere-un-sito-webcam", label: "Scegliere un sito webcam" },
+  { href: "/guida/chat-webcam-sicura", label: "Chat webcam sicura" },
   { href: "/chi-siamo", label: "Chi siamo" },
   { href: "/contatti", label: "Contatti" },
   { href: "/politica-editoriale", label: "Politica editoriale" },

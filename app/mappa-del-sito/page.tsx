@@ -4,7 +4,7 @@ import { PageShell } from "@/components/PageShell";
 import { siteConfig } from "@/lib/site";
 
 const description =
-  "Mappa HTML di SessoChat.net con le sole pagine pubbliche disponibili nella Phase 1.";
+  "Mappa HTML di SessoChat.net con home, siti webcam, guide pratiche, risorse e pagine editoriali pubbliche.";
 
 export const metadata: Metadata = {
   title: "Mappa del sito",

@@ -116,9 +116,9 @@ p {
 .nav {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 18px;
   color: var(--text-muted);
-  font-size: 0.95rem;
+  font-size: 0.93rem;
 }
 
 .nav a:hover,
