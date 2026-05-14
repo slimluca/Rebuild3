@@ -7,18 +7,18 @@ const description =
   "Mappa HTML di SessoChat.net con home, siti webcam, guide pratiche, risorse e pagine editoriali pubbliche.";
 
 export const metadata: Metadata = {
-  title: "Mappa del sito",
+  title: "Mappa del Sito: Tutte le Guide Chat Webcam",
   description,
   alternates: {
     canonical: "/mappa-del-sito"
   },
   openGraph: {
-    title: "Mappa del sito | SessoChat.net",
+    title: "Mappa del Sito: Tutte le Guide Chat Webcam | SessoChat.net",
     description,
     url: "https://sessochat.net/mappa-del-sito"
   },
   twitter: {
-    title: "Mappa del sito | SessoChat.net",
+    title: "Mappa del Sito: Tutte le Guide Chat Webcam | SessoChat.net",
     description
   }
 };

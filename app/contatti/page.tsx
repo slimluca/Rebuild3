@@ -2,21 +2,21 @@ import type { Metadata } from "next";
 import { PageShell } from "@/components/PageShell";
 
 const description =
-  "Pagina contatti di SessoChat.net con modulo informativo in preparazione per richieste editoriali e segnalazioni.";
+  "Contatti SessoChat.net per richieste editoriali e segnalazioni sul sito, con modulo informativo dedicato alle guide italiane sulle chat webcam.";
 
 export const metadata: Metadata = {
-  title: "Contatti",
+  title: "Contatti SessoChat.net: Richieste Editoriali e Segnalazioni",
   description,
   alternates: {
     canonical: "/contatti"
   },
   openGraph: {
-    title: "Contatti | SessoChat.net",
+    title: "Contatti SessoChat.net: Richieste Editoriali e Segnalazioni",
     description,
     url: "https://sessochat.net/contatti"
   },
   twitter: {
-    title: "Contatti | SessoChat.net",
+    title: "Contatti SessoChat.net: Richieste Editoriali e Segnalazioni",
     description
   }
 };

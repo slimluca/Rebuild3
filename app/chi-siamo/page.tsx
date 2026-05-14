@@ -2,21 +2,21 @@ import type { Metadata } from "next";
 import { PageShell } from "@/components/PageShell";
 
 const description =
-  "Scopri il ruolo di SessoChat.net come guida editoriale italiana per adulti che confrontano chat webcam live e piattaforme partner.";
+  "SessoChat.net è una guida editoriale italiana per adulti che vogliono confrontare chat webcam live, privacy, costi e piattaforme partner prima di registrarsi.";
 
 export const metadata: Metadata = {
-  title: "Chi siamo",
+  title: "Chi Siamo: Guida Italiana alle Chat Webcam Live",
   description,
   alternates: {
     canonical: "/chi-siamo"
   },
   openGraph: {
-    title: "Chi siamo | SessoChat.net",
+    title: "Chi Siamo: Guida Italiana alle Chat Webcam Live | SessoChat.net",
     description,
     url: "https://sessochat.net/chi-siamo"
   },
   twitter: {
-    title: "Chi siamo | SessoChat.net",
+    title: "Chi Siamo: Guida Italiana alle Chat Webcam Live | SessoChat.net",
     description
   }
 };

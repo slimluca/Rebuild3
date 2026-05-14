@@ -2,21 +2,21 @@ import type { Metadata } from "next";
 import { PageShell } from "@/components/PageShell";
 
 const description =
-  "Informativa privacy iniziale di SessoChat.net su log tecnici, cookie, analisi, redirect affiliati e dati del modulo contatti quando sarà attivo.";
+  "Privacy Policy di SessoChat.net su log tecnici, cookie, analisi, redirect affiliati e dati del modulo contatti quando sarà attivo.";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: "Privacy Policy: Dati, Cookie e Redirect Affiliati",
   description,
   alternates: {
     canonical: "/privacy-policy"
   },
   openGraph: {
-    title: "Privacy Policy | SessoChat.net",
+    title: "Privacy Policy: Dati, Cookie e Redirect Affiliati | SessoChat.net",
     description,
     url: "https://sessochat.net/privacy-policy"
   },
   twitter: {
-    title: "Privacy Policy | SessoChat.net",
+    title: "Privacy Policy: Dati, Cookie e Redirect Affiliati | SessoChat.net",
     description
   }
 };
@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
           In futuro il sito potrà usare cookie tecnici, strumenti di analisi del traffico e redirect
           affiliati interni per misurare il funzionamento generale delle pagine e dei collegamenti
           verso piattaforme partner. I link affiliati possono trasferire parametri tecnici al partner
-          quando l’utente sceglie di uscire dal sito.
+          quando l&apos;utente sceglie di uscire dal sito.
         </p>
       </article>
       <article className="page-card">

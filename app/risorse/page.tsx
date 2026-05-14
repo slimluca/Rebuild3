@@ -5,21 +5,21 @@ import { guidaHubCards } from "@/lib/guida-pages";
 import { sitiHubCards } from "@/lib/siti-pages";
 
 const description =
-  "Risorse di SessoChat.net con guide pratiche, sezione siti webcam, pagine editoriali e collegamenti utili per scegliere con più controllo.";
+  "Risorse SessoChat.net con guide pratiche, siti webcam live, pagine editoriali e collegamenti utili per scegliere chat webcam con più controllo.";
 
 export const metadata: Metadata = {
-  title: "Risorse",
+  title: "Risorse Chat Webcam: Guide, Siti e Pagine Utili",
   description,
   alternates: {
     canonical: "/risorse"
   },
   openGraph: {
-    title: "Risorse | SessoChat.net",
+    title: "Risorse Chat Webcam: Guide, Siti e Pagine Utili | SessoChat.net",
     description,
     url: "https://sessochat.net/risorse"
   },
   twitter: {
-    title: "Risorse | SessoChat.net",
+    title: "Risorse Chat Webcam: Guide, Siti e Pagine Utili | SessoChat.net",
     description
   }
 };

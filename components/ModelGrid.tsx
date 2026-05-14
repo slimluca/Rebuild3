@@ -3,7 +3,7 @@ import { ModelCard } from "@/components/ModelCard";
 import { getLiveModels } from "@/lib/livejasmin";
 
 export async function ModelGrid() {
-  const feed = await getLiveModels(8);
+  const feed = await getLiveModels(12);
 
   return (
     <section className="section model-section" id="modelli-live" aria-labelledby="modelli-live-title">
@@ -34,7 +34,7 @@ export async function ModelGrid() {
               <h3>Le anteprime live possono variare</h3>
               <p>
                 Le anteprime dei modelli live possono cambiare in base alla disponibilità della
-                piattaforma partner. Puoi comunque aprire l’accesso live tramite il collegamento
+                piattaforma partner. Puoi comunque aprire l&apos;accesso live tramite il collegamento
                 interno sicuro e valutare le opzioni disponibili prima della registrazione.
               </p>
             </div>

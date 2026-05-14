@@ -5,18 +5,18 @@ const description =
   "Standard editoriali di SessoChat.net: chiarezza, tono adult-safe, privacy, niente recensioni false e uso trasparente dei link interni.";
 
 export const metadata: Metadata = {
-  title: "Politica editoriale",
+  title: "Politica Editoriale: Standard per Guide Chat Webcam",
   description,
   alternates: {
     canonical: "/politica-editoriale"
   },
   openGraph: {
-    title: "Politica editoriale | SessoChat.net",
+    title: "Politica Editoriale: Standard per Guide Chat Webcam | SessoChat.net",
     description,
     url: "https://sessochat.net/politica-editoriale"
   },
   twitter: {
-    title: "Politica editoriale | SessoChat.net",
+    title: "Politica Editoriale: Standard per Guide Chat Webcam | SessoChat.net",
     description
   }
 };

@@ -805,25 +805,31 @@ p {
   .siti-hero h1,
   .page-hero h1 {
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
     font-size: clamp(1.85rem, 8vw, 2.45rem);
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
   }
 
   .hero p,
   .siti-hero p:last-child,
   .page-hero p {
     width: 100%;
-    max-width: 300px;
-    overflow-wrap: anywhere;
+    max-width: 100%;
+    overflow-wrap: break-word;
   }
 
   .section-header h2,
   .section-header p,
   .fallback-panel h3,
   .fallback-panel p {
-    max-width: 300px;
-    overflow-wrap: anywhere;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .hero,
+  .siti-hero,
+  .page-hero {
+    padding-top: 34px;
   }
 
   .section h2,
