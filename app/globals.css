@@ -1259,6 +1259,70 @@ body {
   font-size: 0.96rem;
 }
 
+.category-insight-panel {
+  border-color: rgba(211, 173, 111, 0.24);
+}
+
+.filter-guide-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1fr);
+  gap: clamp(18px, 3vw, 30px);
+  align-items: start;
+  border: 1px solid rgba(211, 173, 111, 0.18);
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(143, 33, 31, 0.18), transparent 22rem),
+    linear-gradient(180deg, rgba(255, 247, 234, 0.045), rgba(21, 16, 15, 0.94));
+  box-shadow: var(--shadow-soft);
+  padding: clamp(18px, 3vw, 28px);
+}
+
+.filter-guide-panel h2 {
+  margin: 0 0 10px;
+  font-size: clamp(1.25rem, 2vw, 1.8rem);
+}
+
+.filter-guide-panel p {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.72;
+}
+
+.filter-guide-panel ol {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: filter-step;
+}
+
+.filter-guide-panel li {
+  counter-increment: filter-step;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: start;
+  border: 1px solid rgba(255, 247, 234, 0.08);
+  border-radius: 10px;
+  background: rgba(9, 7, 7, 0.5);
+  color: var(--text-muted);
+  padding: 12px;
+}
+
+.filter-guide-panel li::before {
+  content: counter(filter-step);
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: rgba(211, 173, 111, 0.14);
+  color: var(--accent-gold);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
 .field input,
 .field textarea {
   border-radius: 8px;
@@ -1304,6 +1368,10 @@ body {
   .siti-card-grid,
   .editorial-stack {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filter-guide-panel {
+    grid-template-columns: 1fr;
   }
 }
 
