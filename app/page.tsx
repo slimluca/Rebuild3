@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ArgomentiPreviewSection } from "@/components/ArgomentiPreviewSection";
 import { CategoryPreviewSection } from "@/components/CategoryPreviewSection";
 import { ComparisonPreviewSection } from "@/components/ComparisonPreviewSection";
 import { FinalCTA } from "@/components/FinalCTA";
@@ -47,6 +48,7 @@ export default function HomePage() {
       <GuidePreviewSection />
       <ComparisonPreviewSection />
       <CategoryPreviewSection />
+      <ArgomentiPreviewSection />
       <FinalCTA variant="models" />
       <FinalCTA />
     </>

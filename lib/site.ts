@@ -1,3 +1,4 @@
+import { argomentiPublicPages } from "@/lib/argomenti-pages";
 import { categoriePublicPages } from "@/lib/categorie-pages";
 import { confrontiPublicPages } from "@/lib/confronti-pages";
 import { guidaPublicPages } from "@/lib/guida-pages";
@@ -16,6 +17,7 @@ export const siteConfig = {
     ...guidaPublicPages,
     ...confrontiPublicPages,
     ...categoriePublicPages,
+    ...argomentiPublicPages,
     { path: "/chi-siamo", label: "Chi siamo" },
     { path: "/contatti", label: "Contatti" },
     { path: "/politica-editoriale", label: "Politica editoriale" },

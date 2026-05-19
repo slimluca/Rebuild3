@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
+import { argomentiHubCards } from "@/lib/argomenti-pages";
 import { categorieHubCards } from "@/lib/categorie-pages";
 import { confrontiHubCards } from "@/lib/confronti-pages";
 import { guidaHubCards } from "@/lib/guida-pages";
@@ -31,6 +32,7 @@ const existingResources = [
   { href: "/guida", title: "Guida chat webcam", copy: "Guide pratiche su privacy, prezzi, registrazione e mobile." },
   { href: "/confronti", title: "Confronti", copy: "Confronti tra piattaforme, chat gratis, chat private e alternative LiveJasmin." },
   { href: "/categorie", title: "Categorie modelli", copy: "Percorsi per esplorare modelli webcam live e filtri disponibili." },
+  { href: "/argomenti", title: "Argomenti", copy: "Ricerche rapide su registrazione, mobile, privacy, LiveJasmin Italia e anteprime." },
   { href: "/chi-siamo", title: "Chi siamo", copy: "Il ruolo editoriale del progetto." },
   { href: "/politica-editoriale", title: "Politica editoriale", copy: "Standard di chiarezza e trasparenza." },
   { href: "/privacy-policy", title: "Privacy Policy", copy: "Informazioni iniziali su privacy e dati tecnici." },
@@ -45,6 +47,24 @@ const futureAreas = [
 export default function RisorsePage() {
   return (
     <PageShell path="/risorse" title="Risorse" description={description}>
+      <article className="page-card">
+        <h2>Argomenti più cercati</h2>
+        <p>
+          Le pagine argomento rispondono a ricerche dirette su chat webcam, registrazione, carta di
+          credito, LiveJasmin Italia, mobile, anteprime e sesso chat online.
+        </p>
+      </article>
+      <section className="resource-grid" aria-label="Argomenti più cercati">
+        {argomentiHubCards.map((resource) => (
+          <article className="resource-card" key={resource.href}>
+            <h2>{resource.title}</h2>
+            <p>{resource.copy}</p>
+            <Link className="text-link" href={resource.href}>
+              Apri argomento
+            </Link>
+          </article>
+        ))}
+      </section>
       <article className="page-card">
         <h2>Categorie modelli</h2>
         <p>
