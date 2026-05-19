@@ -881,6 +881,84 @@ p {
   }
 }
 
+.decision-panel,
+.comparison-matrix {
+  border: 1px solid rgba(211, 173, 111, 0.14);
+  border-radius: 10px;
+  background:
+    linear-gradient(180deg, rgba(255, 247, 234, 0.04), transparent),
+    rgba(21, 16, 15, 0.92);
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.18);
+}
+
+.decision-panel {
+  padding: clamp(18px, 3vw, 28px);
+}
+
+.decision-panel h2 {
+  max-width: 760px;
+}
+
+.decision-panel p {
+  max-width: 840px;
+  margin: 12px 0 0;
+  color: var(--text-muted);
+}
+
+.comparison-matrix {
+  overflow: hidden;
+}
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: minmax(130px, 0.72fr) repeat(2, minmax(0, 1fr));
+  border-top: 1px solid rgba(211, 173, 111, 0.1);
+}
+
+.comparison-row:first-child {
+  border-top: 0;
+}
+
+.comparison-row > div {
+  min-width: 0;
+  padding: 14px;
+  color: var(--text-muted);
+  overflow-wrap: break-word;
+}
+
+.comparison-row > div:not(:last-child) {
+  border-right: 1px solid rgba(211, 173, 111, 0.1);
+}
+
+.comparison-row > div:first-child,
+.comparison-head > div {
+  color: var(--text);
+  font-weight: 800;
+}
+
+.comparison-head {
+  background: rgba(143, 33, 31, 0.18);
+}
+
+@media (max-width: 620px) {
+  .comparison-row {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-row > div {
+    padding: 12px;
+  }
+
+  .comparison-row > div:not(:last-child) {
+    border-right: 0;
+    border-bottom: 1px solid rgba(211, 173, 111, 0.08);
+  }
+
+  .comparison-head {
+    display: none;
+  }
+}
+
 /* Luxury refresh: compact commercial surface while preserving the existing content model. */
 body {
   background:

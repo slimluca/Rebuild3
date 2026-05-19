@@ -3,6 +3,9 @@ import Link from "next/link";
 const footerLinks = [
   { href: "/siti", label: "Siti webcam" },
   { href: "/guida", label: "Guida" },
+  { href: "/confronti", label: "Confronti" },
+  { href: "/confronti/livejasmin-vs-chaturbate", label: "LiveJasmin vs Chaturbate" },
+  { href: "/confronti/siti-premium-vs-siti-gratis", label: "Premium vs gratis" },
   { href: "/guida/come-scegliere-un-sito-webcam", label: "Scegliere un sito webcam" },
   { href: "/guida/chat-webcam-sicura", label: "Chat webcam sicura" },
   { href: "/chi-siamo", label: "Chi siamo" },

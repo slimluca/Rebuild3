@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
+import { confrontiHubCards } from "@/lib/confronti-pages";
 import { guidaHubCards } from "@/lib/guida-pages";
 import { sitiHubCards } from "@/lib/siti-pages";
 
@@ -27,6 +28,7 @@ export const metadata: Metadata = {
 const existingResources = [
   { href: "/siti", title: "Siti webcam", copy: "Hub editoriale per scegliere siti webcam live con criterio." },
   { href: "/guida", title: "Guida chat webcam", copy: "Guide pratiche su privacy, prezzi, registrazione e mobile." },
+  { href: "/confronti", title: "Confronti", copy: "Confronti tra piattaforme, chat gratis, chat private e alternative LiveJasmin." },
   { href: "/chi-siamo", title: "Chi siamo", copy: "Il ruolo editoriale del progetto." },
   { href: "/politica-editoriale", title: "Politica editoriale", copy: "Standard di chiarezza e trasparenza." },
   { href: "/privacy-policy", title: "Privacy Policy", copy: "Informazioni iniziali su privacy e dati tecnici." },
@@ -43,6 +45,24 @@ const futureAreas = [
 export default function RisorsePage() {
   return (
     <PageShell path="/risorse" title="Risorse" description={description}>
+      <article className="page-card">
+        <h2>Confronti utili</h2>
+        <p>
+          Le pagine confronto aiutano a leggere differenze tra piattaforme webcam live, opzioni
+          premium, accesso gratis, chat privata e alternative senza usare classifiche inventate.
+        </p>
+      </article>
+      <section className="resource-grid" aria-label="Confronti utili">
+        {confrontiHubCards.map((resource) => (
+          <article className="resource-card" key={resource.href}>
+            <h2>{resource.title}</h2>
+            <p>{resource.copy}</p>
+            <Link className="text-link" href={resource.href}>
+              Apri confronto
+            </Link>
+          </article>
+        ))}
+      </section>
       <article className="page-card">
         <h2>Guide pratiche</h2>
         <p>

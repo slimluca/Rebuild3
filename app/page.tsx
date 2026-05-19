@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ComparisonPreviewSection } from "@/components/ComparisonPreviewSection";
 import { FinalCTA } from "@/components/FinalCTA";
 import { GuidePreviewSection } from "@/components/GuidePreviewSection";
 import { Hero } from "@/components/Hero";
@@ -43,6 +44,7 @@ export default function HomePage() {
       <QuickPathCards />
       <TrustSection />
       <GuidePreviewSection />
+      <ComparisonPreviewSection />
       <FinalCTA variant="models" />
       <FinalCTA />
     </>
