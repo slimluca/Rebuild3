@@ -1,23 +1,23 @@
 :root {
-  --bg: #0b0909;
-  --bg-soft: #120f0f;
-  --surface: #171212;
-  --surface-elevated: #211817;
-  --surface-copper: #2a1712;
-  --border: rgba(233, 207, 164, 0.16);
-  --border-strong: rgba(206, 75, 55, 0.42);
-  --text: #fff8ed;
-  --text-muted: #c9b9a8;
-  --text-subtle: #9f8f81;
-  --accent: #a12a22;
-  --accent-strong: #c94331;
-  --accent-copper: #b86a3b;
-  --accent-gold: #d6ae67;
-  --button: #b33528;
-  --button-hover: #d24936;
-  --radius: 18px;
-  --radius-sm: 12px;
-  --shadow: 0 24px 70px rgba(0, 0, 0, 0.32);
+  --bg: #080606;
+  --bg-soft: #100b0b;
+  --surface: #15100f;
+  --surface-elevated: #1d1413;
+  --surface-copper: #251410;
+  --border: rgba(224, 184, 122, 0.16);
+  --border-strong: rgba(188, 62, 48, 0.38);
+  --text: #fff7ea;
+  --text-muted: #c8b7a5;
+  --text-subtle: #9b8979;
+  --accent: #8f211f;
+  --accent-strong: #bd3a2d;
+  --accent-copper: #a76038;
+  --accent-gold: #d3ad6f;
+  --button: #9f2a24;
+  --button-hover: #bf382d;
+  --radius: 10px;
+  --radius-sm: 8px;
+  --shadow: 0 22px 58px rgba(0, 0, 0, 0.38);
   --max: 1160px;
 }
 
@@ -878,5 +878,406 @@ p {
 
   .footer-links {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Luxury refresh: compact commercial surface while preserving the existing content model. */
+body {
+  background:
+    radial-gradient(circle at 18% -8%, rgba(143, 33, 31, 0.24), transparent 30rem),
+    radial-gradient(circle at 82% 8%, rgba(167, 96, 56, 0.14), transparent 24rem),
+    linear-gradient(180deg, #080606 0%, #0f0a0a 48%, #080606 100%);
+}
+
+.site-header {
+  border-bottom-color: rgba(211, 173, 111, 0.14);
+  background: rgba(8, 6, 6, 0.9);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.24);
+}
+
+.header-inner {
+  min-height: 66px;
+}
+
+.brand {
+  color: var(--text);
+  font-size: 0.98rem;
+}
+
+.brand-mark {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background:
+    linear-gradient(145deg, rgba(211, 173, 111, 0.18), rgba(143, 33, 31, 0.18)),
+    linear-gradient(135deg, #2a100e, #8f211f);
+  box-shadow: inset 0 1px 0 rgba(255, 247, 234, 0.18);
+}
+
+.nav {
+  gap: 16px;
+  font-size: 0.88rem;
+}
+
+.nav a {
+  border-radius: 999px;
+  padding: 8px 2px;
+}
+
+.button,
+.button-secondary {
+  min-height: 40px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.button {
+  border-color: rgba(211, 173, 111, 0.28);
+  background:
+    linear-gradient(180deg, rgba(255, 247, 234, 0.08), transparent),
+    linear-gradient(135deg, #b73229, #7f1d1a);
+  box-shadow: 0 14px 30px rgba(143, 33, 31, 0.24);
+}
+
+.button-secondary {
+  background: rgba(255, 247, 234, 0.035);
+  box-shadow: inset 0 1px 0 rgba(255, 247, 234, 0.06);
+}
+
+.hero,
+.siti-hero,
+.page-hero {
+  padding: 42px 0 18px;
+}
+
+.hero-panel,
+.siti-hero-panel {
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, rgba(65, 18, 17, 0.86), rgba(14, 10, 10, 0.96) 52%),
+    radial-gradient(circle at 76% 10%, rgba(211, 173, 111, 0.16), transparent 18rem),
+    repeating-linear-gradient(90deg, rgba(255, 247, 234, 0.03) 0 1px, transparent 1px 34px);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.34);
+  padding: clamp(24px, 4vw, 44px);
+}
+
+.hero-panel::before,
+.siti-hero-panel::before {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 2px;
+  margin-bottom: 18px;
+  background: linear-gradient(90deg, var(--accent-gold), transparent);
+}
+
+.hero-content {
+  width: min(880px, 100%);
+}
+
+.eyebrow,
+.section-kicker {
+  color: #dbbd83;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+}
+
+.hero h1,
+.siti-hero h1,
+.page-hero h1 {
+  max-width: 980px;
+  font-size: clamp(2rem, 4.6vw, 4.15rem);
+  line-height: 1.03;
+}
+
+.page-hero h1 {
+  font-size: clamp(1.9rem, 4vw, 3.55rem);
+}
+
+.hero p,
+.siti-hero p:last-child,
+.page-hero p {
+  max-width: 820px;
+  margin-top: 16px;
+  font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+}
+
+.hero-badges,
+.footer-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.hero-badges span,
+.footer-badges span {
+  border: 1px solid rgba(211, 173, 111, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 247, 234, 0.045);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 7px 10px;
+}
+
+.hero-actions {
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.section {
+  padding: 34px 0;
+}
+
+.model-section {
+  padding-top: 18px;
+}
+
+.section-header {
+  margin-bottom: 16px;
+}
+
+.section h2,
+.page-card h2 {
+  font-size: clamp(1.45rem, 2.35vw, 2.25rem);
+  line-height: 1.12;
+}
+
+.section-copy {
+  max-width: 680px;
+  font-size: 0.96rem;
+}
+
+.model-section .container {
+  border: 1px solid rgba(211, 173, 111, 0.12);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(255, 247, 234, 0.035), rgba(255, 247, 234, 0.015)),
+    rgba(13, 9, 9, 0.72);
+  padding: clamp(16px, 2.6vw, 24px);
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.22);
+}
+
+.model-grid {
+  gap: 12px;
+}
+
+.model-card {
+  border-radius: 10px;
+  background:
+    linear-gradient(180deg, rgba(255, 247, 234, 0.045), transparent 42%),
+    #130e0d;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
+}
+
+.model-media {
+  aspect-ratio: 4 / 4.55;
+}
+
+.model-body {
+  gap: 9px;
+  padding: 12px;
+}
+
+.model-title {
+  font-size: 0.96rem;
+}
+
+.model-meta {
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.model-card .button-secondary {
+  min-height: 36px;
+  font-size: 0.84rem;
+}
+
+.quick-card,
+.guide-card,
+.resource-card,
+.metric-card,
+.siti-card,
+.editorial-panel,
+.check-panel,
+.faq-card,
+.page-card,
+.contact-form,
+.rich-panel,
+.cta-band,
+.fallback-panel {
+  border-radius: 10px;
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.18);
+}
+
+.quick-card,
+.guide-card,
+.resource-card,
+.metric-card,
+.siti-card,
+.faq-card {
+  padding: 16px;
+}
+
+.quick-card h3,
+.guide-card h3,
+.resource-card h3,
+.metric-card h3,
+.siti-card h3,
+.faq-card h3 {
+  font-size: 0.98rem;
+}
+
+.quick-card p,
+.guide-card p,
+.resource-card p,
+.metric-card p,
+.siti-card p,
+.faq-card p,
+.editorial-panel p,
+.check-panel p {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.rich-panel,
+.editorial-panel,
+.check-panel,
+.page-card,
+.contact-form {
+  background:
+    linear-gradient(180deg, rgba(255, 247, 234, 0.04), transparent),
+    rgba(21, 16, 15, 0.92);
+}
+
+.editorial-panel {
+  gap: 11px;
+  padding: 20px;
+}
+
+.editorial-panel h2,
+.check-panel h2 {
+  font-size: clamp(1.22rem, 1.8vw, 1.65rem);
+}
+
+.check-panel {
+  padding: clamp(18px, 3vw, 26px);
+}
+
+.cta-band {
+  background:
+    radial-gradient(circle at 92% 0%, rgba(211, 173, 111, 0.14), transparent 18rem),
+    linear-gradient(135deg, rgba(143, 33, 31, 0.34), rgba(36, 20, 15, 0.95));
+  padding: clamp(20px, 3.4vw, 32px);
+}
+
+.cta-band h2 {
+  max-width: 720px;
+}
+
+.cta-band p {
+  max-width: 720px;
+  font-size: 0.96rem;
+}
+
+.field input,
+.field textarea {
+  border-radius: 8px;
+}
+
+.site-footer {
+  background:
+    radial-gradient(circle at 15% 0%, rgba(143, 33, 31, 0.16), transparent 22rem),
+    #070505;
+}
+
+.footer-grid {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  align-items: start;
+}
+
+.footer-links {
+  border: 1px solid rgba(211, 173, 111, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 247, 234, 0.025);
+  padding: 16px;
+}
+
+@media (max-width: 1024px) {
+  .model-grid,
+  .siti-card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .editorial-stack {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 920px) {
+  .nav {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .model-grid,
+  .siti-card-grid,
+  .editorial-stack {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .header-inner {
+    gap: 10px;
+  }
+
+  .hero,
+  .siti-hero,
+  .page-hero {
+    padding: 24px 0 12px;
+  }
+
+  .hero-panel,
+  .siti-hero-panel {
+    padding: 20px;
+  }
+
+  .hero h1,
+  .siti-hero h1,
+  .page-hero h1 {
+    font-size: clamp(1.72rem, 7.2vw, 2.22rem);
+    line-height: 1.08;
+  }
+
+  .hero p,
+  .siti-hero p:last-child,
+  .page-hero p {
+    font-size: 0.96rem;
+  }
+
+  .section {
+    padding: 26px 0;
+  }
+
+  .model-section .container {
+    padding: 14px;
+  }
+
+  .quick-card,
+  .guide-card,
+  .resource-card,
+  .metric-card,
+  .siti-card,
+  .faq-card,
+  .editorial-panel {
+    padding: 15px;
+  }
+
+  .footer-badges span,
+  .hero-badges span {
+    font-size: 0.74rem;
   }
 }

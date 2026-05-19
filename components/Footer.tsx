@@ -18,7 +18,7 @@ export function Footer() {
   return (
     <footer className="site-footer">
       <div className="container footer-grid">
-        <div>
+        <div className="footer-brand-block">
           <Link className="brand" href="/">
             <span className="brand-mark">SC</span>
             <span>SessoChat.net</span>
@@ -27,6 +27,11 @@ export function Footer() {
             Guida italiana alle chat webcam live, pensata per adulti che vogliono capire
             piattaforme, privacy, accesso mobile e opzioni di registrazione prima di scegliere.
           </p>
+          <div className="footer-badges" aria-label="Standard editoriali">
+            <span>Tono discreto</span>
+            <span>Solo dati reali</span>
+            <span>Redirect interni</span>
+          </div>
         </div>
         <nav className="footer-links" aria-label="Link del footer">
           {footerLinks.map((link) => (

@@ -13,6 +13,11 @@ export function Hero() {
               registrazione: chat privata, accesso mobile, privacy, modelli verificati, anteprime
               gratuite e navigazione più consapevole, con un linguaggio discreto e utile.
             </p>
+            <div className="hero-badges" aria-label="Punti di orientamento">
+              <span>Privacy prima dell&apos;accesso</span>
+              <span>Modelli dal feed reale</span>
+              <span>Link partner interni</span>
+            </div>
             <div className="hero-actions" aria-label="Azioni principali">
               <Link className="button" href="/go/signup" prefetch={false}>
                 Entra ora
