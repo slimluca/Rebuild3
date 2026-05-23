@@ -1,4 +1,4 @@
-type CategorieHeroProps = {
+﻿type CategorieHeroProps = {
   kicker: string;
   title: string;
   intro: string;
@@ -22,10 +22,12 @@ export function CategorieHero({ kicker, title, intro }: CategorieHeroProps) {
           <span className="panel-label">Scoperta modelli</span>
           <p>
             Le categorie aiutano a orientarsi tra profili live, filtri e preferenze, ma le schede
-            visibili restano basate solo su dati reali della piattaforma partner.
+            visibili restano basate solo su dati reali della piattaforma live.
           </p>
         </div>
       </div>
     </section>
   );
 }
+
+

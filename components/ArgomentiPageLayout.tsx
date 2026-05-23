@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ArgomentiCardGrid } from "@/components/ArgomentiCardGrid";
 import { ArgomentiHero } from "@/components/ArgomentiHero";
 import { FAQSection } from "@/components/FAQSection";
@@ -40,14 +40,14 @@ export function ArgomentiPageLayout({ page }: ArgomentiPageLayoutProps) {
       />
       <ArgomentiCardGrid
         title="Approfondisci il percorso"
-        copy="Risorse già pubblicate per passare dalla risposta rapida a guide, categorie e confronti più completi."
+        copy="Risorse giÃ  pubblicate per passare dalla risposta rapida a guide, categorie e confronti piÃ¹ completi."
         cards={page.relatedLinks}
       />
       <FAQSection items={page.faq} />
       <section className="section">
         <div className="container">
           <div className="cta-band">
-            <p className="section-kicker">Accesso partner</p>
+            <p className="section-kicker">accesso live</p>
             <h2>{page.ctaTitle}</h2>
             <p>{page.ctaCopy}</p>
             <div className="hero-actions">
@@ -64,3 +64,5 @@ export function ArgomentiPageLayout({ page }: ArgomentiPageLayoutProps) {
     </>
   );
 }
+
+

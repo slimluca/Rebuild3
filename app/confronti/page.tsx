@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ConfrontiCardGrid } from "@/components/ConfrontiCardGrid";
 import { ConfrontiHero } from "@/components/ConfrontiHero";
@@ -10,7 +10,7 @@ import { ModelGrid } from "@/components/ModelGrid";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { confrontiHubCards } from "@/lib/confronti-pages";
 
-const title = "Confronti Chat Webcam: Scegliere con Più Chiarezza Prima di Entrare";
+const title = "Confronti Chat Webcam: Scegliere con PiÃ¹ Chiarezza Prima di Entrare";
 const description =
   "Confronta siti webcam live, chat private, opzioni gratis, piattaforme premium e alternative LiveJasmin con guide italiane chiare e discrete.";
 
@@ -21,17 +21,17 @@ const hubFaq = [
       "No. Sono guide decisionali senza rating, classifiche inventate o dichiarazioni di test non verificabili."
   },
   {
-    question: "Perché parlate di migliori siti senza classifica numerica?",
+    question: "PerchÃ© parlate di migliori siti senza classifica numerica?",
     answer:
-      "Perché senza dati reali sarebbe fuorviante. Usiamo criteri come privacy, mobile, anteprime, chat privata e pagamenti."
+      "PerchÃ© senza dati reali sarebbe fuorviante. Usiamo criteri come privacy, mobile, anteprime, chat privata e pagamenti."
   },
   {
     question: "I modelli live sono reali?",
     answer:
-      "Quando il feed funziona, le schede arrivano da dati reali. Se il feed non risponde, viene mostrato un fallback."
+      "Quando sono presenti, le schede mostrano profili reali. In caso contrario resta visibile un accesso live discreto."
   },
   {
-    question: "I link partner sono diretti?",
+    question: "I link interni sono diretti?",
     answer:
       "No. Le CTA usano percorsi interni /go/ con indicazioni noindex/nofollow."
   }
@@ -86,8 +86,8 @@ export default function ConfrontiHubPage() {
         items={[
           "Nessun voto, recensione falsa o classifica numerica.",
           "Confronto qualitativo tra esperienza, accesso, privacy e pagamenti.",
-          "Link interni solo a pagine già esistenti.",
-          "Modelli mostrati solo tramite feed reale o fallback."
+          "Link interni solo a pagine giÃ  esistenti.",
+          "Modelli mostrati solo con schede reali o accesso live discreto."
         ]}
       />
       <FAQSection items={hubFaq} />
@@ -95,9 +95,9 @@ export default function ConfrontiHubPage() {
         <div className="container">
           <div className="cta-band">
             <p className="section-kicker">Valutazione live</p>
-            <h2>Confronta prima, poi apri la piattaforma con più contesto</h2>
+            <h2>Confronta prima, poi apri la piattaforma con piÃ¹ contesto</h2>
             <p>
-              Il percorso interno permette di valutare una piattaforma partner mantenendo ordinata
+              Il percorso interno permette di valutare una piattaforma live mantenendo ordinata
               la struttura editoriale del sito.
             </p>
             <div className="hero-actions">
@@ -114,3 +114,5 @@ export default function ConfrontiHubPage() {
     </>
   );
 }
+
+

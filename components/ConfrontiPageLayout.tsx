@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ComparisonMatrix } from "@/components/ComparisonMatrix";
 import { ConfrontiCardGrid } from "@/components/ConfrontiCardGrid";
 import { ConfrontiHero } from "@/components/ConfrontiHero";
@@ -48,14 +48,14 @@ export function ConfrontiPageLayout({ page }: ConfrontiPageLayoutProps) {
       <ConfrontiCardGrid
         id="confronti-related-title"
         title="Approfondimenti collegati"
-        copy="Link interni a pagine già pubblicate, senza percorsi futuri o pagine vuote."
+        copy="Link interni a pagine giÃ  pubblicate, senza percorsi futuri o pagine vuote."
         cards={page.relatedLinks}
       />
       <FAQSection items={page.faq} />
       <section className="section">
         <div className="container">
           <div className="cta-band">
-            <p className="section-kicker">Accesso partner</p>
+            <p className="section-kicker">accesso live</p>
             <h2>{page.ctaTitle}</h2>
             <p>{page.ctaCopy}</p>
             <div className="hero-actions">
@@ -72,3 +72,5 @@ export function ConfrontiPageLayout({ page }: ConfrontiPageLayoutProps) {
     </>
   );
 }
+
+

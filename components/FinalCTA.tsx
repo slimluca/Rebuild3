@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 type FinalCTAProps = {
   variant?: "models" | "final";
@@ -19,7 +19,7 @@ export function FinalCTA({ variant = "final" }: FinalCTAProps) {
           </h2>
           <p>
             {isModels
-              ? "Il percorso interno porta alla piattaforma partner mantenendo pulita la struttura editoriale di SessoChat.net."
+              ? "Il percorso interno porta alla piattaforma live mantenendo pulita la struttura editoriale di SessoChat.net."
               : "SessoChat.net nasce per aiutare adulti italiani a orientarsi tra chat cam live, anteprime, privacy e pagamenti senza recensioni inventate."}
           </p>
           <div className="hero-actions">
@@ -35,3 +35,5 @@ export function FinalCTA({ variant = "final" }: FinalCTAProps) {
     </section>
   );
 }
+
+

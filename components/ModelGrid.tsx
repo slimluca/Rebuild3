@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ModelCard } from "@/components/ModelCard";
 import { getLiveModels } from "@/lib/livejasmin";
 
@@ -13,9 +13,8 @@ export async function ModelGrid() {
             <p className="section-kicker">Modelli live</p>
             <h2 id="modelli-live-title">Modelli webcam live disponibili</h2>
             <p className="section-copy">
-              Le anteprime live possono variare in base alla disponibilità della piattaforma
-              partner. Questa sezione mostra solo dati reali dal feed configurato, senza nomi,
-              stati, valutazioni o conteggi inventati.
+              Esplora profili live e scegli con calma prima della registrazione. Le schede mostrano
+              solo informazioni reali, senza valutazioni o conteggi inventati.
             </p>
           </div>
           <Link className="button-secondary" href="/go/livejasmin" prefetch={false}>
@@ -29,21 +28,20 @@ export async function ModelGrid() {
             ))}
           </div>
         ) : (
-          <div className="fallback-panel">
+          <div className="live-empty-panel">
             <div>
-              <h3>Le anteprime live possono variare</h3>
+              <h3>Anteprime live momentaneamente non visibili</h3>
               <p>
-                Le anteprime dei modelli live possono cambiare in base alla disponibilità della
-                piattaforma partner. Puoi comunque aprire l&apos;accesso live tramite il collegamento
-                interno sicuro e valutare le opzioni disponibili prima della registrazione.
+                Puoi comunque aprire l&apos;accesso live e valutare le opzioni disponibili prima
+                della registrazione.
               </p>
             </div>
-            <div className="fallback-actions">
+            <div className="live-empty-actions">
               <Link className="button" href="/go/livejasmin" prefetch={false}>
                 Guarda le opzioni live
               </Link>
               <Link className="button-secondary" href="/go/signup" prefetch={false}>
-                Apri accesso partner
+                Entra in modo sicuro
               </Link>
             </div>
           </div>
@@ -52,3 +50,5 @@ export async function ModelGrid() {
     </section>
   );
 }
+
+

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { CategorieCardGrid } from "@/components/CategorieCardGrid";
 import { CategorieHero } from "@/components/CategorieHero";
@@ -10,7 +10,7 @@ import { ModelGrid } from "@/components/ModelGrid";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { categorieHubCards } from "@/lib/categorie-pages";
 
-const title = "Categorie Modelli Webcam Live: Esplora le Opzioni con Più Criterio";
+const title = "Categorie Modelli Webcam Live: Esplora le Opzioni con PiÃ¹ Criterio";
 const description =
   "Esplora categorie di modelli webcam live, profili online, opzioni mobile, modelli verificati e chat cam disponibili tramite una guida italiana discreta.";
 
@@ -23,15 +23,15 @@ const hubFaq = [
   {
     question: "SessoChat.net inventa attributi dei modelli?",
     answer:
-      "No. Non inventiamo nomi, stati, età, provenienza, popolarità, valutazioni o caratteristiche personali."
+      "No. Non inventiamo nomi, stati, etÃ , provenienza, popolaritÃ , valutazioni o caratteristiche personali."
   },
   {
-    question: "Perché alcune categorie usano un linguaggio prudente?",
+    question: "PerchÃ© alcune categorie usano un linguaggio prudente?",
     answer:
-      "Perché filtri come aspetto, età o provenienza devono essere verificati sulla piattaforma partner e non dedotti."
+      "PerchÃ© filtri come aspetto, etÃ  o provenienza devono essere verificati sulla piattaforma live e non dedotti."
   },
   {
-    question: "I link partner sono diretti?",
+    question: "I link interni sono diretti?",
     answer:
       "No. Le CTA usano percorsi interni /go/ con indicazioni noindex/nofollow."
   }
@@ -76,7 +76,7 @@ export default function CategorieHubPage() {
       <ModelGrid />
       <CategoryInsightPanel
         title="Categorie utili, senza classifiche inventate"
-        insight="Questa sezione non promette classifiche, stati o attributi personali non verificati. Serve a capire quali filtri cercare sulla piattaforma partner e come scegliere con maggiore controllo."
+        insight="Questa sezione non promette classifiche, stati o attributi personali non verificati. Serve a capire quali filtri cercare sulla piattaforma live e come scegliere con maggiore controllo."
       />
       <CategorieCardGrid
         title="Categorie disponibili"
@@ -87,9 +87,9 @@ export default function CategorieHubPage() {
         title="Come usare le categorie"
         intro="Tratta ogni categoria come punto di partenza, non come garanzia assoluta."
         steps={[
-          "Controlla se il filtro esiste sulla piattaforma partner.",
+          "Controlla se il filtro esiste sulla piattaforma live.",
           "Non attribuire caratteristiche non indicate dal flusso dati o dal sito ufficiale.",
-          "Verifica disponibilità, privacy e condizioni prima della chat privata.",
+          "Verifica disponibilitÃ , privacy e condizioni prima della chat privata.",
           "Usa le guide interne per confrontare siti, prezzi e sicurezza."
         ]}
       />
@@ -100,7 +100,7 @@ export default function CategorieHubPage() {
             <p className="section-kicker">Scoperta live</p>
             <h2>Esplora le categorie con dati reali e criteri chiari</h2>
             <p>
-              Apri l&apos;accesso partner per controllare direttamente profili, filtri, anteprime e
+              Apri l&apos;accesso live per controllare direttamente profili, filtri, anteprime e
               condizioni disponibili.
             </p>
             <div className="hero-actions">
@@ -117,3 +117,5 @@ export default function CategorieHubPage() {
     </>
   );
 }
+
+

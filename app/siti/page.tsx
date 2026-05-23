@@ -27,10 +27,10 @@ const hubFaq = [
   {
     question: "Perche i modelli live sono vicini all'inizio pagina?",
     answer:
-      "Perché la scoperta dei modelli è una parte importante dell'esperienza, ma vengono mostrati solo dati reali dal feed partner o una nota chiara quando il feed non risponde."
+      "Perché la scoperta dei modelli è una parte importante dell'esperienza, ma vengono mostrate solo schede reali quando disponibili."
   },
   {
-    question: "I link partner sono diretti?",
+    question: "I link interni sono diretti?",
     answer:
       "No. I pulsanti partner usano percorsi interni /go/ per mantenere pulita la struttura editoriale e dare indicazioni corrette ai motori di ricerca."
   }
@@ -123,10 +123,10 @@ export default function SitiHubPage() {
       <section className="section">
         <div className="container">
           <div className="cta-band">
-            <p className="section-kicker">Accesso partner</p>
+            <p className="section-kicker">accesso live</p>
             <h2>Confronta prima di entrare, poi scegli con calma</h2>
             <p>
-              Usa il percorso interno per aprire la piattaforma partner e valutare anteprime,
+              Usa il percorso interno per aprire la piattaforma live e valutare anteprime,
               modelli live, condizioni e accesso mobile senza link esterni visibili nelle pagine.
             </p>
             <div className="hero-actions">
@@ -143,3 +143,5 @@ export default function SitiHubPage() {
     </>
   );
 }
+
+

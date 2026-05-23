@@ -2,6 +2,7 @@ import { argomentiPublicPages } from "@/lib/argomenti-pages";
 import { categoriePublicPages } from "@/lib/categorie-pages";
 import { confrontiPublicPages } from "@/lib/confronti-pages";
 import { guidaPublicPages } from "@/lib/guida-pages";
+import { ricerchePublicPages } from "@/lib/ricerche-pages";
 import { sitiPublicPages } from "@/lib/siti-pages";
 
 export const siteConfig = {
@@ -18,6 +19,7 @@ export const siteConfig = {
     ...confrontiPublicPages,
     ...categoriePublicPages,
     ...argomentiPublicPages,
+    ...ricerchePublicPages,
     { path: "/chi-siamo", label: "Chi siamo" },
     { path: "/contatti", label: "Contatti" },
     { path: "/politica-editoriale", label: "Politica editoriale" },

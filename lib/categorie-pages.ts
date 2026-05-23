@@ -1,4 +1,4 @@
-export type CategoryLink = {
+﻿export type CategoryLink = {
   href: string;
   title: string;
   copy: string;
@@ -62,16 +62,16 @@ export const categoriePages: CategoriePage[] = [
       "Guida italiana ai modelli webcam live: come valutare profili online, anteprime, accesso mobile, chat privata e piattaforme affidabili.",
     kicker: "Scoperta live",
     intro:
-      "La ricerca di modelli webcam live parte dalla disponibilità reale del momento. Questa pagina aiuta a leggere anteprime, accesso mobile, chat privata e segnali di affidabilità senza inventare nomi, stati o classifiche.",
-    insightTitle: "Disponibilità reale, non elenco statico",
+      "La ricerca di modelli webcam live parte dalla disponibilitÃ  reale del momento. Questa pagina aiuta a leggere anteprime, accesso mobile, chat privata e segnali di affidabilitÃ  senza inventare nomi, stati o classifiche.",
+    insightTitle: "DisponibilitÃ  reale, non elenco statico",
     insight:
-      "I profili live possono cambiare rapidamente. Le schede mostrate arrivano dal flusso dati reale quando disponibile; se il flusso dati non risponde, resta visibile un accesso partner discreto.",
+      "I profili live possono cambiare rapidamente. Le schede mostrate arrivano dal flusso dati reale quando disponibile; se il flusso dati non risponde, resta visibile un accesso live discreto.",
     sections: [
       {
         title: "Cosa osservare nelle anteprime",
         paragraphs: [
-          "Le anteprime aiutano a capire l'ambiente della piattaforma prima della registrazione. Controlla qualità dell'immagine, chiarezza dei pulsanti e differenza tra area pubblica e funzioni private.",
-          "Non usare il numero di schede come garanzia di qualità: conta di più la trasparenza del percorso, soprattutto su mobile."
+          "Le anteprime aiutano a capire l'ambiente della piattaforma prima della registrazione. Controlla qualitÃ  dell'immagine, chiarezza dei pulsanti e differenza tra area pubblica e funzioni private.",
+          "Non usare il numero di schede come garanzia di qualitÃ : conta di piÃ¹ la trasparenza del percorso, soprattutto su mobile."
         ]
       },
       {
@@ -101,7 +101,7 @@ export const categoriePages: CategoriePage[] = [
       {
         question: "I modelli webcam live sono sempre disponibili?",
         answer:
-          "No. La disponibilità cambia in base alla piattaforma partner e al momento della visita."
+          "No. La disponibilitÃ  cambia in base alla piattaforma live e al momento della visita."
       },
       {
         question: "Le schede mostrate sono inventate?",
@@ -117,7 +117,7 @@ export const categoriePages: CategoriePage[] = [
     relatedLinks: standardRelated,
     ctaTitle: "Esplora le opzioni webcam live",
     ctaCopy:
-      "Apri l'accesso partner tramite percorso interno e valuta profili, anteprime e condizioni direttamente sulla piattaforma.",
+      "Apri l'accesso live tramite percorso interno e valuta profili, anteprime e condizioni direttamente sulla piattaforma.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Guarda modelli live"
   },
@@ -125,28 +125,28 @@ export const categoriePages: CategoriePage[] = [
     slug: "modelli-webcam-verificati",
     path: "/categorie/modelli-webcam-verificati",
     navTitle: "Modelli webcam verificati",
-    h1: "Modelli Webcam Verificati: Perché la Verifica Può Contare",
+    h1: "Modelli Webcam Verificati: PerchÃ© la Verifica PuÃ² Contare",
     metaTitle: "Modelli Webcam Verificati: Cosa Controllare Prima di Entrare",
     description:
-      "Scopri perché i modelli webcam verificati possono aiutare a scegliere piattaforme più trasparenti, con maggiore attenzione a privacy e affidabilità.",
+      "Scopri perchÃ© i modelli webcam verificati possono aiutare a scegliere piattaforme piÃ¹ trasparenti, con maggiore attenzione a privacy e affidabilitÃ .",
     kicker: "Verifica e fiducia",
     intro:
-      "La verifica dei modelli webcam è un tema importante per chi vuole evitare profili poco chiari. Questa guida spiega cosa può significare in termini generali, senza attribuire verifiche a singoli profili se il flusso dati non lo indica.",
-    insightTitle: "La verifica è un segnale, non una garanzia assoluta",
+      "La verifica dei modelli webcam Ã¨ un tema importante per chi vuole evitare profili poco chiari. Questa guida spiega cosa puÃ² significare in termini generali, senza attribuire verifiche a singoli profili se il flusso dati non lo indica.",
+    insightTitle: "La verifica Ã¨ un segnale, non una garanzia assoluta",
     insight:
-      "Una piattaforma può usare controlli interni, moderazione e procedure di account. Prima di entrare, verifica sempre le informazioni ufficiali disponibili.",
+      "Una piattaforma puÃ² usare controlli interni, moderazione e procedure di account. Prima di entrare, verifica sempre le informazioni ufficiali disponibili.",
     sections: [
       {
-        title: "Perché la verifica può aiutare",
+        title: "PerchÃ© la verifica puÃ² aiutare",
         paragraphs: [
-          "La presenza di procedure di verifica può rendere più chiaro il rapporto tra piattaforma, modelli e utenti adulti.",
-          "Non significa che ogni profilo visibile abbia lo stesso livello di controllo: le condizioni vanno lette sulla piattaforma partner."
+          "La presenza di procedure di verifica puÃ² rendere piÃ¹ chiaro il rapporto tra piattaforma, modelli e utenti adulti.",
+          "Non significa che ogni profilo visibile abbia lo stesso livello di controllo: le condizioni vanno lette sulla piattaforma live."
         ]
       },
       {
         title: "Moderazione e profili affidabili",
         paragraphs: [
-          "Quando un sito comunica in modo ordinato regole, account e moderazione, l'utente può orientarsi meglio prima di registrarsi.",
+          "Quando un sito comunica in modo ordinato regole, account e moderazione, l'utente puÃ² orientarsi meglio prima di registrarsi.",
           "Evita pagine che promettono troppo senza spiegare come vengono gestiti accesso e sicurezza."
         ]
       },
@@ -170,12 +170,12 @@ export const categoriePages: CategoriePage[] = [
       {
         question: "Tutti i modelli mostrati qui sono verificati?",
         answer:
-          "No. Le schede arrivano dal flusso dati reale, ma questa pagina non attribuisce verifiche individuali se il dato non è fornito in modo affidabile."
+          "No. Le schede arrivano dal flusso dati reale, ma questa pagina non attribuisce verifiche individuali se il dato non Ã¨ fornito in modo affidabile."
       },
       {
-        question: "Perché cercare modelli verificati?",
+        question: "PerchÃ© cercare modelli verificati?",
         answer:
-          "Perché la verifica può essere un segnale di maggiore trasparenza della piattaforma, anche se non sostituisce controlli personali su privacy e costi."
+          "PerchÃ© la verifica puÃ² essere un segnale di maggiore trasparenza della piattaforma, anche se non sostituisce controlli personali su privacy e costi."
       },
       {
         question: "Dove approfondire il tema?",
@@ -202,30 +202,30 @@ export const categoriePages: CategoriePage[] = [
     ],
     ctaTitle: "Valuta profili e segnali di fiducia",
     ctaCopy:
-      "Apri la piattaforma partner e controlla direttamente come vengono presentati profili, regole e accesso.",
+      "Apri la piattaforma live e controlla direttamente come vengono presentati profili, regole e accesso.",
     ctaHref: "/go/livejasmin",
-    ctaLabel: "Apri accesso partner"
+    ctaLabel: "Apri accesso live"
   },
   {
     slug: "modelli-webcam-hd",
     path: "/categorie/modelli-webcam-hd",
     navTitle: "Modelli webcam HD",
-    h1: "Modelli Webcam HD: Qualità Video e Chat Live da Valutare",
-    metaTitle: "Modelli Webcam HD: Qualità Video e Chat Live da Valutare",
+    h1: "Modelli Webcam HD: QualitÃ  Video e Chat Live da Valutare",
+    metaTitle: "Modelli Webcam HD: QualitÃ  Video e Chat Live da Valutare",
     description:
-      "Guida ai modelli webcam HD e alla qualità video nelle chat live: cosa controllare su connessione, anteprime, mobile e piattaforma.",
-    kicker: "Qualità video",
+      "Guida ai modelli webcam HD e alla qualitÃ  video nelle chat live: cosa controllare su connessione, anteprime, mobile e piattaforma.",
+    kicker: "QualitÃ  video",
     intro:
-      "Cercare modelli webcam HD significa soprattutto valutare qualità video, stabilità, dispositivo e chiarezza dell'interfaccia. Nessuna etichetta HD dovrebbe essere letta come garanzia senza verificare la piattaforma.",
+      "Cercare modelli webcam HD significa soprattutto valutare qualitÃ  video, stabilitÃ , dispositivo e chiarezza dell'interfaccia. Nessuna etichetta HD dovrebbe essere letta come garanzia senza verificare la piattaforma.",
     insightTitle: "HD dipende anche da connessione e dispositivo",
     insight:
-      "La qualità percepita può cambiare tra desktop, tablet e smartphone. Controlla anteprime, caricamento e leggibilità prima di usare funzioni private.",
+      "La qualitÃ  percepita puÃ² cambiare tra desktop, tablet e smartphone. Controlla anteprime, caricamento e leggibilitÃ  prima di usare funzioni private.",
     sections: [
       {
-        title: "Qualità dell'immagine nelle anteprime",
+        title: "QualitÃ  dell'immagine nelle anteprime",
         paragraphs: [
-          "Le anteprime possono dare un'indicazione della qualità visiva, ma non sempre riflettono l'esperienza completa in chat privata.",
-          "Valuta nitidezza, tempi di caricamento e stabilità senza basarti solo su etichette promozionali."
+          "Le anteprime possono dare un'indicazione della qualitÃ  visiva, ma non sempre riflettono l'esperienza completa in chat privata.",
+          "Valuta nitidezza, tempi di caricamento e stabilitÃ  senza basarti solo su etichette promozionali."
         ]
       },
       {
@@ -238,27 +238,27 @@ export const categoriePages: CategoriePage[] = [
       {
         title: "Prima di pagare",
         paragraphs: [
-          "Se la qualità video è un criterio importante, verifica sempre cosa è visibile prima della registrazione e quali funzioni richiedono crediti.",
+          "Se la qualitÃ  video Ã¨ un criterio importante, verifica sempre cosa Ã¨ visibile prima della registrazione e quali funzioni richiedono crediti.",
           "Evita decisioni impulsive quando i costi o i limiti non sono spiegati bene."
         ]
       }
     ],
-    filterTitle: "Checklist qualità video",
-    filterIntro: "Usa questa lista per valutare una piattaforma orientata alla qualità.",
+    filterTitle: "Checklist qualitÃ  video",
+    filterIntro: "Usa questa lista per valutare una piattaforma orientata alla qualitÃ .",
     filterSteps: [
-      "Controlla caricamento e stabilità delle anteprime.",
+      "Controlla caricamento e stabilitÃ  delle anteprime.",
       "Verifica se il layout resta leggibile su smartphone.",
-      "Distingui qualità dichiarata e qualità effettiva visibile.",
+      "Distingui qualitÃ  dichiarata e qualitÃ  effettiva visibile.",
       "Leggi condizioni prima di usare chat private o crediti."
     ],
     faq: [
       {
-        question: "HD significa qualità garantita?",
+        question: "HD significa qualitÃ  garantita?",
         answer:
-          "No. La qualità dipende anche da connessione, dispositivo, browser e condizioni della piattaforma."
+          "No. La qualitÃ  dipende anche da connessione, dispositivo, browser e condizioni della piattaforma."
       },
       {
-        question: "Posso valutare la qualità prima della registrazione?",
+        question: "Posso valutare la qualitÃ  prima della registrazione?",
         answer:
           "In molti casi puoi osservare anteprime o schede iniziali, ma i limiti variano."
       },
@@ -277,7 +277,7 @@ export const categoriePages: CategoriePage[] = [
       {
         href: "/guida/webcam-mobile",
         title: "Guida webcam mobile",
-        copy: "Privacy e qualità da telefono."
+        copy: "Privacy e qualitÃ  da telefono."
       },
       {
         href: "/confronti/migliori-siti-webcam-live",
@@ -285,7 +285,7 @@ export const categoriePages: CategoriePage[] = [
         copy: "Criteri pratici senza punteggi inventati."
       }
     ],
-    ctaTitle: "Controlla la qualità delle opzioni live",
+    ctaTitle: "Controlla la qualitÃ  delle opzioni live",
     ctaCopy:
       "Usa l'accesso interno per osservare anteprime e interfaccia prima di registrarti.",
     ctaHref: "/go/livejasmin",
@@ -343,7 +343,7 @@ export const categoriePages: CategoriePage[] = [
           "Non sempre. Layout, funzioni e anteprime possono cambiare in base al dispositivo."
       },
       {
-        question: "Qual è il rischio principale su smartphone?",
+        question: "Qual Ã¨ il rischio principale su smartphone?",
         answer:
           "Confondere pulsanti, pagamenti o impostazioni privacy per via dello spazio ridotto."
       },
@@ -372,7 +372,7 @@ export const categoriePages: CategoriePage[] = [
     ],
     ctaTitle: "Apri le opzioni live da mobile",
     ctaCopy:
-      "Usa il percorso interno per valutare la piattaforma partner con attenzione a layout, privacy e accesso.",
+      "Usa il percorso interno per valutare la piattaforma live con attenzione a layout, privacy e accesso.",
     ctaHref: "/go/signup",
     ctaLabel: "Apri accesso sicuro"
   },
@@ -383,18 +383,18 @@ export const categoriePages: CategoriePage[] = [
     h1: "Modelli Webcam Online: Trovare Profili Live Disponibili",
     metaTitle: "Modelli Webcam Online: Come Trovare Profili Live Disponibili",
     description:
-      "Guida italiana ai modelli webcam online: disponibilità live, anteprime, filtri, chat privata, accesso mobile e scelta consapevole della piattaforma.",
+      "Guida italiana ai modelli webcam online: disponibilitÃ  live, anteprime, filtri, chat privata, accesso mobile e scelta consapevole della piattaforma.",
     kicker: "Profili online",
     intro:
-      "I modelli webcam online cambiano in base alla disponibilità della piattaforma partner. Questa pagina aiuta a capire come esplorare profili live senza confondere presenza online, anteprime e funzioni private.",
+      "I modelli webcam online cambiano in base alla disponibilitÃ  della piattaforma live. Questa pagina aiuta a capire come esplorare profili live senza confondere presenza online, anteprime e funzioni private.",
     insightTitle: "Online non significa sempre disponibile per ogni funzione",
     insight:
-      "Un profilo può essere visibile in un momento e non disponibile in un altro. Verifica sempre stato e opzioni direttamente sulla piattaforma partner.",
+      "Un profilo puÃ² essere visibile in un momento e non disponibile in un altro. Verifica sempre stato e opzioni direttamente sulla piattaforma live.",
     sections: [
       {
-        title: "Disponibilità e aggiornamento",
+        title: "DisponibilitÃ  e aggiornamento",
         paragraphs: [
-          "La disponibilità online è dinamica. Una griglia di modelli deve essere considerata come fotografia del momento, non come elenco permanente.",
+          "La disponibilitÃ  online Ã¨ dinamica. Una griglia di modelli deve essere considerata come fotografia del momento, non come elenco permanente.",
           "Se cerchi una funzione specifica, controlla filtri e scheda profilo sulla piattaforma."
         ]
       },
@@ -402,46 +402,46 @@ export const categoriePages: CategoriePage[] = [
         title: "Anteprima e registrazione",
         paragraphs: [
           "Alcune aree possono essere visibili prima dell'account, mentre altre richiedono registrazione o crediti.",
-          "La scelta migliore è capire i limiti prima di condividere dati personali."
+          "La scelta migliore Ã¨ capire i limiti prima di condividere dati personali."
         ]
       },
       {
         title: "Uso dei filtri",
         paragraphs: [
           "I filtri possono aiutare a restringere la ricerca, ma non vanno letti come garanzia se non sono chiari.",
-          "Verifica sempre categorie e disponibilità dopo l'accesso."
+          "Verifica sempre categorie e disponibilitÃ  dopo l'accesso."
         ]
       }
     ],
     filterTitle: "Trovare profili disponibili con criterio",
     filterIntro: "Per cercare modelli online evita scorciatoie poco chiare.",
     filterSteps: [
-      "Osserva la disponibilità live nel momento della visita.",
+      "Osserva la disponibilitÃ  live nel momento della visita.",
       "Controlla cosa richiede registrazione.",
-      "Usa filtri ufficiali della piattaforma partner.",
+      "Usa filtri ufficiali della piattaforma live.",
       "Non affidarti a nomi, stati o dati non verificati."
     ],
     faq: [
       {
         question: "I modelli online restano sempre gli stessi?",
         answer:
-          "No. La disponibilità cambia continuamente e dipende dalla piattaforma."
+          "No. La disponibilitÃ  cambia continuamente e dipende dalla piattaforma."
       },
       {
         question: "Posso usare filtri per trovare profili specifici?",
         answer:
-          "Sì, se la piattaforma li offre. SessoChat.net non inventa filtri o categorie non presenti."
+          "SÃ¬, se la piattaforma li offre. SessoChat.net non inventa filtri o categorie non presenti."
       },
       {
         question: "La pagina mostra profili reali?",
         answer:
-          "Quando il flusso dati risponde, sì. Se non risponde, viene mostrato il pannello alternativo."
+          "Quando il flusso dati risponde, sÃ¬. Se non risponde, viene mostrato il pannello alternativo."
       }
     ],
     relatedLinks: standardRelated,
     ctaTitle: "Verifica i profili disponibili ora",
     ctaCopy:
-      "Apri la piattaforma partner e controlla direttamente profili, anteprime e filtri disponibili.",
+      "Apri la piattaforma live e controlla direttamente profili, anteprime e filtri disponibili.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Guarda opzioni online"
   },
@@ -452,13 +452,13 @@ export const categoriePages: CategoriePage[] = [
     h1: "Modelli Webcam Nuovi: Come Scoprire Profili Live Recenti",
     metaTitle: "Modelli Webcam Nuovi: Come Scoprire Profili Live Recenti",
     description:
-      "Scopri come valutare modelli webcam nuovi e profili live recenti, considerando anteprime, verifica, privacy, accesso mobile e piattaforme partner.",
+      "Scopri come valutare modelli webcam nuovi e profili live recenti, considerando anteprime, verifica, privacy, accesso mobile e piattaforme live.",
     kicker: "Nuovi profili",
     intro:
-      "La ricerca di modelli webcam nuovi richiede prudenza: un profilo va considerato recente solo se la piattaforma lo indica in modo affidabile. Questa pagina spiega come usare filtri e ordinamenti senza inventare novità.",
+      "La ricerca di modelli webcam nuovi richiede prudenza: un profilo va considerato recente solo se la piattaforma lo indica in modo affidabile. Questa pagina spiega come usare filtri e ordinamenti senza inventare novitÃ .",
     insightTitle: "Nuovo deve essere un dato reale",
     insight:
-      "Se il flusso dati non fornisce un campo affidabile, SessoChat.net non dichiara che un modello è nuovo. L'utente può verificare ordinamenti e categorie dopo l'accesso.",
+      "Se il flusso dati non fornisce un campo affidabile, SessoChat.net non dichiara che un modello Ã¨ nuovo. L'utente puÃ² verificare ordinamenti e categorie dopo l'accesso.",
     sections: [
       {
         title: "Ordinamenti e profili recenti",
@@ -470,14 +470,14 @@ export const categoriePages: CategoriePage[] = [
       {
         title: "Anteprime e verifica",
         paragraphs: [
-          "Per i profili recenti, controlla ancora di più segnali di verifica, regole della piattaforma e chiarezza dell'account.",
-          "Una presentazione ordinata è più utile di promesse generiche."
+          "Per i profili recenti, controlla ancora di piÃ¹ segnali di verifica, regole della piattaforma e chiarezza dell'account.",
+          "Una presentazione ordinata Ã¨ piÃ¹ utile di promesse generiche."
         ]
       },
       {
         title: "Scelta senza fretta",
         paragraphs: [
-          "La novità può incuriosire, ma non dovrebbe sostituire criteri come privacy, costi, mobile e trasparenza.",
+          "La novitÃ  puÃ² incuriosire, ma non dovrebbe sostituire criteri come privacy, costi, mobile e trasparenza.",
           "Usa la categoria come punto di partenza, non come garanzia."
         ]
       }
@@ -494,15 +494,15 @@ export const categoriePages: CategoriePage[] = [
       {
         question: "SessoChat.net indica quali modelli sono nuovi?",
         answer:
-          "No, non senza un dato affidabile del flusso dati o della piattaforma partner."
+          "No, non senza un dato affidabile del flusso dati o della piattaforma live."
       },
       {
         question: "Dove verifico i profili recenti?",
         answer:
-          "Direttamente sulla piattaforma partner, usando filtri o ordinamenti disponibili."
+          "Direttamente sulla piattaforma live, usando filtri o ordinamenti disponibili."
       },
       {
-        question: "Un profilo nuovo è più sicuro?",
+        question: "Un profilo nuovo Ã¨ piÃ¹ sicuro?",
         answer:
           "Non necessariamente. Valgono sempre privacy, verifica, pagamenti e regole della piattaforma."
       }
@@ -511,12 +511,12 @@ export const categoriePages: CategoriePage[] = [
       {
         href: "/categorie/modelli-webcam-online",
         title: "Modelli webcam online",
-        copy: "Capire disponibilità live e profili attivi."
+        copy: "Capire disponibilitÃ  live e profili attivi."
       },
       {
         href: "/guida/modelli-webcam-verificati",
         title: "Modelli verificati",
-        copy: "Perché la verifica può contare."
+        copy: "PerchÃ© la verifica puÃ² contare."
       },
       {
         href: "/siti/siti-webcam-per-principianti",
@@ -526,7 +526,7 @@ export const categoriePages: CategoriePage[] = [
     ],
     ctaTitle: "Cerca profili recenti sulla piattaforma",
     ctaCopy:
-      "Apri il percorso partner e verifica direttamente filtri, ordinamenti e disponibilità reali.",
+      "Apri il percorso interno e verifica direttamente filtri, ordinamenti e disponibilitÃ  reali.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Apri filtri live"
   },
@@ -538,18 +538,18 @@ export const categoriePages: CategoriePage[] = [
     metaTitle: "Modelli Webcam Popolari: Come Valutare Profili Live Richiesti",
     description:
       "Guida ai modelli webcam popolari: cosa osservare prima di entrare, come usare filtri live e come scegliere senza affidarsi a classifiche false.",
-    kicker: "Popolarità senza classifiche false",
+    kicker: "PopolaritÃ  senza classifiche false",
     intro:
-      "I modelli webcam popolari attirano ricerche frequenti, ma la popolarità deve essere verificata solo tramite segnali reali della piattaforma. Questa pagina non crea classifiche e non inventa conteggi visualizzazioni.",
+      "I modelli webcam popolari attirano ricerche frequenti, ma la popolaritÃ  deve essere verificata solo tramite segnali reali della piattaforma. Questa pagina non crea classifiche e non inventa conteggi visualizzazioni.",
     insightTitle: "Popolare non significa migliore",
     insight:
-      "Una categoria popolare può aiutare a orientarsi, ma la scelta resta personale e deve considerare privacy, costi, mobile e chiarezza della piattaforma.",
+      "Una categoria popolare puÃ² aiutare a orientarsi, ma la scelta resta personale e deve considerare privacy, costi, mobile e chiarezza della piattaforma.",
     sections: [
       {
-        title: "Come leggere la popolarità",
+        title: "Come leggere la popolaritÃ ",
         paragraphs: [
-          "Se una piattaforma mostra filtri o sezioni popolari, verifica come vengono ordinate le schede e se l'informazione è comprensibile.",
-          "Senza dati reali, non ha senso dichiarare che un profilo è più richiesto di un altro."
+          "Se una piattaforma mostra filtri o sezioni popolari, verifica come vengono ordinate le schede e se l'informazione Ã¨ comprensibile.",
+          "Senza dati reali, non ha senso dichiarare che un profilo Ã¨ piÃ¹ richiesto di un altro."
         ]
       },
       {
@@ -562,8 +562,8 @@ export const categoriePages: CategoriePage[] = [
       {
         title: "Criteri personali",
         paragraphs: [
-          "Prima di seguire una categoria popolare, chiediti se il sito è leggibile, se i costi sono chiari e se l'accesso da mobile funziona bene.",
-          "La popolarità non sostituisce una navigazione responsabile."
+          "Prima di seguire una categoria popolare, chiediti se il sito Ã¨ leggibile, se i costi sono chiari e se l'accesso da mobile funziona bene.",
+          "La popolaritÃ  non sostituisce una navigazione responsabile."
         ]
       }
     ],
@@ -573,23 +573,23 @@ export const categoriePages: CategoriePage[] = [
       "Non considerare i profili come classifica ufficiale se non viene spiegata.",
       "Controlla funzioni gratuite, private e a pagamento.",
       "Verifica privacy e registrazione prima dei crediti.",
-      "Scegli in base al tuo obiettivo, non solo alla visibilità."
+      "Scegli in base al tuo obiettivo, non solo alla visibilitÃ ."
     ],
     faq: [
       {
-        question: "Qui mostrate i modelli più popolari?",
+        question: "Qui mostrate i modelli piÃ¹ popolari?",
         answer:
           "Solo se il flusso dati o la piattaforma forniscono dati affidabili. In caso contrario viene mostrato il flusso dati reale generale."
       },
       {
-        question: "Perché non ci sono conteggi visualizzazioni?",
+        question: "PerchÃ© non ci sono conteggi visualizzazioni?",
         answer:
-          "Perché non vengono inventati numeri non forniti dal flusso dati reale."
+          "PerchÃ© non vengono inventati numeri non forniti dal flusso dati reale."
       },
       {
-        question: "Popolare significa più affidabile?",
+        question: "Popolare significa piÃ¹ affidabile?",
         answer:
-          "No. Affidabilità e popolarità sono concetti diversi."
+          "No. AffidabilitÃ  e popolaritÃ  sono concetti diversi."
       }
     ],
     relatedLinks: [
@@ -611,7 +611,7 @@ export const categoriePages: CategoriePage[] = [
     ],
     ctaTitle: "Valuta i profili live disponibili",
     ctaCopy:
-      "Apri la piattaforma partner e verifica direttamente filtri, disponibilità e condizioni.",
+      "Apri la piattaforma live e verifica direttamente filtri, disponibilitÃ  e condizioni.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Controlla opzioni live"
   },
@@ -625,16 +625,16 @@ export const categoriePages: CategoriePage[] = [
       "Guida italiana per trovare modelli webcam bionde tramite filtri e categorie disponibili, con attenzione a privacy, anteprime e accesso sicuro.",
     kicker: "Filtri di preferenza",
     intro:
-      "Chi cerca modelli webcam bionde dovrebbe usare solo filtri reali della piattaforma partner. Questa pagina non attribuisce caratteristiche fisiche alle schede mostrate se il flusso dati non fornisce dati affidabili.",
+      "Chi cerca modelli webcam bionde dovrebbe usare solo filtri reali della piattaforma live. Questa pagina non attribuisce caratteristiche fisiche alle schede mostrate se il flusso dati non fornisce dati affidabili.",
     insightTitle: "I filtri possono variare",
     insight:
-      "Le disponibilità e le categorie possono variare sulla piattaforma partner. Verifica sempre i filtri disponibili dopo l'accesso.",
+      "Usa i filtri ufficiali della piattaforma e controlla le opzioni mostrate nel momento della visita.",
     sections: [
       {
         title: "Usare filtri di aspetto con rispetto",
         paragraphs: [
           "Le categorie basate su preferenze visive devono essere gestite con precisione e senza inventare attributi.",
-          "Se il sito partner offre filtri ufficiali, usali direttamente lì per verificare la disponibilità reale."
+          "Se il sito live offre filtri ufficiali, usali direttamente lÃ¬ per verificare la disponibilitÃ  reale."
         ]
       },
       {
@@ -655,9 +655,9 @@ export const categoriePages: CategoriePage[] = [
     filterTitle: "Come cercare questa categoria",
     filterIntro: "Indicazioni prudenti per usare categorie e filtri ufficiali.",
     filterSteps: [
-      "Apri la piattaforma partner e controlla se il filtro esiste.",
+      "Apri la piattaforma live e controlla se il filtro esiste.",
       "Non presumere caratteristiche dalle schede se non sono indicate.",
-      "Verifica disponibilità e anteprime nel momento della visita.",
+      "Verifica disponibilitÃ  e anteprime nel momento della visita.",
       "Controlla privacy e costi prima di funzioni private."
     ],
     faq: [
@@ -669,19 +669,19 @@ export const categoriePages: CategoriePage[] = [
       {
         question: "Dove uso il filtro bionde?",
         answer:
-          "Sulla piattaforma partner, se il filtro o la categoria sono disponibili."
+          "Sulla piattaforma live, se il filtro o la categoria sono disponibili."
       },
       {
-        question: "La categoria è sempre disponibile?",
+        question: "La categoria Ã¨ sempre disponibile?",
         answer:
-          "No. Filtri e disponibilità possono cambiare."
+          "No. Filtri e disponibilitÃ  possono cambiare."
       }
     ],
     relatedLinks: [
       {
         href: "/categorie/modelli-webcam-online",
         title: "Modelli online",
-        copy: "Capire disponibilità e profili live."
+        copy: "Capire disponibilitÃ  e profili live."
       },
       {
         href: "/siti/siti-webcam-live",
@@ -696,7 +696,7 @@ export const categoriePages: CategoriePage[] = [
     ],
     ctaTitle: "Verifica i filtri disponibili",
     ctaCopy:
-      "Apri la piattaforma partner e controlla direttamente categorie, anteprime e condizioni.",
+      "Apri la piattaforma live e controlla direttamente categorie, anteprime e condizioni.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Apri categorie live"
   },
@@ -713,13 +713,13 @@ export const categoriePages: CategoriePage[] = [
       "La categoria modelli webcam brune va trattata come guida ai filtri, non come promessa sulle schede visibili. SessoChat.net non inventa caratteristiche se non arrivano da dati reali.",
     insightTitle: "Categoria da verificare sulla piattaforma",
     insight:
-      "Verifica sempre se la piattaforma partner offre filtri o categorie specifiche e se sono aggiornati nel momento della visita.",
+      "Verifica sempre se la piattaforma live offre filtri o categorie specifiche e se sono aggiornati nel momento della visita.",
     sections: [
       {
-        title: "Filtri e disponibilità",
+        title: "Filtri e disponibilitÃ ",
         paragraphs: [
-          "Le categorie di aspetto possono aiutare la scoperta, ma devono essere disponibili in modo chiaro sulla piattaforma partner.",
-          "Se il filtro non è presente, usa criteri più generali come disponibilità, qualità mobile e privacy."
+          "Le categorie di aspetto possono aiutare la scoperta, ma devono essere disponibili in modo chiaro sulla piattaforma live.",
+          "Se il filtro non Ã¨ presente, usa criteri piÃ¹ generali come disponibilitÃ , qualitÃ  mobile e privacy."
         ]
       },
       {
@@ -740,10 +740,10 @@ export const categoriePages: CategoriePage[] = [
     filterTitle: "Valutare categorie visive",
     filterIntro: "Un modo ordinato per cercare senza dati inventati.",
     filterSteps: [
-      "Usa solo filtri presenti sulla piattaforma partner.",
+      "Usa solo filtri presenti sulla piattaforma live.",
       "Controlla anteprime e schede senza assumere dati mancanti.",
       "Verifica costi, privacy e accesso mobile.",
-      "Torna a criteri generali se la categoria non è disponibile."
+      "Torna a criteri generali se la categoria non Ã¨ disponibile."
     ],
     faq: [
       {
@@ -752,20 +752,20 @@ export const categoriePages: CategoriePage[] = [
           "No. La pagina spiega come usare filtri disponibili senza attribuire caratteristiche non verificate."
       },
       {
-        question: "Perché vedo modelli generici?",
+        question: "PerchÃ© vedo modelli generici?",
         answer:
-          "Perché se il flusso dati non fornisce un filtro affidabile, viene mostrato il flusso dati reale generale."
+          "PerchÃ© se il flusso dati non fornisce un filtro affidabile, viene mostrato il flusso dati reale generale."
       },
       {
         question: "Posso filtrare dopo l'accesso?",
         answer:
-          "Sì, se la piattaforma partner offre quel filtro."
+          "SÃ¬, se la piattaforma live offre quel filtro."
       }
     ],
     relatedLinks: standardRelated,
     ctaTitle: "Esplora categorie disponibili",
     ctaCopy:
-      "Apri la piattaforma partner e verifica direttamente filtri, profili e condizioni.",
+      "Apri la piattaforma live e verifica direttamente filtri, profili e condizioni.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Apri accesso live"
   },
@@ -776,19 +776,19 @@ export const categoriePages: CategoriePage[] = [
     h1: "Modelli Webcam Latine: Filtri e Profili Live da Valutare",
     metaTitle: "Modelli Webcam Latine: Categorie Live e Filtri da Valutare",
     description:
-      "Guida per esplorare modelli webcam latine tramite categorie e filtri della piattaforma partner, con focus su privacy, anteprime e chat live.",
+      "Guida per esplorare modelli webcam latine tramite categorie e filtri della piattaforma live, con focus su privacy, anteprime e chat live.",
     kicker: "Categorie disponibili",
     intro:
-      "Le ricerche per modelli webcam latine devono essere gestite con attenzione: SessoChat.net non inventa etnia, provenienza o località dei profili. Usa questa pagina come guida ai filtri disponibili sulla piattaforma partner.",
+      "Le ricerche per modelli webcam latine devono essere gestite con attenzione: SessoChat.net non inventa etnia, provenienza o localitÃ  dei profili. Usa questa pagina come guida ai filtri disponibili sulla piattaforma live.",
     insightTitle: "Nessuna attribuzione non verificata",
     insight:
-      "Le disponibilità e le categorie possono variare. Verifica sempre i filtri ufficiali dopo l'accesso e non dare per scontati attributi non dichiarati.",
+      "Usa solo filtri ufficiali e non dare per scontati attributi non dichiarati.",
     sections: [
       {
-        title: "Filtri di categoria e disponibilità",
+        title: "Filtri di categoria e disponibilitÃ ",
         paragraphs: [
           "Se una piattaforma offre categorie geografiche o culturali, leggi come vengono definite e se sono realmente disponibili.",
-          "Senza dati affidabili, è più corretto usare il flusso dati generale e lasciare la verifica alla piattaforma partner."
+          "Senza dati affidabili, Ã¨ piÃ¹ corretto usare il flusso dati generale e lasciare la verifica alla piattaforma live."
         ]
       },
       {
@@ -801,17 +801,17 @@ export const categoriePages: CategoriePage[] = [
       {
         title: "Chat live senza aspettative false",
         paragraphs: [
-          "Le categorie possono aiutare la ricerca, ma non garantiscono disponibilità o funzioni specifiche.",
-          "Valuta sempre anteprime, costi e qualità della piattaforma nel momento in cui entri."
+          "Le categorie possono aiutare la ricerca, ma non garantiscono disponibilitÃ  o funzioni specifiche.",
+          "Valuta sempre anteprime, costi e qualitÃ  della piattaforma nel momento in cui entri."
         ]
       }
     ],
     filterTitle: "Come usare filtri di categoria",
     filterIntro: "Indicazioni per esplorare categorie senza inventare attributi.",
     filterSteps: [
-      "Controlla se la categoria è presente sulla piattaforma partner.",
+      "Controlla se la categoria Ã¨ presente sulla piattaforma live.",
       "Non attribuire etnia o provenienza se non indicata in modo ufficiale.",
-      "Verifica disponibilità, anteprime e accesso mobile.",
+      "Verifica disponibilitÃ , anteprime e accesso mobile.",
       "Leggi condizioni prima della chat privata."
     ],
     faq: [
@@ -821,22 +821,22 @@ export const categoriePages: CategoriePage[] = [
           "No. Solo un filtro affidabile del flusso dati potrebbe permetterlo. Altrimenti viene mostrato il flusso dati reale generale."
       },
       {
-        question: "Perché non indicate paesi o provenienza?",
+        question: "PerchÃ© non indicate paesi o provenienza?",
         answer:
-          "Perché non vengono inventati dati non forniti in modo affidabile."
+          "PerchÃ© non vengono inventati dati non forniti in modo affidabile."
       },
       {
         question: "Dove verifico la categoria?",
         answer:
-          "Direttamente sulla piattaforma partner, usando filtri ufficiali se disponibili."
+          "Direttamente sulla piattaforma live, usando filtri ufficiali se disponibili."
       }
     ],
     relatedLinks: standardRelated,
     ctaTitle: "Controlla i filtri ufficiali",
     ctaCopy:
-      "Usa il percorso interno e verifica direttamente categorie, profili e disponibilità live.",
+      "Usa il percorso interno e verifica direttamente categorie, profili e disponibilitÃ  live.",
     ctaHref: "/go/livejasmin",
-    ctaLabel: "Apri piattaforma partner"
+    ctaLabel: "Apri piattaforma live"
   },
   {
     slug: "modelli-webcam-mature",
@@ -848,16 +848,16 @@ export const categoriePages: CategoriePage[] = [
       "Guida italiana ai modelli webcam mature: come valutare profili live, categorie disponibili, anteprime, privacy e opzioni di chat privata.",
     kicker: "Categoria adulti",
     intro:
-      "La ricerca di modelli webcam mature deve basarsi su filtri reali della piattaforma partner. Questa pagina non attribuisce età o caratteristiche ai profili se il flusso dati non fornisce dati affidabili.",
-    insightTitle: "Categorie da confermare nel percorso partner",
+      "La ricerca di modelli webcam mature deve basarsi su filtri reali della piattaforma live. Questa pagina non attribuisce etÃ  o caratteristiche ai profili se il flusso dati non fornisce dati affidabili.",
+    insightTitle: "Categorie da confermare nel percorso interno",
     insight:
-      "Verifica sempre categorie, disponibilità e condizioni direttamente sulla piattaforma. Non considerare una scheda come appartenente a una categoria se il dato non è chiaro.",
+      "Verifica sempre categorie, disponibilitÃ  e condizioni direttamente sulla piattaforma. Non considerare una scheda come appartenente a una categoria se il dato non Ã¨ chiaro.",
     sections: [
       {
-        title: "Età e categorie: attenzione ai dati",
+        title: "EtÃ  e categorie: attenzione ai dati",
         paragraphs: [
-          "Le categorie legate all'età richiedono particolare precisione. Non è corretto dedurre informazioni da immagini, nomi o impressioni.",
-          "Usa solo filtri e informazioni ufficiali della piattaforma partner."
+          "Le categorie legate all'etÃ  richiedono particolare precisione. Non Ã¨ corretto dedurre informazioni da immagini, nomi o impressioni.",
+          "Usa solo filtri e informazioni ufficiali della piattaforma live."
         ]
       },
       {
@@ -876,10 +876,10 @@ export const categoriePages: CategoriePage[] = [
       }
     ],
     filterTitle: "Controlli per categorie sensibili",
-    filterIntro: "Usa criteri più prudenti quando una categoria riguarda età o preferenze personali.",
+    filterIntro: "Usa criteri piÃ¹ prudenti quando una categoria riguarda etÃ  o preferenze personali.",
     filterSteps: [
-      "Non dedurre età o categoria senza dati ufficiali.",
-      "Controlla filtri e definizioni della piattaforma partner.",
+      "Non dedurre etÃ  o categoria senza dati ufficiali.",
+      "Controlla filtri e definizioni della piattaforma live.",
       "Verifica privacy, pagamenti e impostazioni account.",
       "Usa anteprime per valutare il sito, non per inventare attributi."
     ],
@@ -890,12 +890,12 @@ export const categoriePages: CategoriePage[] = [
           "Solo se un filtro affidabile lo indica. In assenza di dati, viene mostrato il flusso dati reale generale."
       },
       {
-        question: "Perché non dichiarate età dei modelli?",
+        question: "PerchÃ© non dichiarate etÃ  dei modelli?",
         answer:
-          "Perché SessoChat.net non inventa dati personali o attributi sensibili."
+          "PerchÃ© SessoChat.net non inventa dati personali o attributi sensibili."
       },
       {
-        question: "Come scelgo in modo più sicuro?",
+        question: "Come scelgo in modo piÃ¹ sicuro?",
         answer:
           "Usa filtri ufficiali, leggi condizioni e controlla privacy prima della registrazione."
       }
@@ -904,7 +904,7 @@ export const categoriePages: CategoriePage[] = [
       {
         href: "/guida/chat-webcam-sicura",
         title: "Chat webcam sicura",
-        copy: "Privacy e responsabilità prima dell'accesso."
+        copy: "Privacy e responsabilitÃ  prima dell'accesso."
       },
       {
         href: "/siti/siti-webcam-con-modelli-verificati",
@@ -919,7 +919,7 @@ export const categoriePages: CategoriePage[] = [
     ],
     ctaTitle: "Verifica categorie e condizioni",
     ctaCopy:
-      "Apri la piattaforma partner e controlla filtri, profili disponibili e condizioni ufficiali.",
+      "Apri la piattaforma live e controlla filtri, profili disponibili e condizioni ufficiali.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Controlla opzioni live"
   },
@@ -931,9 +931,9 @@ export const categoriePages: CategoriePage[] = [
     metaTitle: "Modelli Webcam Asiatiche: Filtri, Profili Live e Chat Cam",
     description:
       "Scopri come esplorare modelli webcam asiatiche tramite filtri e categorie disponibili, con attenzione a privacy, anteprime e navigazione mobile.",
-    kicker: "Filtri e disponibilità",
+    kicker: "Filtri e disponibilitÃ ",
     intro:
-      "Chi cerca modelli webcam asiatiche deve affidarsi ai filtri reali della piattaforma partner. Questa pagina non inventa provenienza, etnia o località dei profili se il flusso dati non fornisce dati affidabili.",
+      "Chi cerca modelli webcam asiatiche deve affidarsi ai filtri reali della piattaforma live. Questa pagina non inventa provenienza, etnia o localitÃ  dei profili se il flusso dati non fornisce dati affidabili.",
     insightTitle: "Categorie da verificare, non da presumere",
     insight:
       "Le categorie possono variare e non sempre sono disponibili. Verifica sempre i filtri ufficiali dopo l'accesso.",
@@ -942,7 +942,7 @@ export const categoriePages: CategoriePage[] = [
         title: "Filtri culturali o geografici",
         paragraphs: [
           "Se la piattaforma offre categorie specifiche, controlla come vengono definite e se sono aggiornate.",
-          "Non è corretto attribuire provenienza o identità ai modelli senza una fonte affidabile."
+          "Non Ã¨ corretto attribuire provenienza o identitÃ  ai modelli senza una fonte affidabile."
         ]
       },
       {
@@ -963,9 +963,9 @@ export const categoriePages: CategoriePage[] = [
     filterTitle: "Esplorare categorie con precisione",
     filterIntro: "Indicazioni per cercare senza attribuzioni inventate.",
     filterSteps: [
-      "Usa filtri ufficiali della piattaforma partner.",
+      "Usa filtri ufficiali della piattaforma live.",
       "Non dedurre provenienza o etnia da immagini o nomi.",
-      "Controlla disponibilità live e limiti dell'anteprima.",
+      "Controlla disponibilitÃ  live e limiti dell'anteprima.",
       "Verifica privacy e pagamenti prima della registrazione."
     ],
     faq: [
@@ -975,14 +975,14 @@ export const categoriePages: CategoriePage[] = [
           "No. Vengono filtrate solo se il flusso dati dispone di un dato affidabile; altrimenti appare il flusso dati reale generale."
       },
       {
-        question: "Perché usate un linguaggio prudente?",
+        question: "PerchÃ© usate un linguaggio prudente?",
         answer:
           "Per evitare attribuzioni non verificate su etnia, origine o caratteristiche personali."
       },
       {
         question: "Dove posso usare i filtri?",
         answer:
-          "Direttamente sulla piattaforma partner, se disponibili."
+          "Direttamente sulla piattaforma live, se disponibili."
       }
     ],
     relatedLinks: [
@@ -1004,7 +1004,7 @@ export const categoriePages: CategoriePage[] = [
     ],
     ctaTitle: "Verifica i filtri disponibili",
     ctaCopy:
-      "Apri l'accesso partner e controlla direttamente categorie, disponibilità e condizioni.",
+      "Apri l'accesso live e controlla direttamente categorie, disponibilitÃ  e condizioni.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Apri categorie live"
   }
@@ -1024,4 +1024,6 @@ export const categoriePublicPages = [
 export function getCategoriePage(slug: string) {
   return categoriePages.find((page) => page.slug === slug);
 }
+
+
 

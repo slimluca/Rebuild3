@@ -1,4 +1,4 @@
-type ArgomentiHeroProps = {
+﻿type ArgomentiHeroProps = {
   kicker: string;
   title: string;
   intro: string;
@@ -22,10 +22,12 @@ export function ArgomentiHero({ kicker, title, intro }: ArgomentiHeroProps) {
           <span className="panel-label">Pagina argomento</span>
           <p>
             Landing page pensata per rispondere a una ricerca specifica e portare verso guide,
-            confronti, categorie e accessi partner già pubblicati.
+            confronti, categorie e accessi partner giÃ  pubblicati.
           </p>
         </div>
       </div>
     </section>
   );
 }
+
+

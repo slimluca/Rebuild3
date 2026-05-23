@@ -8,6 +8,7 @@ import { Hero } from "@/components/Hero";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
 import { QuickPathCards } from "@/components/QuickPathCards";
+import { RicerchePreviewSection } from "@/components/RicerchePreviewSection";
 import { TrustSection } from "@/components/TrustSection";
 import { webPageSchema } from "@/lib/schema";
 
@@ -49,6 +50,7 @@ export default function HomePage() {
       <ComparisonPreviewSection />
       <CategoryPreviewSection />
       <ArgomentiPreviewSection />
+      <RicerchePreviewSection />
       <FinalCTA variant="models" />
       <FinalCTA />
     </>

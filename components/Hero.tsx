@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export function Hero() {
   return (
@@ -11,12 +11,12 @@ export function Hero() {
             <p>
               SessoChat.net aiuta gli adulti a confrontare opzioni di webcam live prima della
               registrazione: chat privata, accesso mobile, privacy, modelli verificati, anteprime
-              gratuite e navigazione più consapevole, con un linguaggio discreto e utile.
+              gratuite e navigazione piÃ¹ consapevole, con un linguaggio discreto e utile.
             </p>
             <div className="hero-badges" aria-label="Punti di orientamento">
               <span>Privacy prima dell&apos;accesso</span>
-              <span>Modelli dal feed reale</span>
-              <span>Link partner interni</span>
+              <span>Modelli live reali</span>
+              <span>link interni interni</span>
             </div>
             <div className="hero-actions" aria-label="Azioni principali">
               <Link className="button" href="/go/signup" prefetch={false}>
@@ -32,3 +32,5 @@ export function Hero() {
     </section>
   );
 }
+
+

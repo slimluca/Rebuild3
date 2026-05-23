@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { EditorialChecklist } from "@/components/EditorialChecklist";
 import { FAQSection } from "@/components/FAQSection";
@@ -9,7 +9,7 @@ import { ModelGrid } from "@/components/ModelGrid";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { guidaHubCards } from "@/lib/guida-pages";
 
-const title = "Guida Chat Webcam: Consigli Italiani per Scegliere con Più Controllo";
+const title = "Guida Chat Webcam: Consigli Italiani per Scegliere con PiÃ¹ Controllo";
 const description =
   "Guide italiane per capire chat webcam live, privacy, registrazione, pagamenti, modelli verificati e differenze tra chat gratis e private prima di entrare.";
 
@@ -27,12 +27,12 @@ const hubFaq = [
   {
     question: "I modelli live sono mostrati anche nelle guide?",
     answer:
-      "Sì. Ogni pagina guida mostra il ModelGrid direttamente sotto l'introduzione usando dati reali dal feed o il fallback se il feed non risponde."
+      "SÃ¬. Ogni pagina guida mostra i modelli live direttamente sotto l'introduzione con schede reali quando disponibili."
   },
   {
-    question: "Le guide sostituiscono le condizioni delle piattaforme partner?",
+    question: "Le guide sostituiscono le condizioni delle piattaforme live?",
     answer:
-      "No. Aiutano a leggere meglio le piattaforme, ma prezzi, disponibilità e regole operative vanno sempre controllati sul servizio esterno."
+      "No. Aiutano a leggere meglio le piattaforme, ma prezzi, disponibilitÃ  e regole operative vanno sempre controllati sul servizio esterno."
   }
 ];
 
@@ -84,11 +84,11 @@ export default function GuidaHubPage() {
             <p className="section-kicker">Metodo</p>
             <h2>Come usare queste guide</h2>
             <p>
-              Parti dalla domanda più vicina alla tua situazione: scegliere un sito, capire i
+              Parti dalla domanda piÃ¹ vicina alla tua situazione: scegliere un sito, capire i
               prezzi, navigare senza registrazione o proteggere meglio privacy e dispositivo.
             </p>
             <p>
-              Le guide non sostituiscono le condizioni ufficiali delle piattaforme partner, ma
+              Le guide non sostituiscono le condizioni ufficiali delle piattaforme live, ma
               aiutano a leggere meglio passaggi, limiti e segnali utili prima della registrazione.
             </p>
           </article>
@@ -113,11 +113,11 @@ export default function GuidaHubPage() {
       </section>
       <EditorialChecklist
         title="Criteri da tenere sempre presenti"
-        intro="Le guide tornano spesso sugli stessi principi perché sono quelli che riducono davvero la confusione."
+        intro="Le guide tornano spesso sugli stessi principi perchÃ© sono quelli che riducono davvero la confusione."
         items={[
           "Distingui anteprima, registrazione, crediti e funzioni private.",
           "Controlla privacy del browser e del dispositivo prima di registrarti.",
-          "Leggi i costi reali sulla piattaforma partner, senza affidarti a numeri inventati.",
+          "Leggi i costi reali sulla piattaforma live, senza affidarti a numeri inventati.",
           "Valuta modelli e profili solo attraverso dati reali o informazioni ufficiali.",
           "Preferisci pagine leggibili da mobile e prive di promesse aggressive."
         ]}
@@ -130,7 +130,7 @@ export default function GuidaHubPage() {
             <h2>Leggi una guida, poi valuta le opzioni live con calma</h2>
             <p>
               Usa i collegamenti interni per mantenere ordinata la navigazione e controllare la
-              piattaforma partner solo quando hai chiaro cosa cercare.
+              piattaforma live solo quando hai chiaro cosa cercare.
             </p>
             <div className="hero-actions">
               <Link className="button" href="/go/signup" prefetch={false}>
@@ -146,3 +146,5 @@ export default function GuidaHubPage() {
     </>
   );
 }
+
+

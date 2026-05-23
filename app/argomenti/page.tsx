@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArgomentiCardGrid } from "@/components/ArgomentiCardGrid";
 import { ArgomentiHero } from "@/components/ArgomentiHero";
@@ -10,7 +10,7 @@ import { RelatedPathPanel } from "@/components/RelatedPathPanel";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { argomentiHubCards } from "@/lib/argomenti-pages";
 
-const title = "Argomenti Chat Webcam: Ricerche Utili per Scegliere con Più Controllo";
+const title = "Argomenti Chat Webcam: Ricerche Utili per Scegliere con PiÃ¹ Controllo";
 const description =
   "Raccolta di pagine italiane su chat webcam, videochat adulti, accesso senza registrazione, privacy, mobile, anteprime gratuite e LiveJasmin Italia.";
 
@@ -18,12 +18,12 @@ const hubFaq = [
   {
     question: "A cosa servono le pagine argomento?",
     answer:
-      "Rispondono rapidamente a ricerche specifiche e collegano a guide, siti, confronti e categorie più approfondite."
+      "Rispondono rapidamente a ricerche specifiche e collegano a guide, siti, confronti e categorie piÃ¹ approfondite."
   },
   {
-    question: "Sono copie delle guide già pubblicate?",
+    question: "Sono copie delle guide giÃ  pubblicate?",
     answer:
-      "No. Sono landing page più dirette, con risposta rapida e percorsi interni verso le sezioni principali."
+      "No. Sono landing page piÃ¹ dirette, con risposta rapida e percorsi interni verso le sezioni principali."
   },
   {
     question: "I modelli mostrati sono inventati?",
@@ -69,29 +69,29 @@ export default function ArgomentiHubPage() {
         intro="Questa sezione raccoglie landing page rapide per utenti italiani che cercano risposte concrete su chat webcam, videochat adulti, registrazione, pagamenti, sicurezza e LiveJasmin Italia."
       />
       <ModelGrid />
-      <QuickAnswerPanel answer="Usa gli argomenti come ingresso veloce: trovi una risposta sintetica, modelli live subito sotto l'introduzione e link verso pagine più profonde quando vuoi confrontare o approfondire." />
+      <QuickAnswerPanel answer="Usa gli argomenti come ingresso veloce: trovi una risposta sintetica, modelli live subito sotto l'introduzione e link verso pagine piÃ¹ profonde quando vuoi confrontare o approfondire." />
       <ArgomentiCardGrid
         title="Tutti gli argomenti"
-        copy="Ogni pagina risponde a una ricerca diversa senza duplicare guide, confronti o categorie già pubblicate."
+        copy="Ogni pagina risponde a una ricerca diversa senza duplicare guide, confronti o categorie giÃ  pubblicate."
         cards={argomentiHubCards}
       />
       <RelatedPathPanel
         title="Come usare questa sezione"
         steps={[
-          "Parti dalla ricerca più vicina al tuo dubbio.",
+          "Parti dalla ricerca piÃ¹ vicina al tuo dubbio.",
           "Leggi la risposta rapida e cosa aspettarti.",
-          "Apri le guide collegate se vuoi più dettaglio.",
-          "Usa i percorsi /go/ solo quando vuoi valutare la piattaforma partner."
+          "Apri le guide collegate se vuoi piÃ¹ dettaglio.",
+          "Usa i percorsi /go/ solo quando vuoi valutare la piattaforma live."
         ]}
         noteTitle="Collegamento con il resto del sito"
-        note="Le pagine argomento non sostituiscono /siti, /guida, /confronti o /categorie: servono a guidare utenti nuovi verso il percorso più utile."
+        note="Le pagine argomento non sostituiscono /siti, /guida, /confronti o /categorie: servono a guidare utenti nuovi verso il percorso piÃ¹ utile."
       />
       <FAQSection items={hubFaq} />
       <section className="section">
         <div className="container">
           <div className="cta-band">
             <p className="section-kicker">Percorso rapido</p>
-            <h2>Hai già un intento chiaro?</h2>
+            <h2>Hai giÃ  un intento chiaro?</h2>
             <p>Scegli un argomento o apri direttamente le opzioni live tramite accesso interno.</p>
             <div className="hero-actions">
               <Link className="button" href="/go/livejasmin" prefetch={false}>
@@ -107,3 +107,5 @@ export default function ArgomentiHubPage() {
     </>
   );
 }
+
+

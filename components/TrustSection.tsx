@@ -1,4 +1,4 @@
-export function TrustSection() {
+﻿export function TrustSection() {
   return (
     <section className="section" aria-labelledby="privacy-title">
       <div className="container split-section">
@@ -7,8 +7,8 @@ export function TrustSection() {
           <h2>Come scegliere un sito webcam live</h2>
           <p>
             Una piattaforma affidabile dovrebbe rendere chiari accesso, funzioni disponibili prima
-            della registrazione, condizioni della chat privata webcam, compatibilità mobile e
-            percorso di pagamento. Per un principiante, la priorità non è entrare in fretta: è
+            della registrazione, condizioni della chat privata webcam, compatibilitÃ  mobile e
+            percorso di pagamento. Per un principiante, la prioritÃ  non Ã¨ entrare in fretta: Ã¨
             capire cosa succede dopo il primo clic.
           </p>
           <ul className="check-list">
@@ -19,7 +19,7 @@ export function TrustSection() {
         </div>
         <div className="rich-panel" id="privacy-title">
           <p className="section-kicker">Privacy e navigazione</p>
-          <h2>Le basi per restare più tranquilli</h2>
+          <h2>Le basi per restare piÃ¹ tranquilli</h2>
           <p>
             SessoChat.net usa un tono adult-safe e invita a trattare ogni videochat adulti come un
             servizio esterno da valutare con attenzione. Prima di registrarti, leggi le condizioni
@@ -36,7 +36,7 @@ export function TrustSection() {
             </div>
             <div className="metric-card">
               <h3>Link interni</h3>
-              <p>I rimandi partner passano da percorsi interni per mantenere ordine editoriale.</p>
+              <p>I rimandi interni passano da percorsi interni per mantenere ordine editoriale.</p>
             </div>
             <div className="metric-card">
               <h3>Tono discreto</h3>
@@ -48,3 +48,5 @@ export function TrustSection() {
     </section>
   );
 }
+
+

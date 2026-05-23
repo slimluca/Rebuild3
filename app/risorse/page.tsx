@@ -1,14 +1,15 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 import { argomentiHubCards } from "@/lib/argomenti-pages";
 import { categorieHubCards } from "@/lib/categorie-pages";
 import { confrontiHubCards } from "@/lib/confronti-pages";
 import { guidaHubCards } from "@/lib/guida-pages";
+import { ricercheHubCards } from "@/lib/ricerche-pages";
 import { sitiHubCards } from "@/lib/siti-pages";
 
 const description =
-  "Risorse SessoChat.net con guide pratiche, siti webcam live, pagine editoriali e collegamenti utili per scegliere chat webcam con più controllo.";
+  "Risorse SessoChat.net con guide pratiche, siti webcam live, pagine editoriali e collegamenti utili per scegliere chat webcam con piÃ¹ controllo.";
 
 export const metadata: Metadata = {
   title: "Risorse Chat Webcam: Guide, Siti e Pagine Utili",
@@ -33,6 +34,7 @@ const existingResources = [
   { href: "/confronti", title: "Confronti", copy: "Confronti tra piattaforme, chat gratis, chat private e alternative LiveJasmin." },
   { href: "/categorie", title: "Categorie modelli", copy: "Percorsi per esplorare modelli webcam live e filtri disponibili." },
   { href: "/argomenti", title: "Argomenti", copy: "Ricerche rapide su registrazione, mobile, privacy, LiveJasmin Italia e anteprime." },
+  { href: "/ricerche", title: "Ricerche", copy: "Landing rapide per chat webcam gratis, live, mobile, sicure e senza account." },
   { href: "/chi-siamo", title: "Chi siamo", copy: "Il ruolo editoriale del progetto." },
   { href: "/politica-editoriale", title: "Politica editoriale", copy: "Standard di chiarezza e trasparenza." },
   { href: "/privacy-policy", title: "Privacy Policy", copy: "Informazioni iniziali su privacy e dati tecnici." },
@@ -48,13 +50,31 @@ export default function RisorsePage() {
   return (
     <PageShell path="/risorse" title="Risorse" description={description}>
       <article className="page-card">
-        <h2>Argomenti più cercati</h2>
+        <h2>Ricerche piÃ¹ cercate</h2>
+        <p>
+          Le ricerche raccolgono pagine rapide su chat webcam gratis, live, mobile, senza account,
+          alternative LiveJasmin e sesso chat webcam con tono discreto.
+        </p>
+      </article>
+      <section className="resource-grid" aria-label="Ricerche piÃ¹ cercate">
+        {ricercheHubCards.map((resource) => (
+          <article className="resource-card" key={resource.href}>
+            <h2>{resource.title}</h2>
+            <p>{resource.copy}</p>
+            <Link className="text-link" href={resource.href}>
+              Apri ricerca
+            </Link>
+          </article>
+        ))}
+      </section>
+      <article className="page-card">
+        <h2>Argomenti piÃ¹ cercati</h2>
         <p>
           Le pagine argomento rispondono a ricerche dirette su chat webcam, registrazione, carta di
           credito, LiveJasmin Italia, mobile, anteprime e sesso chat online.
         </p>
       </article>
-      <section className="resource-grid" aria-label="Argomenti più cercati">
+      <section className="resource-grid" aria-label="Argomenti piÃ¹ cercati">
         {argomentiHubCards.map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
@@ -122,7 +142,7 @@ export default function RisorsePage() {
       <article className="page-card">
         <h2>Siti webcam</h2>
         <p>
-          La sezione siti raccoglie guide già pubblicate per valutare webcam live, cam gratis, chat
+          La sezione siti raccoglie guide giÃ  pubblicate per valutare webcam live, cam gratis, chat
           private, accesso mobile, navigazione senza registrazione, pagamenti e modelli verificati.
         </p>
       </article>
@@ -151,7 +171,7 @@ export default function RisorsePage() {
       <article className="page-card">
         <h2>Aree previste</h2>
         <p>
-          Le sezioni seguenti sono pianificate per fasi successive e non sono ancora linkate perché
+          Le sezioni seguenti sono pianificate per fasi successive e non sono ancora linkate perchÃ©
           non vogliamo creare pagine vuote o percorsi interrotti.
         </p>
         <ul>
@@ -163,3 +183,5 @@ export default function RisorsePage() {
     </PageShell>
   );
 }
+
+

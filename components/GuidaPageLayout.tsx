@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { EditorialChecklist } from "@/components/EditorialChecklist";
 import { FAQSection } from "@/components/FAQSection";
 import { GuidaCardGrid } from "@/components/GuidaCardGrid";
@@ -60,13 +60,13 @@ export function GuidaPageLayout({ page }: GuidaPageLayoutProps) {
       <GuidaCardGrid
         id="guida-collegate-title"
         title="Guide collegate"
-        copy="Approfondisci solo pagine già disponibili nella sezione guida."
+        copy="Approfondisci solo pagine giÃ  disponibili nella sezione guida."
         cards={related}
       />
       <GuidaCardGrid
         id="siti-collegati-title"
         title="Percorsi siti collegati"
-        copy="Consulta anche le pagine /siti già pubblicate per leggere lo stesso tema da un punto di vista pratico."
+        copy="Consulta anche le pagine /siti giÃ  pubblicate per leggere lo stesso tema da un punto di vista pratico."
         cards={relatedSiti}
       />
       <section className="section">
@@ -92,7 +92,7 @@ export function GuidaPageLayout({ page }: GuidaPageLayoutProps) {
             <h2>Informazioni senza promesse inventate</h2>
             <p>
               Le guide spiegano criteri e controlli utili, ma le condizioni operative restano quelle
-              della piattaforma partner. Prezzi, disponibilità e funzioni possono variare.
+              della piattaforma live. Prezzi, disponibilitÃ  e funzioni possono variare.
             </p>
           </article>
         </div>
@@ -101,7 +101,7 @@ export function GuidaPageLayout({ page }: GuidaPageLayoutProps) {
       <section className="section">
         <div className="container">
           <div className="cta-band">
-            <p className="section-kicker">Accesso partner</p>
+            <p className="section-kicker">accesso live</p>
             <h2>{page.ctaTitle}</h2>
             <p>{page.ctaCopy}</p>
             <div className="hero-actions">
@@ -118,3 +118,5 @@ export function GuidaPageLayout({ page }: GuidaPageLayoutProps) {
     </>
   );
 }
+
+

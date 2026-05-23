@@ -34,7 +34,7 @@ export default function PoliticaEditorialePage() {
         <p>
           Non pubblichiamo recensioni false, voti inventati, conteggi non verificati o affermazioni
           di test diretto quando non esiste una verifica reale. Le informazioni sui modelli vengono
-          mostrate solo se arrivano da un feed partner configurato.
+          mostrate solo quando provengono da una fonte reale configurata.
         </p>
       </article>
       <article className="page-card">

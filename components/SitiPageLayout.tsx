@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { EditorialChecklist } from "@/components/EditorialChecklist";
 import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
@@ -52,7 +52,7 @@ export function SitiPageLayout({ page }: SitiPageLayoutProps) {
       <section className="section">
         <div className="container">
           <div className="cta-band">
-            <p className="section-kicker">Accesso partner</p>
+            <p className="section-kicker">accesso live</p>
             <h2>{page.ctaTitle}</h2>
             <p>{page.ctaCopy}</p>
             <div className="hero-actions">
@@ -69,3 +69,5 @@ export function SitiPageLayout({ page }: SitiPageLayoutProps) {
     </>
   );
 }
+
+

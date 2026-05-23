@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CategorieCardGrid } from "@/components/CategorieCardGrid";
 import { CategorieHero } from "@/components/CategorieHero";
 import { CategoryFilterGuide } from "@/components/CategoryFilterGuide";
@@ -53,7 +53,7 @@ export function CategoriePageLayout({ page }: CategoriePageLayoutProps) {
       <section className="section">
         <div className="container">
           <div className="cta-band">
-            <p className="section-kicker">Accesso partner</p>
+            <p className="section-kicker">accesso live</p>
             <h2>{page.ctaTitle}</h2>
             <p>{page.ctaCopy}</p>
             <div className="hero-actions">
@@ -70,3 +70,5 @@ export function CategoriePageLayout({ page }: CategoriePageLayoutProps) {
     </>
   );
 }
+
+

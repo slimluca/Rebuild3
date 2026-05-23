@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --bg: #080606;
   --bg-soft: #100b0b;
   --surface: #15100f;
@@ -236,7 +236,7 @@ p {
 .guide-card,
 .resource-card,
 .model-card,
-.fallback-panel,
+.live-empty-panel,
 .page-card,
 .contact-form {
   border: 1px solid var(--border);
@@ -366,7 +366,7 @@ p {
   margin-top: auto;
 }
 
-.fallback-panel {
+.live-empty-panel {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -375,19 +375,19 @@ p {
   background: linear-gradient(135deg, rgba(42, 23, 18, 0.88), rgba(23, 18, 18, 0.98));
 }
 
-.fallback-actions {
+.live-empty-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: flex-end;
 }
 
-.fallback-panel h3 {
+.live-empty-panel h3 {
   margin: 0 0 6px;
   font-size: 1.2rem;
 }
 
-.fallback-panel p {
+.live-empty-panel p {
   margin: 0;
   color: var(--text-muted);
 }
@@ -795,7 +795,7 @@ p {
   .siti-hero-panel,
   .hero-panel,
   .cta-band,
-  .fallback-panel,
+  .live-empty-panel,
   .section-header {
     width: 100%;
     max-width: calc(100vw - 24px);
@@ -820,8 +820,8 @@ p {
 
   .section-header h2,
   .section-header p,
-  .fallback-panel h3,
-  .fallback-panel p {
+  .live-empty-panel h3,
+  .live-empty-panel p {
     max-width: 100%;
     overflow-wrap: break-word;
   }
@@ -839,24 +839,24 @@ p {
 
   .hero-actions,
   .section-header,
-  .fallback-panel {
+  .live-empty-panel {
     align-items: stretch;
     flex-direction: column;
   }
 
-  .fallback-panel {
+  .live-empty-panel {
     grid-template-columns: 1fr;
   }
 
-  .fallback-actions {
+  .live-empty-actions {
     flex-direction: column;
     justify-content: stretch;
   }
 
   .hero-actions .button,
   .hero-actions .button-secondary,
-  .fallback-panel .button,
-  .fallback-panel .button-secondary {
+  .live-empty-panel .button,
+  .live-empty-panel .button-secondary {
     width: 100%;
   }
 
@@ -1184,7 +1184,7 @@ body {
 .contact-form,
 .rich-panel,
 .cta-band,
-.fallback-panel {
+.live-empty-panel {
   border-radius: 10px;
   box-shadow: 0 16px 42px rgba(0, 0, 0, 0.18);
 }
@@ -1472,3 +1472,5 @@ body {
     font-size: 0.74rem;
   }
 }
+
+

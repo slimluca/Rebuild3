@@ -49,7 +49,7 @@ export const sitiPages: SitiPage[] = [
         title: "Disponibilità dei modelli e informazioni reali",
         paragraphs: [
           "La disponibilità dei modelli webcam live può cambiare in base alla piattaforma, all'orario e alle impostazioni del servizio. Per questo SessoChat.net non inventa stati online, punteggi o conteggi spettatori.",
-          "Quando il feed partner è configurato, le schede mostrano solo dati ricevuti dal feed. Quando non ci sono dati, è preferibile mostrare una nota chiara invece di riempire la pagina con profili fittizi."
+          "Quando sono disponibili, le schede mostrano solo profili reali. Quando non ci sono modelli visibili, è preferibile mostrare un accesso live discreto invece di profili fittizi."
         ]
       },
       {
@@ -99,7 +99,7 @@ export const sitiPages: SitiPage[] = [
     ],
     ctaTitle: "Vuoi valutare le opzioni live disponibili?",
     ctaCopy:
-      "Apri la piattaforma partner tramite il percorso interno e controlla anteprime, accesso mobile e condizioni prima di registrarti.",
+      "Apri la piattaforma live tramite il percorso interno e controlla anteprime, accesso mobile e condizioni prima di registrarti.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Valuta le opzioni live"
   },
@@ -176,7 +176,7 @@ export const sitiPages: SitiPage[] = [
     ],
     ctaTitle: "Controlla le anteprime disponibili con calma",
     ctaCopy:
-      "Usa l'accesso interno per esplorare la piattaforma partner e distinguere anteprima gratuita, registrazione e funzioni a pagamento.",
+      "Usa l'accesso interno per esplorare la piattaforma live e distinguere anteprima gratuita, registrazione e funzioni a pagamento.",
     ctaHref: "/go/signup",
     ctaLabel: "Guarda le opzioni disponibili"
   },
@@ -242,7 +242,7 @@ export const sitiPages: SitiPage[] = [
       {
         question: "SessoChat.net mostra costi ufficiali?",
         answer:
-          "No, se non disponibili da fonti reali e aggiornate. Le condizioni economiche vanno sempre controllate sulla piattaforma partner."
+          "No, se non disponibili da fonti reali e aggiornate. Le condizioni economiche vanno sempre controllate sulla piattaforma live."
       }
     ],
     related: [
@@ -253,9 +253,9 @@ export const sitiPages: SitiPage[] = [
     ],
     ctaTitle: "Apri la piattaforma con un percorso ordinato",
     ctaCopy:
-      "Valuta anteprime, account e condizioni della chat privata direttamente sulla piattaforma partner prima di usare funzioni avanzate.",
+      "Valuta anteprime, account e condizioni della chat privata direttamente sulla piattaforma live prima di usare funzioni avanzate.",
     ctaHref: "/go/livejasmin",
-    ctaLabel: "Apri la piattaforma partner"
+    ctaLabel: "Apri la piattaforma live"
   },
   {
     slug: "siti-webcam-mobile",
@@ -330,7 +330,7 @@ export const sitiPages: SitiPage[] = [
     ],
     ctaTitle: "Esplora da mobile con attenzione",
     ctaCopy:
-      "Apri il percorso partner e controlla leggibilità, velocità e informazioni principali dal tuo dispositivo.",
+      "Apri il percorso interno e controlla leggibilità, velocità e informazioni principali dal tuo dispositivo.",
     ctaHref: "/go/signup",
     ctaLabel: "Scopri le chat webcam live"
   },
@@ -407,7 +407,7 @@ export const sitiPages: SitiPage[] = [
     ],
     ctaTitle: "Osserva prima di creare un account",
     ctaCopy:
-      "Accedi tramite percorso interno e valuta cosa è visibile prima della registrazione sulla piattaforma partner.",
+      "Accedi tramite percorso interno e valuta cosa è visibile prima della registrazione sulla piattaforma live.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Valuta le opzioni live"
   },
@@ -484,7 +484,7 @@ export const sitiPages: SitiPage[] = [
     ],
     ctaTitle: "Controlla le opzioni prima del pagamento",
     ctaCopy:
-      "Apri la piattaforma partner e verifica quali passaggi sono disponibili prima di inserire un metodo di pagamento.",
+      "Apri la piattaforma live e verifica quali passaggi sono disponibili prima di inserire un metodo di pagamento.",
     ctaHref: "/go/signup",
     ctaLabel: "Entra tramite accesso sicuro"
   },
@@ -561,7 +561,7 @@ export const sitiPages: SitiPage[] = [
     ],
     ctaTitle: "Inizia con una panoramica ordinata",
     ctaCopy:
-      "Apri la piattaforma partner solo quando hai chiaro che cosa vuoi valutare: anteprime, profili, accesso mobile e condizioni.",
+      "Apri la piattaforma live solo quando hai chiaro che cosa vuoi valutare: anteprime, profili, accesso mobile e condizioni.",
     ctaHref: "/go/signup",
     ctaLabel: "Scopri le chat webcam live"
   },
@@ -575,7 +575,7 @@ export const sitiPages: SitiPage[] = [
       "Guida italiana sui siti webcam con modelli verificati: controlli della piattaforma, fiducia, sicurezza, profili reali e limiti da considerare.",
     kicker: "Verifica e fiducia",
     intro:
-      "La verifica dei modelli e importante perché aiuta una piattaforma a ridurre profili falsi, presentazioni ambigue e contenuti non controllati. SessoChat.net parla di verifica in termini generali e non attribuisce etichette a singoli profili se il feed non fornisce dati reali.",
+      "La verifica dei modelli e importante perché aiuta una piattaforma a ridurre profili falsi, presentazioni ambigue e contenuti non controllati. SessoChat.net parla di verifica in termini generali e non attribuisce etichette a singoli profili senza dati affidabili.",
     sections: [
       {
         title: "Che cosa può indicare la verifica",
@@ -595,7 +595,7 @@ export const sitiPages: SitiPage[] = [
         title: "Limiti da ricordare",
         paragraphs: [
           "Anche quando una piattaforma parla di modelli verificati, disponibilità, profili e funzioni possono cambiare. Non bisogna inventare garanzie individuali o stati non mostrati da dati reali.",
-          "Quando il feed partner non include una specifica informazione, SessoChat.net preferisce non mostrarla invece di riempire la scheda con dettagli non verificati."
+          "Quando una specifica informazione non è affidabile, SessoChat.net preferisce non mostrarla invece di riempire la scheda con note non verificate."
         ]
       }
     ],
@@ -606,7 +606,7 @@ export const sitiPages: SitiPage[] = [
       "La piattaforma spiega regole e controlli in modo comprensibile.",
       "Le schede non usano voti o promesse non verificabili.",
       "Esistono informazioni su supporto, segnalazioni o gestione account.",
-      "La pagina distingue dati reali del feed da contenuti editoriali."
+      "La pagina distingue profili reali da contenuti editoriali."
     ],
     faq: [
       {
@@ -617,7 +617,7 @@ export const sitiPages: SitiPage[] = [
       {
         question: "SessoChat.net verifica direttamente i modelli?",
         answer:
-          "No. Il sito non gestisce i profili e non inventa etichette. Mostra solo dati reali quando disponibili dal feed o dalla piattaforma."
+          "No. Il sito non gestisce i profili e non inventa etichette. Mostra solo dati reali quando disponibili."
       },
       {
         question: "La verifica elimina ogni rischio?",
@@ -627,7 +627,7 @@ export const sitiPages: SitiPage[] = [
       {
         question: "Posso vedere quali modelli sono verificati?",
         answer:
-          "Solo se la piattaforma o il feed forniscono quel dato in modo chiaro. In assenza di dato, non viene inventato."
+          "Solo se la piattaforma fornisce quel dato in modo chiaro. In assenza di dato, non viene inventato."
       }
     ],
     related: [
@@ -638,9 +638,9 @@ export const sitiPages: SitiPage[] = [
     ],
     ctaTitle: "Esplora profili e regole con attenzione",
     ctaCopy:
-      "Usa il percorso interno per aprire la piattaforma partner e valutare come presenta profili, controlli e informazioni disponibili.",
+      "Usa il percorso interno per aprire la piattaforma live e valutare come presenta profili, controlli e informazioni disponibili.",
     ctaHref: "/go/livejasmin",
-    ctaLabel: "Apri la piattaforma partner"
+    ctaLabel: "Apri la piattaforma live"
   }
 ];
 
@@ -701,3 +701,5 @@ export const sitiPublicPages = [
   { path: "/siti", label: "Siti webcam" },
   ...sitiPages.map((page) => ({ path: page.path, label: page.navTitle }))
 ];
+
+
