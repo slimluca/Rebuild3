@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { isLegacyGonePath } from "@/lib/legacy-gone-paths";
+import { isValidPublicPath, normalizePublicPath } from "@/lib/valid-public-paths";
 
 const goneBody = `<!doctype html>
 <html lang="it">
@@ -18,8 +18,22 @@ const goneBody = `<!doctype html>
   </body>
 </html>`;
 
+const staticFilePattern = /\.(css|js|map|png|jpg|jpeg|webp|svg|gif|ico|txt|xml|json|woff|woff2)$/i;
+
+function shouldBypassMiddleware(pathname: string) {
+  const normalizedPath = normalizePublicPath(pathname);
+
+  return (
+    normalizedPath.startsWith("/_next/") ||
+    normalizedPath.startsWith("/go/") ||
+    normalizedPath === "/go" ||
+    staticFilePattern.test(normalizedPath) ||
+    isValidPublicPath(normalizedPath)
+  );
+}
+
 export function middleware(request: NextRequest) {
-  if (!isLegacyGonePath(request.nextUrl.pathname)) {
+  if (shouldBypassMiddleware(request.nextUrl.pathname)) {
     return NextResponse.next();
   }
 

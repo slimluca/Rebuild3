@@ -9,7 +9,7 @@ import { ricercheHubCards } from "@/lib/ricerche-pages";
 import { sitiHubCards } from "@/lib/siti-pages";
 
 const description =
-  "Risorse SessoChat.net con guide pratiche, siti webcam live, pagine editoriali e collegamenti utili per scegliere chat webcam con piÃ¹ controllo.";
+  "Risorse SessoChat.net con guide pratiche, siti webcam live, pagine editoriali e collegamenti utili per scegliere chat webcam con più controllo.";
 
 export const metadata: Metadata = {
   title: "Risorse Chat Webcam: Guide, Siti e Pagine Utili",
@@ -50,13 +50,13 @@ export default function RisorsePage() {
   return (
     <PageShell path="/risorse" title="Risorse" description={description}>
       <article className="page-card">
-        <h2>Ricerche piÃ¹ cercate</h2>
+        <h2>Ricerche più cercate</h2>
         <p>
           Le ricerche raccolgono pagine rapide su chat webcam gratis, live, mobile, senza account,
           alternative LiveJasmin e sesso chat webcam con tono discreto.
         </p>
       </article>
-      <section className="resource-grid" aria-label="Ricerche piÃ¹ cercate">
+      <section className="resource-grid" aria-label="Ricerche più cercate">
         {ricercheHubCards.map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
@@ -68,13 +68,13 @@ export default function RisorsePage() {
         ))}
       </section>
       <article className="page-card">
-        <h2>Argomenti piÃ¹ cercati</h2>
+        <h2>Argomenti più cercati</h2>
         <p>
           Le pagine argomento rispondono a ricerche dirette su chat webcam, registrazione, carta di
           credito, LiveJasmin Italia, mobile, anteprime e sesso chat online.
         </p>
       </article>
-      <section className="resource-grid" aria-label="Argomenti piÃ¹ cercati">
+      <section className="resource-grid" aria-label="Argomenti più cercati">
         {argomentiHubCards.map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
@@ -142,7 +142,7 @@ export default function RisorsePage() {
       <article className="page-card">
         <h2>Siti webcam</h2>
         <p>
-          La sezione siti raccoglie guide giÃ  pubblicate per valutare webcam live, cam gratis, chat
+          La sezione siti raccoglie guide già pubblicate per valutare webcam live, cam gratis, chat
           private, accesso mobile, navigazione senza registrazione, pagamenti e modelli verificati.
         </p>
       </article>
@@ -171,7 +171,7 @@ export default function RisorsePage() {
       <article className="page-card">
         <h2>Aree previste</h2>
         <p>
-          Le sezioni seguenti sono pianificate per fasi successive e non sono ancora linkate perchÃ©
+          Le sezioni seguenti sono pianificate per fasi successive e non sono ancora linkate perché
           non vogliamo creare pagine vuote o percorsi interrotti.
         </p>
         <ul>

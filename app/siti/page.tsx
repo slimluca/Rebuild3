@@ -22,7 +22,7 @@ const hubFaq = [
   {
     question: "Le pagine indicano quali funzioni sono gratis?",
     answer:
-      "Spiegano come leggere anteprime, registrazione e funzioni private. Le condizioni precise possono variare e vanno sempre controllate sulla piattaforma."
+      "Spiegano come leggere anteprime, registrazione e funzioni private. Le condizioni precise vanno sempre controllate sulla piattaforma."
   },
   {
     question: "Perche i modelli live sono vicini all'inizio pagina?",

@@ -7,8 +7,8 @@
           <h2>Come scegliere un sito webcam live</h2>
           <p>
             Una piattaforma affidabile dovrebbe rendere chiari accesso, funzioni disponibili prima
-            della registrazione, condizioni della chat privata webcam, compatibilitÃ  mobile e
-            percorso di pagamento. Per un principiante, la prioritÃ  non Ã¨ entrare in fretta: Ã¨
+            della registrazione, condizioni della chat privata webcam, compatibilità mobile e
+            percorso di pagamento. Per un principiante, la priorità non è entrare in fretta: è
             capire cosa succede dopo il primo clic.
           </p>
           <ul className="check-list">
@@ -19,7 +19,7 @@
         </div>
         <div className="rich-panel" id="privacy-title">
           <p className="section-kicker">Privacy e navigazione</p>
-          <h2>Le basi per restare piÃ¹ tranquilli</h2>
+          <h2>Le basi per restare più tranquilli</h2>
           <p>
             SessoChat.net usa un tono adult-safe e invita a trattare ogni videochat adulti come un
             servizio esterno da valutare con attenzione. Prima di registrarti, leggi le condizioni

@@ -10,7 +10,7 @@ import { ModelGrid } from "@/components/ModelGrid";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { categorieHubCards } from "@/lib/categorie-pages";
 
-const title = "Categorie Modelli Webcam Live: Esplora le Opzioni con PiÃ¹ Criterio";
+const title = "Categorie Modelli Webcam Live: Esplora le Opzioni con Più Criterio";
 const description =
   "Esplora categorie di modelli webcam live, profili online, opzioni mobile, modelli verificati e chat cam disponibili tramite una guida italiana discreta.";
 
@@ -23,12 +23,12 @@ const hubFaq = [
   {
     question: "SessoChat.net inventa attributi dei modelli?",
     answer:
-      "No. Non inventiamo nomi, stati, etÃ , provenienza, popolaritÃ , valutazioni o caratteristiche personali."
+      "No. Non inventiamo nomi, stati, età, provenienza, popolarità, valutazioni o caratteristiche personali."
   },
   {
-    question: "PerchÃ© alcune categorie usano un linguaggio prudente?",
+    question: "Perché alcune categorie usano un linguaggio prudente?",
     answer:
-      "PerchÃ© filtri come aspetto, etÃ  o provenienza devono essere verificati sulla piattaforma live e non dedotti."
+      "Perché filtri come aspetto, età o provenienza devono essere verificati sulla piattaforma live e non dedotti."
   },
   {
     question: "I link interni sono diretti?",
@@ -89,7 +89,7 @@ export default function CategorieHubPage() {
         steps={[
           "Controlla se il filtro esiste sulla piattaforma live.",
           "Non attribuire caratteristiche non indicate dal flusso dati o dal sito ufficiale.",
-          "Verifica disponibilitÃ , privacy e condizioni prima della chat privata.",
+          "Verifica disponibilità, privacy e condizioni prima della chat privata.",
           "Usa le guide interne per confrontare siti, prezzi e sicurezza."
         ]}
       />

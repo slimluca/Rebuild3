@@ -11,7 +11,7 @@ export function Hero() {
             <p>
               SessoChat.net aiuta gli adulti a confrontare opzioni di webcam live prima della
               registrazione: chat privata, accesso mobile, privacy, modelli verificati, anteprime
-              gratuite e navigazione piÃ¹ consapevole, con un linguaggio discreto e utile.
+              gratuite e navigazione più consapevole, con un linguaggio discreto e utile.
             </p>
             <div className="hero-badges" aria-label="Punti di orientamento">
               <span>Privacy prima dell&apos;accesso</span>

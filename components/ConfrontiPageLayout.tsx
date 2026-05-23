@@ -48,7 +48,7 @@ export function ConfrontiPageLayout({ page }: ConfrontiPageLayoutProps) {
       <ConfrontiCardGrid
         id="confronti-related-title"
         title="Approfondimenti collegati"
-        copy="Link interni a pagine giÃ  pubblicate, senza percorsi futuri o pagine vuote."
+        copy="Link interni a pagine già pubblicate, senza percorsi futuri o pagine vuote."
         cards={page.relatedLinks}
       />
       <FAQSection items={page.faq} />

@@ -113,7 +113,7 @@ export const sitiPages: SitiPage[] = [
       "Guida italiana ai siti cam gratis: cosa significa accesso gratuito, quali limiti aspettarsi e quando possono servire registrazione o crediti.",
     kicker: "Anteprime gratuite",
     intro:
-      "Nel contesto delle chat webcam, la parola gratis va interpretata con attenzione. Spesso indica la possibilità di vedere anteprime, esplorare alcune aree o capire l'interfaccia prima di registrarsi, non l'accesso completo a tutte le funzioni. Le condizioni possono variare da piattaforma a piattaforma.",
+      "Nel contesto delle chat webcam, la parola gratis va interpretata con attenzione. Spesso indica la possibilità di vedere anteprime, esplorare alcune aree o capire l'interfaccia prima di registrarsi, non l'accesso completo a tutte le funzioni. Le condizioni vanno sempre lette prima di usare funzioni private.",
     sections: [
       {
         title: "Che cosa può essere gratuito",

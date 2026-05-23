@@ -9,7 +9,7 @@ import { ModelGrid } from "@/components/ModelGrid";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { guidaHubCards } from "@/lib/guida-pages";
 
-const title = "Guida Chat Webcam: Consigli Italiani per Scegliere con PiÃ¹ Controllo";
+const title = "Guida Chat Webcam: Consigli Italiani per Scegliere con Più Controllo";
 const description =
   "Guide italiane per capire chat webcam live, privacy, registrazione, pagamenti, modelli verificati e differenze tra chat gratis e private prima di entrare.";
 
@@ -27,12 +27,12 @@ const hubFaq = [
   {
     question: "I modelli live sono mostrati anche nelle guide?",
     answer:
-      "SÃ¬. Ogni pagina guida mostra i modelli live direttamente sotto l'introduzione con schede reali quando disponibili."
+      "Sì. Ogni pagina guida mostra i modelli live direttamente sotto l'introduzione con schede reali quando disponibili."
   },
   {
     question: "Le guide sostituiscono le condizioni delle piattaforme live?",
     answer:
-      "No. Aiutano a leggere meglio le piattaforme, ma prezzi, disponibilitÃ  e regole operative vanno sempre controllati sul servizio esterno."
+      "No. Aiutano a leggere meglio le piattaforme, ma prezzi, disponibilità e regole operative vanno sempre controllati sul servizio esterno."
   }
 ];
 
@@ -84,7 +84,7 @@ export default function GuidaHubPage() {
             <p className="section-kicker">Metodo</p>
             <h2>Come usare queste guide</h2>
             <p>
-              Parti dalla domanda piÃ¹ vicina alla tua situazione: scegliere un sito, capire i
+              Parti dalla domanda più vicina alla tua situazione: scegliere un sito, capire i
               prezzi, navigare senza registrazione o proteggere meglio privacy e dispositivo.
             </p>
             <p>
@@ -113,7 +113,7 @@ export default function GuidaHubPage() {
       </section>
       <EditorialChecklist
         title="Criteri da tenere sempre presenti"
-        intro="Le guide tornano spesso sugli stessi principi perchÃ© sono quelli che riducono davvero la confusione."
+        intro="Le guide tornano spesso sugli stessi principi perché sono quelli che riducono davvero la confusione."
         items={[
           "Distingui anteprima, registrazione, crediti e funzioni private.",
           "Controlla privacy del browser e del dispositivo prima di registrarti.",

@@ -60,13 +60,13 @@ export function GuidaPageLayout({ page }: GuidaPageLayoutProps) {
       <GuidaCardGrid
         id="guida-collegate-title"
         title="Guide collegate"
-        copy="Approfondisci solo pagine giÃ  disponibili nella sezione guida."
+        copy="Approfondisci solo pagine già disponibili nella sezione guida."
         cards={related}
       />
       <GuidaCardGrid
         id="siti-collegati-title"
         title="Percorsi siti collegati"
-        copy="Consulta anche le pagine /siti giÃ  pubblicate per leggere lo stesso tema da un punto di vista pratico."
+        copy="Consulta anche le pagine /siti già pubblicate per leggere lo stesso tema da un punto di vista pratico."
         cards={relatedSiti}
       />
       <section className="section">
@@ -92,7 +92,7 @@ export function GuidaPageLayout({ page }: GuidaPageLayoutProps) {
             <h2>Informazioni senza promesse inventate</h2>
             <p>
               Le guide spiegano criteri e controlli utili, ma le condizioni operative restano quelle
-              della piattaforma live. Prezzi, disponibilitÃ  e funzioni possono variare.
+              della piattaforma live. Prezzi, disponibilità e funzioni vanno sempre controllati.
             </p>
           </article>
         </div>

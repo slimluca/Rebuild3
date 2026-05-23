@@ -40,7 +40,7 @@ export function ArgomentiPageLayout({ page }: ArgomentiPageLayoutProps) {
       />
       <ArgomentiCardGrid
         title="Approfondisci il percorso"
-        copy="Risorse giÃ  pubblicate per passare dalla risposta rapida a guide, categorie e confronti piÃ¹ completi."
+        copy="Risorse già pubblicate per passare dalla risposta rapida a guide, categorie e confronti più completi."
         cards={page.relatedLinks}
       />
       <FAQSection items={page.faq} />

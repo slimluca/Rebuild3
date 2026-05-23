@@ -36,7 +36,7 @@ export const guidaPages: GuidaPage[] = [
       "Scopri come valutare un sito webcam live prima della registrazione: privacy, anteprime, modelli verificati, costi, accesso mobile e sicurezza.",
     kicker: "Metodo di scelta",
     intro:
-      "Scegliere un sito webcam non significa inseguire il primo pulsante visibile. Per un adulto che vuole orientarsi con calma, contano chiarezza delle anteprime, privacy, compatibilitÃ  mobile, informazioni sui costi e modo in cui la piattaforma presenta modelli e funzioni private.",
+      "Scegliere un sito webcam non significa inseguire il primo pulsante visibile. Per un adulto che vuole orientarsi con calma, contano chiarezza delle anteprime, privacy, compatibilità mobile, informazioni sui costi e modo in cui la piattaforma presenta modelli e funzioni private.",
     sections: [
       {
         title: "Parti dal percorso, non dalla promessa",
@@ -48,7 +48,7 @@ export const guidaPages: GuidaPage[] = [
       {
         title: "Anteprime, profili e modelli verificati",
         paragraphs: [
-          "Le anteprime aiutano a capire ambiente, qualitÃ  dell'interfaccia e disponibilitÃ  dei profili. Non devono perÃ² essere confuse con un accesso completo a tutte le funzioni della piattaforma.",
+          "Le anteprime aiutano a capire ambiente, qualità dell'interfaccia e disponibilità dei profili. Non devono però essere confuse con un accesso completo a tutte le funzioni della piattaforma.",
           "Quando un sito parla di modelli verificati, cerca informazioni sul processo generale e sui controlli della piattaforma. SessoChat.net non attribuisce etichette di verifica a singoli profili senza una fonte affidabile."
         ]
       },
@@ -64,7 +64,7 @@ export const guidaPages: GuidaPage[] = [
     checklistIntro:
       "Usa questa sequenza prima di registrarti o aprire funzioni avanzate.",
     checklist: [
-      "Capisci che cosa Ã¨ anteprima e che cosa richiede account.",
+      "Capisci che cosa è anteprima e che cosa richiede account.",
       "Trovi informazioni su crediti, pagamento e condizioni prima dell'uso privato.",
       "La pagina funziona bene da mobile senza pulsanti confusi.",
       "Le informazioni su privacy, assistenza e regole sono raggiungibili.",
@@ -72,7 +72,7 @@ export const guidaPages: GuidaPage[] = [
     ],
     faq: [
       {
-        question: "Qual Ã¨ il criterio piÃ¹ importante per scegliere un sito webcam?",
+        question: "Qual è il criterio più importante per scegliere un sito webcam?",
         answer:
           "La chiarezza del percorso: anteprime, registrazione, funzioni private, costi e privacy devono essere separati e comprensibili."
       },
@@ -89,7 +89,7 @@ export const guidaPages: GuidaPage[] = [
       {
         question: "Meglio scegliere da desktop o mobile?",
         answer:
-          "Entrambi vanno bene. Da mobile controlla con piÃ¹ attenzione leggibilitÃ , privacy del dispositivo e chiarezza dei pagamenti."
+          "Entrambi vanno bene. Da mobile controlla con più attenzione leggibilità, privacy del dispositivo e chiarezza dei pagamenti."
       }
     ],
     related: [
@@ -98,7 +98,7 @@ export const guidaPages: GuidaPage[] = [
       "prezzi-chat-webcam",
       "modelli-webcam-verificati"
     ],
-    ctaTitle: "Valuta la piattaforma con piÃ¹ contesto",
+    ctaTitle: "Valuta la piattaforma con più contesto",
     ctaCopy:
       "Apri l'accesso live solo dopo aver controllato anteprime, profili, mobile e condizioni principali.",
     ctaHref: "/go/livejasmin",
@@ -111,7 +111,7 @@ export const guidaPages: GuidaPage[] = [
     h1: "Chat Webcam Sicura: Cosa Controllare Prima di Registrarti",
     metaTitle: "Chat Webcam Sicura: Privacy, Pagamenti e Controlli da Verificare",
     description:
-      "Consigli per usare una chat webcam in modo piÃ¹ consapevole, valutando privacy, pagamenti, account, impostazioni e segnali di affidabilitÃ .",
+      "Consigli per usare una chat webcam in modo più consapevole, valutando privacy, pagamenti, account, impostazioni e segnali di affidabilità.",
     kicker: "Privacy e controllo",
     intro:
       "Una chat webcam sicura non dipende da una singola promessa. Dipende da segnali concreti: informazioni chiare, pagamenti leggibili, impostazioni dell'account, browser aggiornato, dispositivi personali e un atteggiamento prudente prima della registrazione.",
@@ -127,11 +127,11 @@ export const guidaPages: GuidaPage[] = [
         title: "Pagamenti visibili prima dell'azione",
         paragraphs: [
           "I pagamenti devono essere comprensibili prima di usare funzioni private. Cerca informazioni su crediti, conferme, pacchetti, saldo e gestione dell'account.",
-          "Una piattaforma che rende poco chiari costi o passaggi economici merita piÃ¹ attenzione. Non inserire dati se non hai capito cosa stai attivando."
+          "Una piattaforma che rende poco chiari costi o passaggi economici merita più attenzione. Non inserire dati se non hai capito cosa stai attivando."
         ]
       },
       {
-        title: "Segnali editoriali di affidabilitÃ ",
+        title: "Segnali editoriali di affidabilità",
         paragraphs: [
           "Pagine ordinate, regole disponibili, link di supporto, tono non aggressivo e assenza di recensioni inventate aiutano a leggere meglio il servizio.",
           "SessoChat.net mantiene un approccio informativo: non promette sicurezza assoluta e non sostituisce le condizioni ufficiali delle piattaforme live."
@@ -150,14 +150,14 @@ export const guidaPages: GuidaPage[] = [
     ],
     faq: [
       {
-        question: "Una chat webcam puÃ² essere completamente anonima?",
+        question: "Una chat webcam può essere completamente anonima?",
         answer:
-          "Ãˆ meglio non ragionare in termini assoluti. Privacy e discrezione dipendono da piattaforma, dispositivo, browser, pagamento e abitudini personali."
+          "È meglio non ragionare in termini assoluti. Privacy e discrezione dipendono da piattaforma, dispositivo, browser, pagamento e abitudini personali."
       },
       {
         question: "Quali dati devo controllare prima di registrarmi?",
         answer:
-          "Controlla quali dati sono richiesti, perchÃ© servono, come accedere all'account e dove gestire impostazioni o eventuali pagamenti."
+          "Controlla quali dati sono richiesti, perché servono, come accedere all'account e dove gestire impostazioni o eventuali pagamenti."
       },
       {
         question: "I link interni /go/ sono visibili ai motori di ricerca?",
@@ -167,7 +167,7 @@ export const guidaPages: GuidaPage[] = [
       {
         question: "SessoChat.net garantisce la sicurezza delle piattaforme esterne?",
         answer:
-          "No. Il sito offre criteri editoriali per valutare meglio, ma ogni piattaforma esterna mantiene regole, disponibilitÃ  e condizioni proprie."
+          "No. Il sito offre criteri editoriali per valutare meglio, ma ogni piattaforma esterna mantiene regole, disponibilità e condizioni proprie."
       }
     ],
     related: [
@@ -192,27 +192,27 @@ export const guidaPages: GuidaPage[] = [
       "Guida italiana alle webcam senza registrazione: cosa puoi vedere prima di creare un account, quali limiti aspettarti e quando serve iscriversi.",
     kicker: "Prima dell'account",
     intro:
-      "Cercare webcam senza registrazione Ã¨ normale: prima di creare un account, molti utenti vogliono capire ambiente, profili e funzioni. Il punto Ã¨ distinguere ciÃ² che puÃ² essere visibile in anteprima da ciÃ² che richiede iscrizione o condizioni specifiche.",
+      "Cercare webcam senza registrazione è normale: prima di creare un account, molti utenti vogliono capire ambiente, profili e funzioni. Il punto è distinguere ciò che può essere visibile in anteprima da ciò che richiede iscrizione o condizioni specifiche.",
     sections: [
       {
         title: "Che cosa mostrano di solito le anteprime",
         paragraphs: [
-          "Le anteprime possono aiutare a leggere la piattaforma: layout, profili disponibili, tono del servizio e qualitÃ  della navigazione. Non vanno interpretate come promessa di accesso completo.",
+          "Le anteprime possono aiutare a leggere la piattaforma: layout, profili disponibili, tono del servizio e qualità della navigazione. Non vanno interpretate come promessa di accesso completo.",
           "Ogni sito decide quali aree mostrare senza account. Alcune pagine possono essere aperte, altre possono richiedere registrazione per motivi di gestione, funzioni o controlli adulti."
         ]
       },
       {
         title: "Quando la registrazione diventa necessaria",
         paragraphs: [
-          "Un account puÃ² servire per impostazioni, preferenze, interazioni, crediti o funzioni private. La richiesta Ã¨ piÃ¹ accettabile quando viene spiegata in modo trasparente.",
-          "Se iscrizione, pagamento e chat privata vengono mescolati in modo confuso, Ã¨ meglio fermarsi e cercare condizioni piÃ¹ chiare."
+          "Un account può servire per impostazioni, preferenze, interazioni, crediti o funzioni private. La richiesta è più accettabile quando viene spiegata in modo trasparente.",
+          "Se iscrizione, pagamento e chat privata vengono mescolati in modo confuso, è meglio fermarsi e cercare condizioni più chiare."
         ]
       },
       {
         title: "Come esplorare senza lasciare dati inutili",
         paragraphs: [
-          "Durante la fase di anteprima, evita di inserire informazioni personali se non sai perchÃ© vengono richieste. Controlla cookie, cronologia, notifiche e salvataggio automatico.",
-          "La navigazione senza registrazione Ã¨ utile quando permette di capire; diventa meno utile se spinge rapidamente verso passaggi non spiegati."
+          "Durante la fase di anteprima, evita di inserire informazioni personali se non sai perché vengono richieste. Controlla cookie, cronologia, notifiche e salvataggio automatico.",
+          "La navigazione senza registrazione è utile quando permette di capire; diventa meno utile se spinge rapidamente verso passaggi non spiegati."
         ]
       }
     ],
@@ -221,7 +221,7 @@ export const guidaPages: GuidaPage[] = [
       "Verifica se l'anteprima ti ha dato informazioni sufficienti per proseguire.",
     checklist: [
       "Hai capito quali funzioni restano disponibili senza account.",
-      "La piattaforma spiega perchÃ© chiede registrazione.",
+      "La piattaforma spiega perché chiede registrazione.",
       "I pagamenti non compaiono prima di informazioni chiare.",
       "Le impostazioni privacy sono raggiungibili o spiegate.",
       "Sai come uscire o tornare alle pagine informative."
@@ -233,9 +233,9 @@ export const guidaPages: GuidaPage[] = [
           "No. Di solito significa che alcune anteprime o pagine iniziali possono essere viste prima dell'account."
       },
       {
-        question: "PerchÃ© un sito chiede registrazione?",
+        question: "Perché un sito chiede registrazione?",
         answer:
-          "PuÃ² farlo per preferenze, funzioni interattive, gestione account, controlli adulti o pagamenti. Conta la chiarezza della spiegazione."
+          "Può farlo per preferenze, funzioni interattive, gestione account, controlli adulti o pagamenti. Conta la chiarezza della spiegazione."
       },
       {
         question: "Registrarsi comporta subito un pagamento?",
@@ -256,7 +256,7 @@ export const guidaPages: GuidaPage[] = [
     ],
     ctaTitle: "Valuta le anteprime prima dell'iscrizione",
     ctaCopy:
-      "Apri la piattaforma live e controlla cosa Ã¨ visibile prima di creare un account.",
+      "Apri la piattaforma live e controlla cosa è visibile prima di creare un account.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Guarda le opzioni live"
   },
@@ -270,19 +270,19 @@ export const guidaPages: GuidaPage[] = [
       "Capisci come funzionano le chat webcam senza carta di credito, quali anteprime sono disponibili e cosa controllare prima di aggiungere un metodo di pagamento.",
     kicker: "Pagamenti prudenti",
     intro:
-      "Chi cerca chat webcam senza carta di credito vuole spesso esplorare prima di impegnarsi. Ãˆ un approccio sensato, purchÃ© sia chiaro che anteprima, registrazione, crediti e funzioni private possono avere regole diverse.",
+      "Chi cerca chat webcam senza carta di credito vuole spesso esplorare prima di impegnarsi. È un approccio sensato, purché sia chiaro che anteprima, registrazione, crediti e funzioni private possono avere regole diverse.",
     sections: [
       {
-        title: "Che cosa puÃ² essere disponibile senza carta",
+        title: "Che cosa può essere disponibile senza carta",
         paragraphs: [
           "Alcune piattaforme permettono di vedere pagine iniziali, profili o anteprime senza inserire subito un metodo di pagamento. Questo aiuta a capire ambiente e navigazione.",
-          "Non significa perÃ² che ogni funzione sia gratuita o disponibile senza limiti. Chat private, interazioni e crediti possono richiedere passaggi economici."
+          "Non significa però che ogni funzione sia gratuita o disponibile senza limiti. Chat private, interazioni e crediti possono richiedere passaggi economici."
         ]
       },
       {
         title: "Registrazione, crediti e metodo di pagamento",
         paragraphs: [
-          "La registrazione puÃ² essere separata dall'aggiunta di una carta o di un altro metodo di pagamento. Una piattaforma chiara dovrebbe mostrare quando cambia il livello di accesso.",
+          "La registrazione può essere separata dall'aggiunta di una carta o di un altro metodo di pagamento. Una piattaforma chiara dovrebbe mostrare quando cambia il livello di accesso.",
           "Prima di comprare crediti, leggi come vengono consumati, se ci sono conferme e dove puoi controllare saldo o impostazioni dell'account."
         ]
       },
@@ -296,7 +296,7 @@ export const guidaPages: GuidaPage[] = [
     ],
     checklistTitle: "Domande da fare prima del pagamento",
     checklistIntro:
-      "La prudenza migliore Ã¨ distinguere ogni passaggio economico.",
+      "La prudenza migliore è distinguere ogni passaggio economico.",
     checklist: [
       "La piattaforma spiega cosa puoi fare senza carta.",
       "Sai quando servono crediti o funzioni a pagamento.",
@@ -313,12 +313,12 @@ export const guidaPages: GuidaPage[] = [
       {
         question: "La registrazione richiede sempre una carta?",
         answer:
-          "Dipende dalla piattaforma. Alcuni servizi separano account e pagamento, altri chiedono un metodo piÃ¹ presto."
+          "Dipende dalla piattaforma. Alcuni servizi separano account e pagamento, altri chiedono un metodo più presto."
       },
       {
         question: "Che cosa sono i crediti?",
         answer:
-          "Sono un possibile sistema interno usato per funzioni a pagamento. Costi e modalitÃ  devono essere controllati sulla piattaforma."
+          "Sono un possibile sistema interno usato per funzioni a pagamento. Costi e modalità devono essere controllati sulla piattaforma."
       },
       {
         question: "Come evito sorprese economiche?",
@@ -348,7 +348,7 @@ export const guidaPages: GuidaPage[] = [
       "Guida ai prezzi delle chat webcam live: differenza tra anteprime gratuite, crediti, chat private e aspetti da controllare prima di spendere.",
     kicker: "Costi e crediti",
     intro:
-      "I prezzi delle chat webcam non vanno indovinati. Ogni piattaforma puÃ² usare sistemi diversi: anteprime gratuite, crediti, pacchetti, funzioni private e conferme di spesa. Questa guida spiega come leggere i costi senza inventare numeri.",
+      "I prezzi delle chat webcam non vanno indovinati. Ogni piattaforma può usare sistemi diversi: anteprime gratuite, crediti, pacchetti, funzioni private e conferme di spesa. Questa guida spiega come leggere i costi senza inventare numeri.",
     sections: [
       {
         title: "Anteprime gratuite e funzioni a pagamento",
@@ -360,7 +360,7 @@ export const guidaPages: GuidaPage[] = [
       {
         title: "Come leggere crediti e consumo",
         paragraphs: [
-          "I crediti sono spesso un sistema interno per usare funzioni a pagamento. Ãˆ importante capire se vengono consumati per tempo, azione, servizio o altro criterio definito dalla piattaforma.",
+          "I crediti sono spesso un sistema interno per usare funzioni a pagamento. È importante capire se vengono consumati per tempo, azione, servizio o altro criterio definito dalla piattaforma.",
           "Non serve conoscere prezzi inventati: serve sapere dove controllarli, come vengono confermati e come interrompere una funzione quando necessario."
         ]
       },
@@ -401,7 +401,7 @@ export const guidaPages: GuidaPage[] = [
       {
         question: "Conviene acquistare crediti subito?",
         answer:
-          "Meglio prima capire ambiente, profili, regole, controlli e modalitÃ  di consumo dei crediti."
+          "Meglio prima capire ambiente, profili, regole, controlli e modalità di consumo dei crediti."
       }
     ],
     related: [
@@ -420,39 +420,39 @@ export const guidaPages: GuidaPage[] = [
     slug: "modelli-webcam-verificati",
     path: "/guida/modelli-webcam-verificati",
     navTitle: "Modelli webcam verificati",
-    h1: "Modelli Webcam Verificati: Cosa Significa e PerchÃ© Importa",
-    metaTitle: "Modelli Webcam Verificati: PerchÃ© Contano nei Siti Live",
+    h1: "Modelli Webcam Verificati: Cosa Significa e Perché Importa",
+    metaTitle: "Modelli Webcam Verificati: Perché Contano nei Siti Live",
     description:
-      "Scopri perchÃ© la verifica dei modelli webcam puÃ² aiutare a valutare piattaforme piÃ¹ trasparenti, profili piÃ¹ affidabili e una navigazione piÃ¹ consapevole.",
+      "Scopri perché la verifica dei modelli webcam può aiutare a valutare piattaforme più trasparenti, profili più affidabili e una navigazione più consapevole.",
     kicker: "Verifica e fiducia",
     intro:
-      "La verifica dei modelli webcam Ã¨ un tema importante, ma va trattato con precisione. PuÃ² indicare controlli della piattaforma su profili e idoneitÃ , non una garanzia inventata su ogni singola scheda. Conta capire cosa dichiara davvero il servizio.",
+      "La verifica dei modelli webcam è un tema importante, ma va trattato con precisione. Può indicare controlli della piattaforma su profili e idoneità, non una garanzia inventata su ogni singola scheda. Conta capire cosa dichiara davvero il servizio.",
     sections: [
       {
-        title: "Che cosa puÃ² indicare la verifica",
+        title: "Che cosa può indicare la verifica",
         paragraphs: [
           "In generale, verifica significa che la piattaforma applica controlli ai profili secondo proprie regole interne. I dettagli possono cambiare da servizio a servizio.",
           "Per questo una pagina editoriale seria non deve inventare badge, stati o garanzie individuali se la piattaforma non li mostra chiaramente."
         ]
       },
       {
-        title: "Moderazione, regole e profili piÃ¹ leggibili",
+        title: "Moderazione, regole e profili più leggibili",
         paragraphs: [
-          "La verifica si collega spesso a moderazione, gestione profili, assistenza e procedure di segnalazione. Sono segnali utili per valutare un ambiente piÃ¹ ordinato.",
-          "Una piattaforma trasparente dovrebbe spiegare regole e controlli senza usare parole vaghe per sembrare piÃ¹ affidabile di quanto possa dimostrare."
+          "La verifica si collega spesso a moderazione, gestione profili, assistenza e procedure di segnalazione. Sono segnali utili per valutare un ambiente più ordinato.",
+          "Una piattaforma trasparente dovrebbe spiegare regole e controlli senza usare parole vaghe per sembrare più affidabile di quanto possa dimostrare."
         ]
       },
       {
         title: "I limiti della verifica",
         paragraphs: [
-          "Anche con controlli presenti, disponibilitÃ  dei profili, funzioni e condizioni possono cambiare. La verifica non elimina la necessitÃ  di usare privacy, prudenza e lettura dei pagamenti.",
+          "Anche con controlli presenti, disponibilità dei profili, funzioni e condizioni possono cambiare. La verifica non elimina la necessità di usare privacy, prudenza e lettura dei pagamenti.",
           "SessoChat.net mostra modelli reali quando disponibili, ma non aggiunge etichette non fornite da una fonte affidabile."
         ]
       }
     ],
     checklistTitle: "Come leggere una piattaforma con modelli verificati",
     checklistIntro:
-      "La verifica Ã¨ utile se fa parte di un quadro piÃ¹ chiaro.",
+      "La verifica è utile se fa parte di un quadro più chiaro.",
     checklist: [
       "La piattaforma spiega in termini generali i controlli sui profili.",
       "Non compaiono voti, recensioni o garanzie individuali inventate.",
@@ -474,12 +474,12 @@ export const guidaPages: GuidaPage[] = [
       {
         question: "La verifica garantisce una piattaforma perfetta?",
         answer:
-          "No. Ãˆ un segnale utile, ma va affiancato a privacy, regole chiare, costi leggibili e uso responsabile."
+          "No. È un segnale utile, ma va affiancato a privacy, regole chiare, costi leggibili e uso responsabile."
       },
       {
-        question: "PerchÃ© non mostrate badge inventati?",
+        question: "Perché non mostrate badge inventati?",
         answer:
-          "PerchÃ© sarebbe fuorviante. Se un dato non Ã¨ affidabile, SessoChat.net preferisce non mostrarlo."
+          "Perché sarebbe fuorviante. Se un dato non è affidabile, SessoChat.net preferisce non mostrarlo."
       }
     ],
     related: [
@@ -504,12 +504,12 @@ export const guidaPages: GuidaPage[] = [
       "Una guida semplice per chi usa le chat webcam per la prima volta: anteprime, registrazione, privacy, crediti, chat private e scelta della piattaforma.",
     kicker: "Prime scelte",
     intro:
-      "Se Ã¨ la prima volta che esplori chat webcam, conviene imparare i termini base prima di registrarti. Anteprima, chat pubblica, chat privata, crediti, mobile e privacy sono concetti semplici, ma aiutano a evitare confusione.",
+      "Se è la prima volta che esplori chat webcam, conviene imparare i termini base prima di registrarti. Anteprima, chat pubblica, chat privata, crediti, mobile e privacy sono concetti semplici, ma aiutano a evitare confusione.",
     sections: [
       {
         title: "Vocabolario essenziale",
         paragraphs: [
-          "Anteprima indica una vista iniziale o una parte del sito utile per orientarsi. Chat pubblica puÃ² indicare aree visibili a piÃ¹ utenti, mentre chat privata riguarda funzioni piÃ¹ riservate e spesso regolate da condizioni specifiche.",
+          "Anteprima indica una vista iniziale o una parte del sito utile per orientarsi. Chat pubblica può indicare aree visibili a più utenti, mentre chat privata riguarda funzioni più riservate e spesso regolate da condizioni specifiche.",
           "Registrazione significa creazione di un account. Crediti indica un possibile sistema interno per funzioni a pagamento. Modelli verificati va letto come tema di controllo della piattaforma, non come etichetta da inventare."
         ]
       },
@@ -546,15 +546,15 @@ export const guidaPages: GuidaPage[] = [
       {
         question: "Che cosa sono i crediti?",
         answer:
-          "Sono un possibile sistema interno per usare funzioni a pagamento. ModalitÃ  e costi dipendono dalla piattaforma."
+          "Sono un possibile sistema interno per usare funzioni a pagamento. Modalità e costi dipendono dalla piattaforma."
       },
       {
-        question: "La chat privata Ã¨ obbligatoria?",
+        question: "La chat privata è obbligatoria?",
         answer:
-          "No. Ãˆ una funzione specifica, spesso a pagamento o regolata da condizioni. Puoi valutare una piattaforma anche solo dalle informazioni iniziali."
+          "No. È una funzione specifica, spesso a pagamento o regolata da condizioni. Puoi valutare una piattaforma anche solo dalle informazioni iniziali."
       },
       {
-        question: "Qual Ã¨ l'errore piÃ¹ comune?",
+        question: "Qual è l'errore più comune?",
         answer:
           "Confondere anteprima gratuita, registrazione e uso gratuito di funzioni private."
       }
@@ -581,19 +581,19 @@ export const guidaPages: GuidaPage[] = [
       "Consigli per scegliere siti webcam mobile veloci, leggibili e sicuri da smartphone, con attenzione a privacy, pagamenti e navigazione discreta.",
     kicker: "Uso da smartphone",
     intro:
-      "Le webcam mobile richiedono pagine rapide, leggibili e facili da controllare. Su smartphone ogni passaggio poco chiaro pesa di piÃ¹: privacy, pulsanti, pagamenti e gestione dell'account devono essere visibili senza confusione.",
+      "Le webcam mobile richiedono pagine rapide, leggibili e facili da controllare. Su smartphone ogni passaggio poco chiaro pesa di più: privacy, pulsanti, pagamenti e gestione dell'account devono essere visibili senza confusione.",
     sections: [
       {
-        title: "LeggibilitÃ  e velocitÃ ",
+        title: "Leggibilità e velocità",
         paragraphs: [
           "Una buona chat cam live mobile non obbliga a zoom continui, scorrimenti laterali o pulsanti troppo vicini. Le schede e le azioni principali devono restare compatte.",
-          "Se il sito Ã¨ lento giÃ  nelle anteprime, puÃ² diventare difficile usare profili, impostazioni o funzioni piÃ¹ avanzate."
+          "Se il sito è lento già nelle anteprime, può diventare difficile usare profili, impostazioni o funzioni più avanzate."
         ]
       },
       {
         title: "Privacy sul telefono",
         paragraphs: [
-          "Controlla cronologia, notifiche, schede aperte, salvataggio password e anteprime nel multitasking. Su mobile, questi dettagli sono spesso piÃ¹ importanti che da desktop.",
+          "Controlla cronologia, notifiche, schede aperte, salvataggio password e anteprime nel multitasking. Su mobile, questi dettagli sono spesso più importanti che da desktop.",
           "Evita di usare dispositivi condivisi per registrazione o pagamenti. Se devi farlo, non salvare credenziali e chiudi sempre la sessione."
         ]
       },
@@ -609,22 +609,22 @@ export const guidaPages: GuidaPage[] = [
     checklistIntro:
       "Se questi punti non funzionano, meglio rallentare prima della registrazione.",
     checklist: [
-      "Non c'Ã¨ scorrimento orizzontale e il testo resta leggibile.",
+      "Non c'è scorrimento orizzontale e il testo resta leggibile.",
       "I pulsanti principali non coprono informazioni importanti.",
       "Account, crediti e privacy sono facili da trovare.",
-      "La pagina di pagamento non Ã¨ compressa o ambigua.",
+      "La pagina di pagamento non è compressa o ambigua.",
       "Puoi chiudere sessione e schede senza lasciare tracce inutili."
     ],
     faq: [
       {
         question: "Serve scaricare un'app per le webcam mobile?",
         answer:
-          "Non sempre. Molte piattaforme funzionano da browser mobile, ma qualitÃ  e funzioni dipendono dal servizio."
+          "Non sempre. Molte piattaforme funzionano da browser mobile, ma qualità e funzioni dipendono dal servizio."
       },
       {
         question: "Che cosa rende una chat cam adatta allo smartphone?",
         answer:
-          "VelocitÃ , testi leggibili, pulsanti chiari, pagamenti comprensibili e assenza di scorrimento laterale."
+          "Velocità, testi leggibili, pulsanti chiari, pagamenti comprensibili e assenza di scorrimento laterale."
       },
       {
         question: "Come proteggo la privacy sul telefono?",
@@ -645,7 +645,7 @@ export const guidaPages: GuidaPage[] = [
     ],
     ctaTitle: "Controlla l'esperienza mobile dal vivo",
     ctaCopy:
-      "Apri la piattaforma live e verifica leggibilitÃ , anteprime e condizioni direttamente dal tuo dispositivo.",
+      "Apri la piattaforma live e verifica leggibilità, anteprime e condizioni direttamente dal tuo dispositivo.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Guarda le opzioni live"
   },
@@ -659,7 +659,7 @@ export const guidaPages: GuidaPage[] = [
       "Confronto chiaro tra chat webcam gratis e chat privata: cosa cambia, quali limiti aspettarsi, quando serve registrarsi e come scegliere con criterio.",
     kicker: "Confronto pratico",
     intro:
-      "Chat gratis e chat privata webcam rispondono a esigenze diverse. La prima puÃ² indicare anteprime o navigazione iniziale; la seconda riguarda funzioni piÃ¹ riservate, spesso legate ad account, crediti o condizioni specifiche.",
+      "Chat gratis e chat privata webcam rispondono a esigenze diverse. La prima può indicare anteprime o navigazione iniziale; la seconda riguarda funzioni più riservate, spesso legate ad account, crediti o condizioni specifiche.",
     sections: [
       {
         title: "Che cosa indica di solito chat gratis",
@@ -671,15 +671,15 @@ export const guidaPages: GuidaPage[] = [
       {
         title: "Che cosa cambia nella chat privata",
         paragraphs: [
-          "La chat privata puÃ² offrire un livello piÃ¹ riservato di interazione e di controllo, ma di solito richiede account, crediti o condizioni piÃ¹ precise.",
+          "La chat privata può offrire un livello più riservato di interazione e di controllo, ma di solito richiede account, crediti o condizioni più precise.",
           "Prima di usarla, verifica costi, conferme, regole e modo in cui puoi interrompere o gestire la sessione."
         ]
       },
       {
         title: "Come scegliere in base al tuo intento",
         paragraphs: [
-          "Se vuoi solo capire l'ambiente, parti dalle anteprime. Se cerchi funzioni piÃ¹ avanzate, leggi prima condizioni, pagamenti e impostazioni privacy.",
-          "Il criterio non Ã¨ scegliere in fretta, ma distinguere accesso iniziale, account e funzioni private senza confondere i livelli."
+          "Se vuoi solo capire l'ambiente, parti dalle anteprime. Se cerchi funzioni più avanzate, leggi prima condizioni, pagamenti e impostazioni privacy.",
+          "Il criterio non è scegliere in fretta, ma distinguere accesso iniziale, account e funzioni private senza confondere i livelli."
         ]
       }
     ],
@@ -687,8 +687,8 @@ export const guidaPages: GuidaPage[] = [
     checklistIntro:
       "Questa lettura rapida aiuta a non confondere gratis e privato.",
     checklist: [
-      "Chat gratis puÃ² significare anteprima, non accesso completo.",
-      "Chat privata puÃ² richiedere account, crediti o pagamento.",
+      "Chat gratis può significare anteprima, non accesso completo.",
+      "Chat privata può richiedere account, crediti o pagamento.",
       "I limiti devono essere spiegati prima dell'azione.",
       "La privacy va controllata sia nelle anteprime sia nelle funzioni private.",
       "Le condizioni ufficiali restano il riferimento principale."
@@ -697,12 +697,12 @@ export const guidaPages: GuidaPage[] = [
       {
         question: "La chat gratis include sempre la chat privata?",
         answer:
-          "No. Di solito la chat privata Ã¨ una funzione distinta e puÃ² richiedere crediti o registrazione."
+          "No. Di solito la chat privata è una funzione distinta e può richiedere crediti o registrazione."
       },
       {
         question: "Posso valutare un sito solo con le anteprime?",
         answer:
-          "SÃ¬, le anteprime sono utili per capire ambiente, layout e profili prima di decidere se registrarti."
+          "Sì, le anteprime sono utili per capire ambiente, layout e profili prima di decidere se registrarti."
       },
       {
         question: "Quando conviene leggere i prezzi?",
@@ -710,7 +710,7 @@ export const guidaPages: GuidaPage[] = [
           "Prima di usare funzioni private o acquistare crediti. Non aspettare il momento della conferma."
       },
       {
-        question: "Qual Ã¨ la scelta piÃ¹ prudente?",
+        question: "Qual è la scelta più prudente?",
         answer:
           "Partire dalle informazioni gratuite, leggere condizioni e usare funzioni private solo quando sono chiare."
       }
@@ -738,12 +738,12 @@ export const guidaHubCards = [
   {
     href: "/guida/chat-webcam-sicura",
     title: "Chat webcam sicura",
-    copy: "Controlli su browser, account, pagamenti e segnali di affidabilitÃ  prima di registrarti."
+    copy: "Controlli su browser, account, pagamenti e segnali di affidabilità prima di registrarti."
   },
   {
     href: "/guida/webcam-senza-registrazione",
     title: "Webcam senza registrazione",
-    copy: "Cosa puoi vedere in anteprima e quando una piattaforma puÃ² chiedere un account."
+    copy: "Cosa puoi vedere in anteprima e quando una piattaforma può chiedere un account."
   },
   {
     href: "/guida/chat-webcam-senza-carta-di-credito",
@@ -758,7 +758,7 @@ export const guidaHubCards = [
   {
     href: "/guida/modelli-webcam-verificati",
     title: "Modelli webcam verificati",
-    copy: "PerchÃ© la verifica conta e perchÃ© non vanno inventati badge o garanzie individuali."
+    copy: "Perché la verifica conta e perché non vanno inventati badge o garanzie individuali."
   },
   {
     href: "/guida/consigli-per-principianti",
@@ -768,7 +768,7 @@ export const guidaHubCards = [
   {
     href: "/guida/webcam-mobile",
     title: "Webcam mobile",
-    copy: "Consigli per usare chat cam live da smartphone con privacy, velocitÃ  e chiarezza."
+    copy: "Consigli per usare chat cam live da smartphone con privacy, velocità e chiarezza."
   },
   {
     href: "/guida/differenza-tra-chat-gratis-e-chat-privata",

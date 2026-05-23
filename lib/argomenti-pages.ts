@@ -36,12 +36,12 @@ export const argomentiPages: ArgomentoPage[] = [
     h1: "Chat Webcam Senza Registrazione: Cosa Sapere Prima di Entrare",
     metaTitle: "Chat Webcam Senza Registrazione: Accesso, Limiti e Alternative",
     description:
-      "Scopri cosa aspettarti da una chat webcam senza registrazione: anteprime, limiti, privacy, accesso mobile e quando puÃ² servire creare un account.",
+      "Scopri cosa aspettarti da una chat webcam senza registrazione: anteprime, limiti, privacy, accesso mobile e quando può servire creare un account.",
     kicker: "Accesso prima dell'account",
     intro:
-      "Chi cerca una chat webcam senza registrazione vuole capire cosa puÃ² vedere subito e dove iniziano i limiti. Questa pagina offre una risposta rapida e rimanda alle guide piÃ¹ approfondite.",
+      "Chi cerca una chat webcam senza registrazione vuole capire cosa può vedere subito e dove iniziano i limiti. Questa pagina offre una risposta rapida e rimanda alle guide più approfondite.",
     quickAnswer:
-      "Puoi spesso valutare anteprime o aree iniziali, ma chat privata, crediti, preferenze e funzioni complete possono richiedere registrazione. La cosa importante Ã¨ distinguere navigazione preliminare e uso effettivo della piattaforma.",
+      "Puoi spesso valutare anteprime o aree iniziali, ma chat privata, crediti, preferenze e funzioni complete possono richiedere registrazione. La cosa importante è distinguere navigazione preliminare e uso effettivo della piattaforma.",
     expectationTitle: "Cosa puoi aspettarti realisticamente",
     expectations: [
       "Anteprime disponibili in modo variabile secondo la piattaforma.",
@@ -52,7 +52,7 @@ export const argomentiPages: ArgomentoPage[] = [
     decisionTitle: "Percorso pratico",
     decisionSteps: [
       "Apri solo pagine con accesso chiaro e discreto.",
-      "Controlla cosa Ã¨ visibile senza account.",
+      "Controlla cosa è visibile senza account.",
       "Leggi condizioni prima di condividere dati personali.",
       "Passa alle guide dedicate se vuoi capire costi e sicurezza."
     ],
@@ -60,14 +60,14 @@ export const argomentiPages: ArgomentoPage[] = [
     note:
       "Senza registrazione non significa senza regole. Usa sempre un browser aggiornato e verifica le condizioni ufficiali prima di procedere.",
     relatedLinks: [
-      { href: "/siti/siti-webcam-senza-registrazione", title: "Siti senza registrazione", copy: "La pagina piÃ¹ completa sul tema accesso iniziale." },
-      { href: "/guida/webcam-senza-registrazione", title: "Guida senza registrazione", copy: "Limiti e aspettative spiegati con piÃ¹ dettaglio." },
+      { href: "/siti/siti-webcam-senza-registrazione", title: "Siti senza registrazione", copy: "La pagina più completa sul tema accesso iniziale." },
+      { href: "/guida/webcam-senza-registrazione", title: "Guida senza registrazione", copy: "Limiti e aspettative spiegati con più dettaglio." },
       { href: "/argomenti/webcam-online-senza-registrazione", title: "Webcam online senza registrazione", copy: "Focus sulle anteprime live online." }
     ],
     faq: [
       { question: "Esistono chat webcam totalmente senza registrazione?", answer: "Alcune anteprime possono essere visibili, ma le funzioni complete spesso richiedono un account." },
       { question: "Posso usare chat privata senza account?", answer: "Di solito no. Verifica sempre condizioni e requisiti della piattaforma." },
-      { question: "La navigazione senza registrazione Ã¨ anonima?", answer: "Non necessariamente. Possono esistere log tecnici, cookie o altri sistemi di misurazione." }
+      { question: "La navigazione senza registrazione è anonima?", answer: "Non necessariamente. Possono esistere log tecnici, cookie o altri sistemi di misurazione." }
     ],
     ctaTitle: "Valuta le anteprime disponibili",
     ctaCopy: "Apri la piattaforma live tramite accesso interno e controlla cosa puoi vedere prima della registrazione.",
@@ -86,7 +86,7 @@ export const argomentiPages: ArgomentoPage[] = [
     intro:
       "La ricerca senza carta di credito nasce spesso dal desiderio di esplorare prima di pagare. Qui trovi una lettura diretta di anteprime, registrazione e crediti.",
     quickAnswer:
-      "Senza carta di credito puoi spesso osservare anteprime o informazioni iniziali. Le chat private e alcune funzioni avanzate possono perÃ² richiedere crediti o un metodo di pagamento.",
+      "Senza carta di credito puoi spesso osservare anteprime o informazioni iniziali. Le chat private e alcune funzioni avanzate possono però richiedere crediti o un metodo di pagamento.",
     expectationTitle: "Cosa cambia quando non inserisci una carta",
     expectations: [
       "Puoi valutare l'interfaccia prima di spendere.",
@@ -98,7 +98,7 @@ export const argomentiPages: ArgomentoPage[] = [
     decisionSteps: [
       "Distingui anteprima gratuita e chat privata.",
       "Cerca informazioni su crediti, pacchetti e rinnovi.",
-      "Non inserire dati se la schermata non Ã¨ chiara.",
+      "Non inserire dati se la schermata non è chiara.",
       "Usa le pagine guida per capire i prezzi senza numeri inventati."
     ],
     noteTitle: "Nota sui costi",
@@ -123,11 +123,11 @@ export const argomentiPages: ArgomentoPage[] = [
     slug: "siti-webcam-sicuri",
     path: "/argomenti/siti-webcam-sicuri",
     navTitle: "Siti webcam sicuri",
-    h1: "Siti Webcam Sicuri: Come Valutare Privacy e AffidabilitÃ ",
-    metaTitle: "Siti Webcam Sicuri: Come Valutare Privacy e AffidabilitÃ ",
+    h1: "Siti Webcam Sicuri: Come Valutare Privacy e Affidabilità",
+    metaTitle: "Siti Webcam Sicuri: Come Valutare Privacy e Affidabilità",
     description:
       "Criteri pratici per valutare siti webcam sicuri: privacy, pagamenti, profili verificati, trasparenza della piattaforma e navigazione discreta.",
-    kicker: "Privacy e affidabilitÃ ",
+    kicker: "Privacy e affidabilità",
     intro:
       "Un sito webcam sicuro non si riconosce da slogan assoluti, ma da chiarezza su privacy, pagamenti, account, moderazione e accesso mobile.",
     quickAnswer:
@@ -143,23 +143,23 @@ export const argomentiPages: ArgomentoPage[] = [
     decisionSteps: [
       "Leggi prima le condizioni essenziali.",
       "Controlla se le CTA distinguono accesso e pagamento.",
-      "Valuta modelli verificati solo quando il dato Ã¨ dichiarato.",
+      "Valuta modelli verificati solo quando il dato è dichiarato.",
       "Evita siti con promesse assolute o classifiche poco motivate."
     ],
     noteTitle: "Nota responsabile",
     note:
-      "Nessun sito puÃ² essere definito sicuro in modo assoluto senza leggere condizioni e impostazioni reali. Qui parliamo di criteri, non garanzie.",
+      "Nessun sito può essere definito sicuro in modo assoluto senza leggere condizioni e impostazioni reali. Qui parliamo di criteri, non garanzie.",
     relatedLinks: [
       { href: "/guida/chat-webcam-sicura", title: "Chat webcam sicura", copy: "Approfondimento su privacy, pagamenti e controlli." },
-      { href: "/siti/siti-webcam-con-modelli-verificati", title: "Modelli verificati", copy: "PerchÃ© la verifica puÃ² contare." },
+      { href: "/siti/siti-webcam-con-modelli-verificati", title: "Modelli verificati", copy: "Perché la verifica può contare." },
       { href: "/politica-editoriale", title: "Politica editoriale", copy: "Standard del sito su dati reali e tono discreto." }
     ],
     faq: [
-      { question: "Qual Ã¨ il sito webcam piÃ¹ sicuro?", answer: "Non indichiamo vincitori assoluti. Valutiamo criteri verificabili e rimandiamo alle condizioni ufficiali." },
+      { question: "Qual è il sito webcam più sicuro?", answer: "Non indichiamo vincitori assoluti. Valutiamo criteri verificabili e rimandiamo alle condizioni ufficiali." },
       { question: "La verifica dei modelli basta?", answer: "No. Aiuta, ma non sostituisce controlli su privacy, account e pagamenti." },
-      { question: "PerchÃ© usate redirect interni?", answer: "Per separare contenuto editoriale e accesso live mantenendo i percorsi /go/ fuori dall'indice." }
+      { question: "Perché usate redirect interni?", answer: "Per separare contenuto editoriale e accesso live mantenendo i percorsi /go/ fuori dall'indice." }
     ],
-    ctaTitle: "Valuta una piattaforma con piÃ¹ contesto",
+    ctaTitle: "Valuta una piattaforma con più contesto",
     ctaCopy: "Apri l'accesso live solo dopo aver controllato privacy, costi e percorso mobile.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Valuta opzioni live"
@@ -168,7 +168,7 @@ export const argomentiPages: ArgomentoPage[] = [
     slug: "webcam-mobile-adulti",
     path: "/argomenti/webcam-mobile-adulti",
     navTitle: "Webcam mobile adulti",
-    h1: "Webcam Mobile Adulti: Chat Live da Smartphone con PiÃ¹ Discrezione",
+    h1: "Webcam Mobile Adulti: Chat Live da Smartphone con Più Discrezione",
     metaTitle: "Webcam Mobile Adulti: Chat Live da Smartphone in Modo Discreto",
     description:
       "Guida alle webcam mobile per adulti: accesso da smartphone, privacy, caricamento rapido, chat live, anteprime e scelta della piattaforma.",
@@ -201,7 +201,7 @@ export const argomentiPages: ArgomentoPage[] = [
     ],
     faq: [
       { question: "Meglio usare app o browser?", answer: "Dipende dalla piattaforma. Un browser aggiornato spesso permette di valutare senza installare nulla." },
-      { question: "Le webcam mobile sono sempre veloci?", answer: "No. Dipendono da rete, dispositivo, sito e qualitÃ  delle anteprime." },
+      { question: "Le webcam mobile sono sempre veloci?", answer: "No. Dipendono da rete, dispositivo, sito e qualità delle anteprime." },
       { question: "Posso usare chat privata da smartphone?", answer: "Se la piattaforma lo consente, ma controlla prima crediti, costi e privacy." }
     ],
     ctaTitle: "Apri opzioni live da smartphone",
@@ -219,7 +219,7 @@ export const argomentiPages: ArgomentoPage[] = [
       "Scopri come valutare una videochat adulti online tra anteprime, modelli live, chat privata, accesso mobile, privacy e piattaforme live.",
     kicker: "Videochat adulti",
     intro:
-      "La videochat adulti online Ã¨ una ricerca ampia: puÃ² includere anteprime live, profili modello, chat privata e accesso mobile. Qui trovi un ingresso sintetico e ordinato.",
+      "La videochat adulti online è una ricerca ampia: può includere anteprime live, profili modello, chat privata e accesso mobile. Qui trovi un ingresso sintetico e ordinato.",
     quickAnswer:
       "Prima di registrarti, guarda come la piattaforma separa anteprima, profili live, funzioni private, crediti e impostazioni privacy.",
     expectationTitle: "Elementi principali",
@@ -232,7 +232,7 @@ export const argomentiPages: ArgomentoPage[] = [
     decisionTitle: "Come restringere la scelta",
     decisionSteps: [
       "Parti dai criteri di sicurezza.",
-      "Valuta se ti interessa piÃ¹ anteprima, mobile o chat privata.",
+      "Valuta se ti interessa più anteprima, mobile o chat privata.",
       "Leggi le guide sui costi se vuoi usare funzioni premium.",
       "Confronta piattaforme senza affidarti a punteggi inventati."
     ],
@@ -242,10 +242,10 @@ export const argomentiPages: ArgomentoPage[] = [
     relatedLinks: [
       { href: "/confronti/migliori-siti-webcam-live", title: "Migliori siti webcam live", copy: "Criteri di scelta senza classifiche finte." },
       { href: "/siti/siti-cam-private", title: "Siti cam private", copy: "Cosa sapere sulle chat private." },
-      { href: "/categorie/modelli-webcam-online", title: "Modelli online", copy: "Profili live e disponibilitÃ ." }
+      { href: "/categorie/modelli-webcam-online", title: "Modelli online", copy: "Profili live e disponibilità." }
     ],
     faq: [
-      { question: "Videochat adulti online significa gratis?", answer: "No. PuÃ² includere anteprime gratuite, ma funzioni private possono essere a pagamento." },
+      { question: "Videochat adulti online significa gratis?", answer: "No. Può includere anteprime gratuite, ma funzioni private possono essere a pagamento." },
       { question: "Come scelgo una piattaforma?", answer: "Valuta privacy, mobile, anteprime, pagamenti e chiarezza della registrazione." },
       { question: "I modelli mostrati sono reali?", answer: "Quando il flusso dati risponde, le schede arrivano da dati reali; altrimenti appare il pannello alternativo." }
     ],
@@ -264,35 +264,35 @@ export const argomentiPages: ArgomentoPage[] = [
       "Guida italiana a LiveJasmin: modelli live, accesso mobile, chat private, privacy, anteprime e aspetti da controllare prima della registrazione.",
     kicker: "LiveJasmin per utenti italiani",
     intro:
-      "LiveJasmin Italia Ã¨ una ricerca frequente per chi vuole capire come avvicinarsi alla piattaforma da utente italiano, con attenzione a lingua, mobile, privacy e funzioni private.",
+      "LiveJasmin Italia è una ricerca frequente per chi vuole capire come avvicinarsi alla piattaforma da utente italiano, con attenzione a lingua, mobile, privacy e funzioni private.",
     quickAnswer:
       "Usa LiveJasmin come piattaforma live da valutare con metodo: osserva anteprime, profili live, registrazione, crediti e privacy prima di procedere.",
     expectationTitle: "Cosa controllare su LiveJasmin",
     expectations: [
-      "DisponibilitÃ  dei modelli live nel momento della visita.",
+      "Disponibilità dei modelli live nel momento della visita.",
       "Differenza tra anteprima e chat privata.",
-      "Percorso mobile e leggibilitÃ  delle schermate.",
+      "Percorso mobile e leggibilità delle schermate.",
       "Condizioni, crediti e impostazioni account."
     ],
     decisionTitle: "Se stai confrontando alternative",
     decisionSteps: [
       "Leggi prima il confronto con altre piattaforme.",
-      "Valuta se cerchi esperienza premium o ambienti piÃ¹ aperti.",
+      "Valuta se cerchi esperienza premium o ambienti più aperti.",
       "Controlla privacy e costi direttamente sul sito live.",
       "Usa le categorie modello solo come punto di partenza."
     ],
     noteTitle: "Nota editoriale",
     note:
-      "Questa non Ã¨ una recensione con voto. Ãˆ una landing informativa per utenti italiani che vogliono orientarsi prima dell'accesso.",
+      "Questa non è una recensione con voto. È una landing informativa per utenti italiani che vogliono orientarsi prima dell'accesso.",
     relatedLinks: [
       { href: "/confronti/livejasmin-vs-chaturbate", title: "LiveJasmin vs Chaturbate", copy: "Differenze pratiche tra due ricerche frequenti." },
       { href: "/confronti/alternative-livejasmin", title: "Alternative LiveJasmin", copy: "Come valutare altri siti webcam." },
-      { href: "/categorie/modelli-webcam-live", title: "Modelli webcam live", copy: "Scoperta profili e disponibilitÃ ." }
+      { href: "/categorie/modelli-webcam-live", title: "Modelli webcam live", copy: "Scoperta profili e disponibilità." }
     ],
     faq: [
-      { question: "LiveJasmin Italia Ã¨ una pagina ufficiale?", answer: "No. SessoChat.net Ã¨ una guida editoriale indipendente con link interni interni." },
+      { question: "LiveJasmin Italia è una pagina ufficiale?", answer: "No. SessoChat.net è una guida editoriale indipendente con link interni interni." },
       { question: "Posso vedere modelli prima della registrazione?", answer: "Puoi valutare le anteprime iniziali e controllare le condizioni sul percorso ufficiale." },
-      { question: "Esistono alternative a LiveJasmin?", answer: "SÃ¬, ma vanno confrontate per privacy, mobile, costi e tipo di esperienza." }
+      { question: "Esistono alternative a LiveJasmin?", answer: "Sì, ma vanno confrontate per privacy, mobile, costi e tipo di esperienza." }
     ],
     ctaTitle: "Apri LiveJasmin tramite accesso interno",
     ctaCopy: "Valuta profili live, anteprime e condizioni direttamente sulla piattaforma live.",
@@ -314,8 +314,8 @@ export const argomentiPages: ArgomentoPage[] = [
       "Puoi cercare anteprime gratuite, ma non dare per scontato che chat privata, messaggi o funzioni complete siano gratis.",
     expectationTitle: "Dove nasce la confusione",
     expectations: [
-      "La parola gratis puÃ² riferirsi solo alla visione iniziale.",
-      "La registrazione puÃ² essere richiesta anche senza pagamento immediato.",
+      "La parola gratis può riferirsi solo alla visione iniziale.",
+      "La registrazione può essere richiesta anche senza pagamento immediato.",
       "Crediti e chat private possono avere costi.",
       "Le condizioni cambiano tra piattaforme."
     ],
@@ -326,7 +326,7 @@ export const argomentiPages: ArgomentoPage[] = [
       "Verifica pagamenti e crediti prima della chat privata.",
       "Approfondisci con la guida dedicata ai prezzi."
     ],
-    noteTitle: "Nessuna promessa di gratuitÃ  totale",
+    noteTitle: "Nessuna promessa di gratuità totale",
     note:
       "SessoChat.net non promette accesso completo gratis. Spiega come leggere anteprime e limiti in modo realistico.",
     relatedLinks: [
@@ -340,7 +340,7 @@ export const argomentiPages: ArgomentoPage[] = [
       { question: "Come evito sorprese?", answer: "Leggi condizioni, crediti e limiti prima di procedere." }
     ],
     ctaTitle: "Valuta anteprime e limiti",
-    ctaCopy: "Apri il percorso interno e controlla cosa Ã¨ disponibile prima della registrazione.",
+    ctaCopy: "Apri il percorso interno e controlla cosa è disponibile prima della registrazione.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Guarda anteprime live"
   },
@@ -351,12 +351,12 @@ export const argomentiPages: ArgomentoPage[] = [
     h1: "Chat Privata Webcam Online: Come Funziona e Cosa Controllare",
     metaTitle: "Chat Privata Webcam Online: Come Funziona e Cosa Valutare",
     description:
-      "Scopri come funziona una chat privata webcam online, quali costi o crediti controllare, come gestire privacy e come scegliere con piÃ¹ criterio.",
+      "Scopri come funziona una chat privata webcam online, quali costi o crediti controllare, come gestire privacy e come scegliere con più criterio.",
     kicker: "Funzioni private",
     intro:
-      "La chat privata webcam online Ã¨ una funzione da valutare con attenzione: spesso implica account, crediti, impostazioni privacy e condizioni specifiche.",
+      "La chat privata webcam online è una funzione da valutare con attenzione: spesso implica account, crediti, impostazioni privacy e condizioni specifiche.",
     quickAnswer:
-      "Prima di entrare in una chat privata, controlla costi, durata, crediti, impostazioni account e possibilitÃ  di uscire dal percorso senza confusione.",
+      "Prima di entrare in una chat privata, controlla costi, durata, crediti, impostazioni account e possibilità di uscire dal percorso senza confusione.",
     expectationTitle: "Cosa aspettarsi",
     expectations: [
       "Accesso privato separato dalle anteprime pubbliche.",
@@ -369,7 +369,7 @@ export const argomentiPages: ArgomentoPage[] = [
       "Leggi come funziona il sistema crediti.",
       "Verifica se la chat privata ha limiti o regole.",
       "Controlla privacy e notifiche su mobile.",
-      "Non procedere se il costo non Ã¨ chiaro."
+      "Non procedere se il costo non è chiaro."
     ],
     noteTitle: "Controllo dell'utente",
     note:
@@ -377,11 +377,11 @@ export const argomentiPages: ArgomentoPage[] = [
     relatedLinks: [
       { href: "/siti/siti-cam-private", title: "Siti cam private", copy: "Pagina completa sulle chat private." },
       { href: "/guida/prezzi-chat-webcam", title: "Prezzi chat webcam", copy: "Crediti e costi spiegati senza numeri finti." },
-      { href: "/confronti/chat-privata-vs-chat-gratis", title: "Privata vs gratis", copy: "Differenze pratiche tra due modalitÃ ." }
+      { href: "/confronti/chat-privata-vs-chat-gratis", title: "Privata vs gratis", copy: "Differenze pratiche tra due modalità." }
     ],
     faq: [
-      { question: "La chat privata webcam Ã¨ sempre a pagamento?", answer: "PuÃ² richiedere crediti o pagamento, ma le condizioni vanno verificate sul sito live." },
-      { question: "Serve registrarsi?", answer: "Spesso sÃ¬, soprattutto per funzioni private o gestione crediti." },
+      { question: "La chat privata webcam è sempre a pagamento?", answer: "Può richiedere crediti o pagamento, ma le condizioni vanno verificate sul sito live." },
+      { question: "Serve registrarsi?", answer: "Spesso sì, soprattutto per funzioni private o gestione crediti." },
       { question: "Cosa controllo prima?", answer: "Prezzi, crediti, privacy, durata e regole della piattaforma." }
     ],
     ctaTitle: "Valuta le opzioni private con prudenza",
@@ -401,17 +401,17 @@ export const argomentiPages: ArgomentoPage[] = [
     intro:
       "Le webcam live gratis in anteprima permettono di capire il tono della piattaforma prima di registrarsi, ma non equivalgono sempre a uso completo gratuito.",
     quickAnswer:
-      "L'anteprima serve a valutare profili, qualitÃ  e interfaccia. Chat privata, messaggi o funzioni avanzate possono richiedere account e crediti.",
+      "L'anteprima serve a valutare profili, qualità e interfaccia. Chat privata, messaggi o funzioni avanzate possono richiedere account e crediti.",
     expectationTitle: "Differenze da ricordare",
     expectations: [
       "Anteprima non significa accesso illimitato.",
       "Registrazione e pagamenti possono comparire dopo il primo livello.",
-      "La disponibilitÃ  dei modelli cambia nel tempo.",
+      "La disponibilità dei modelli cambia nel tempo.",
       "Mobile e desktop possono mostrare percorsi diversi."
     ],
     decisionTitle: "Come usare l'anteprima",
     decisionSteps: [
-      "Osserva qualitÃ  e chiarezza della griglia.",
+      "Osserva qualità e chiarezza della griglia.",
       "Controlla se i profili aprono schede informative.",
       "Verifica dove iniziano registrazione o crediti.",
       "Esci se i limiti non sono spiegati."
@@ -421,16 +421,16 @@ export const argomentiPages: ArgomentoPage[] = [
       "Usa l'anteprima per capire se la piattaforma merita attenzione, non come garanzia di funzioni gratuite complete.",
     relatedLinks: [
       { href: "/siti/siti-cam-gratis", title: "Siti cam gratis", copy: "Anteprime, limiti e scelta consapevole." },
-      { href: "/guida/differenza-tra-chat-gratis-e-chat-privata", title: "Gratis vs privata", copy: "Cosa cambia tra modalitÃ ." },
+      { href: "/guida/differenza-tra-chat-gratis-e-chat-privata", title: "Gratis vs privata", copy: "Cosa cambia tra modalità." },
       { href: "/categorie/modelli-webcam-live", title: "Modelli live", copy: "Profili disponibili tramite dati reali." }
     ],
     faq: [
       { question: "Cosa posso vedere in anteprima?", answer: "Dipende dalla piattaforma: spesso profili, immagini o aree live iniziali." },
       { question: "L'anteprima richiede carta?", answer: "Non sempre, ma alcune funzioni successive possono richiedere pagamento." },
-      { question: "Le anteprime sono sempre disponibili?", answer: "No. Possono variare per piattaforma, dispositivo e disponibilitÃ  live." }
+      { question: "Le anteprime sono sempre disponibili?", answer: "No. Possono variare per piattaforma, dispositivo e disponibilità live." }
     ],
     ctaTitle: "Guarda le anteprime disponibili",
-    ctaCopy: "Apri il percorso interno e valuta cosa Ã¨ visibile prima dell'account.",
+    ctaCopy: "Apri il percorso interno e valuta cosa è visibile prima dell'account.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Apri anteprime live"
   },
@@ -444,7 +444,7 @@ export const argomentiPages: ArgomentoPage[] = [
       "Guida italiana a sesso chat online e webcam live: come valutare piattaforme, anteprime, modelli online, privacy e accesso prima di registrarti.",
     kicker: "Ricerca ampia e discreta",
     intro:
-      "Sesso chat online Ã¨ una ricerca ad alto intento, ma va trattata con tono adulto e professionale. Qui trovi criteri pratici per valutare webcam live senza contenuti espliciti.",
+      "Sesso chat online è una ricerca ad alto intento, ma va trattata con tono adulto e professionale. Qui trovi criteri pratici per valutare webcam live senza contenuti espliciti.",
     quickAnswer:
       "Cerca piattaforme con anteprime chiare, accesso mobile ordinato, privacy leggibile e distinzione netta tra navigazione gratuita e funzioni private.",
     expectationTitle: "Cosa include questa ricerca",
@@ -466,11 +466,11 @@ export const argomentiPages: ArgomentoPage[] = [
       "La pagina usa il termine cercato dagli utenti, ma mantiene linguaggio discreto, non volgare e orientato alla scelta consapevole.",
     relatedLinks: [
       { href: "/siti/siti-webcam-live", title: "Siti webcam live", copy: "La base per scegliere piattaforme live." },
-      { href: "/confronti/chat-privata-vs-chat-gratis", title: "Privata o gratis", copy: "Confronto tra modalitÃ  di accesso." },
+      { href: "/confronti/chat-privata-vs-chat-gratis", title: "Privata o gratis", copy: "Confronto tra modalità di accesso." },
       { href: "/argomenti/videochat-adulti-online", title: "Videochat adulti online", copy: "Intento simile con focus videochat." }
     ],
     faq: [
-      { question: "Sesso chat online Ã¨ una pagina esplicita?", answer: "No. Ãˆ una guida discreta per adulti che cercano webcam live." },
+      { question: "Sesso chat online è una pagina esplicita?", answer: "No. È una guida discreta per adulti che cercano webcam live." },
       { question: "Serve registrarsi?", answer: "Dipende dalla piattaforma e dalle funzioni richieste." },
       { question: "I modelli sono inventati?", answer: "No. Le schede arrivano dal flusso dati reale quando disponibile." }
     ],
@@ -483,7 +483,7 @@ export const argomentiPages: ArgomentoPage[] = [
     slug: "chat-cam-live-italia",
     path: "/argomenti/chat-cam-live-italia",
     navTitle: "Chat cam live Italia",
-    h1: "Chat Cam Live Italia: Come Scegliere con PiÃ¹ Chiarezza",
+    h1: "Chat Cam Live Italia: Come Scegliere con Più Chiarezza",
     metaTitle: "Chat Cam Live Italia: Guida per Scegliere Piattaforme Webcam",
     description:
       "Scopri come valutare chat cam live per utenti italiani: modelli online, accesso mobile, chat privata, privacy, anteprime e opzioni live.",
@@ -494,7 +494,7 @@ export const argomentiPages: ArgomentoPage[] = [
       "Scegli con criterio: verifica modelli disponibili, accesso mobile, condizioni economiche, lingua o chiarezza del percorso e differenza tra anteprima e chat privata.",
     expectationTitle: "Cosa interessa agli utenti italiani",
     expectations: [
-      "Navigazione chiara anche se la piattaforma Ã¨ internazionale.",
+      "Navigazione chiara anche se la piattaforma è internazionale.",
       "Accesso mobile senza confusione.",
       "Informazioni su pagamenti e crediti.",
       "Guide italiane che spiegano prima di mandare al partner."
@@ -508,15 +508,15 @@ export const argomentiPages: ArgomentoPage[] = [
     ],
     noteTitle: "Italia come contesto, non promessa locale",
     note:
-      "SessoChat.net Ã¨ una guida in italiano, non dichiara che le piattaforme siano locali o gestite in Italia.",
+      "SessoChat.net è una guida in italiano, non dichiara che le piattaforme siano locali o gestite in Italia.",
     relatedLinks: [
       { href: "/siti", title: "Siti webcam", copy: "Hub per scegliere piattaforme con criterio." },
       { href: "/guida/come-scegliere-un-sito-webcam", title: "Come scegliere", copy: "Metodo pratico prima dell'accesso." },
       { href: "/argomenti/livejasmin-italia", title: "LiveJasmin Italia", copy: "Focus sulla ricerca LiveJasmin per utenti italiani." }
     ],
     faq: [
-      { question: "Le piattaforme sono italiane?", answer: "Non necessariamente. La guida Ã¨ italiana e aiuta utenti italiani a orientarsi." },
-      { question: "Posso usare chat cam live da mobile?", answer: "SÃ¬, se la piattaforma lo supporta; controlla sempre usabilitÃ  e privacy." },
+      { question: "Le piattaforme sono italiane?", answer: "Non necessariamente. La guida è italiana e aiuta utenti italiani a orientarsi." },
+      { question: "Posso usare chat cam live da mobile?", answer: "Sì, se la piattaforma lo supporta; controlla sempre usabilità e privacy." },
       { question: "Ci sono classifiche?", answer: "No. Usiamo criteri editoriali e collegamenti a guide approfondite." }
     ],
     ctaTitle: "Valuta opzioni chat cam live",
@@ -534,20 +534,20 @@ export const argomentiPages: ArgomentoPage[] = [
       "Capisci come funzionano le webcam online senza registrazione, quali anteprime possono essere disponibili e quando serve un account.",
     kicker: "Anteprime online",
     intro:
-      "Webcam online senza registrazione Ã¨ una ricerca molto concreta: l'utente vuole vedere prima di creare un account. Questa pagina spiega cosa puÃ² succedere davvero.",
+      "Webcam online senza registrazione è una ricerca molto concreta: l'utente vuole vedere prima di creare un account. Questa pagina spiega cosa può succedere davvero.",
     quickAnswer:
       "Puoi trovare anteprime online, ma registrazione e crediti possono essere richiesti per chat privata, preferenze, messaggi o accesso completo.",
     expectationTitle: "Aspettative realistiche",
     expectations: [
       "Anteprime live disponibili in modo variabile.",
-      "Possibili limiti su qualitÃ , durata o interazione.",
+      "Possibili limiti su qualità, durata o interazione.",
       "Account richiesto quando il percorso diventa personale.",
       "Privacy da controllare anche senza registrazione."
     ],
     decisionTitle: "Cosa fare prima dell'account",
     decisionSteps: [
       "Guarda se la pagina spiega i limiti dell'anteprima.",
-      "Controlla se il mobile Ã¨ leggibile.",
+      "Controlla se il mobile è leggibile.",
       "Leggi privacy e cookie se disponibili.",
       "Approfondisci con le guide su registrazione e carta."
     ],
@@ -565,7 +565,7 @@ export const argomentiPages: ArgomentoPage[] = [
       { question: "Le anteprime sono sicure?", answer: "Vanno valutate insieme a privacy, cookie, account e chiarezza della piattaforma." }
     ],
     ctaTitle: "Verifica le anteprime online",
-    ctaCopy: "Apri l'accesso interno e controlla cosa Ã¨ disponibile prima dell'account.",
+    ctaCopy: "Apri l'accesso interno e controlla cosa è disponibile prima dell'account.",
     ctaHref: "/go/livejasmin",
     ctaLabel: "Apri anteprime"
   }

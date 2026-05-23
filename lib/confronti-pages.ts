@@ -53,26 +53,26 @@ export const confrontiPages: ConfrontiPage[] = [
     leftLabel: "LiveJasmin",
     rightLabel: "Chaturbate",
     summary:
-      "LiveJasmin puÃ² risultare piÃ¹ adatto a chi cerca un percorso premium e ordinato; Chaturbate puÃ² interessare chi vuole confrontare ambienti piÃ¹ orientati alla chat pubblica. In entrambi i casi vanno controllati costi, regole e disponibilitÃ  reali.",
+      "LiveJasmin può risultare più adatto a chi cerca un percorso premium e ordinato; Chaturbate può interessare chi vuole confrontare ambienti più orientati alla chat pubblica. In entrambi i casi vanno controllati costi, regole e disponibilità reali.",
     matrix: [
-      { label: "Tipo di esperienza", left: "Percorso piÃ¹ premium e guidato", right: "Ambiente piÃ¹ aperto e pubblico" },
+      { label: "Tipo di esperienza", left: "Percorso più premium e guidato", right: "Ambiente più aperto e pubblico" },
       { label: "Accesso iniziale", left: "Da valutare tramite anteprime e iscrizione", right: "Da verificare in base alle aree disponibili" },
       { label: "Chat privata", left: "Elemento centrale da leggere con attenzione", right: "Presente come opzione da controllare" },
-      { label: "Uso da mobile", left: "Conta la chiarezza del percorso", right: "Conta la leggibilitÃ  delle aree live" },
+      { label: "Uso da mobile", left: "Conta la chiarezza del percorso", right: "Conta la leggibilità delle aree live" },
       { label: "Pagamenti", left: "Verifica crediti e condizioni prima dell'uso", right: "Controlla limiti e funzioni a pagamento" }
     ],
     sections: [
       {
-        title: "Quando puÃ² avere senso LiveJasmin",
+        title: "Quando può avere senso LiveJasmin",
         paragraphs: [
-          "Chi cerca un sito webcam con un tono piÃ¹ premium puÃ² partire da LiveJasmin e osservare come vengono presentati profili, accesso mobile, anteprime e funzioni private.",
-          "La scelta resta personale: prima di registrarti controlla sempre condizioni, crediti, privacy e modalitÃ  di accesso ufficiali."
+          "Chi cerca un sito webcam con un tono più premium può partire da LiveJasmin e osservare come vengono presentati profili, accesso mobile, anteprime e funzioni private.",
+          "La scelta resta personale: prima di registrarti controlla sempre condizioni, crediti, privacy e modalità di accesso ufficiali."
         ]
       },
       {
         title: "Quando valutare Chaturbate",
         paragraphs: [
-          "Chaturbate viene spesso associato a un ambiente piÃ¹ pubblico e immediato. Questo puÃ² essere utile per capire la differenza tra chat aperta, anteprima e funzioni private.",
+          "Chaturbate viene spesso associato a un ambiente più pubblico e immediato. Questo può essere utile per capire la differenza tra chat aperta, anteprima e funzioni private.",
           "Anche in questo caso non conviene partire da promesse generiche: leggi sempre limiti, impostazioni account e pagamenti."
         ]
       },
@@ -93,19 +93,19 @@ export const confrontiPages: ConfrontiPage[] = [
     ],
     faq: [
       {
-        question: "LiveJasmin Ã¨ migliore di Chaturbate?",
+        question: "LiveJasmin è migliore di Chaturbate?",
         answer:
-          "Non Ã¨ corretto dichiararlo in modo assoluto. PuÃ² essere piÃ¹ adatto a chi cerca un'impostazione premium, mentre Chaturbate puÃ² interessare chi valuta un ambiente piÃ¹ pubblico."
+          "Non è corretto dichiararlo in modo assoluto. Può essere più adatto a chi cerca un'impostazione premium, mentre Chaturbate può interessare chi valuta un ambiente più pubblico."
       },
       {
-        question: "Questo confronto Ã¨ una recensione?",
+        question: "Questo confronto è una recensione?",
         answer:
-          "No. Ãˆ una guida decisionale senza voti, test inventati o classifiche artificiali."
+          "No. È una guida decisionale senza voti, test inventati o classifiche artificiali."
       },
       {
         question: "Quale piattaforma conviene da mobile?",
         answer:
-          "Dipende da leggibilitÃ , accesso, pagamenti e impostazioni disponibili nel momento in cui visiti la piattaforma."
+          "Dipende da leggibilità, accesso, pagamenti e impostazioni disponibili nel momento in cui visiti la piattaforma."
       }
     ],
     relatedLinks: [
@@ -129,37 +129,37 @@ export const confrontiPages: ConfrontiPage[] = [
       "Guida comparativa tra LiveJasmin e Stripchat per capire differenze di esperienza, modelli live, chat privata, accesso da mobile e navigazione.",
     kicker: "Confronto esperienza",
     intro:
-      "Chi confronta LiveJasmin e Stripchat di solito vuole capire se preferire un percorso piÃ¹ premium o un ambiente cam live piÃ¹ dinamico. La scelta va fatta leggendo anteprime, accesso mobile, privacy e costi possibili.",
+      "Chi confronta LiveJasmin e Stripchat di solito vuole capire se preferire un percorso più premium o un ambiente cam live più dinamico. La scelta va fatta leggendo anteprime, accesso mobile, privacy e costi possibili.",
     leftLabel: "LiveJasmin",
     rightLabel: "Stripchat",
     summary:
-      "LiveJasmin puÃ² essere valutato per un approccio piÃ¹ curato; Stripchat puÃ² risultare interessante per chi vuole esplorare un ambiente live diverso. La decisione dipende da chiarezza, limiti e condizioni reali.",
+      "LiveJasmin può essere valutato per un approccio più curato; Stripchat può risultare interessante per chi vuole esplorare un ambiente live diverso. La decisione dipende da chiarezza, limiti e condizioni reali.",
     matrix: [
-      { label: "Esperienza", left: "PiÃ¹ ordinata e premium", right: "PiÃ¹ orientata alla scoperta live" },
+      { label: "Esperienza", left: "Più ordinata e premium", right: "Più orientata alla scoperta live" },
       { label: "Anteprime", left: "Da leggere come accesso iniziale", right: "Da distinguere dalle funzioni private" },
       { label: "Chat privata", left: "Da valutare con crediti e condizioni", right: "Da controllare nel percorso ufficiale" },
       { label: "Mobile", left: "Importante la pulizia del flusso", right: "Importante evitare interfacce confuse" },
-      { label: "Per chi", left: "Chi cerca piÃ¹ selezione e controllo", right: "Chi vuole confrontare ambienti live differenti" }
+      { label: "Per chi", left: "Chi cerca più selezione e controllo", right: "Chi vuole confrontare ambienti live differenti" }
     ],
     sections: [
       {
         title: "Differenza di impostazione",
         paragraphs: [
           "Il confronto non riguarda solo i modelli online, ma il modo in cui la piattaforma accompagna l'utente: anteprime, registrazione, privacy, pagamenti e gestione dell'account.",
-          "Un sito piÃ¹ premium non Ã¨ automaticamente migliore, ma puÃ² essere piÃ¹ leggibile per chi vuole un percorso meno caotico."
+          "Un sito più premium non è automaticamente migliore, ma può essere più leggibile per chi vuole un percorso meno caotico."
         ]
       },
       {
         title: "Chat privata e costi possibili",
         paragraphs: [
-          "Prima di usare funzioni private, controlla sempre se il sito usa crediti, pacchetti o altre condizioni. Non inserire dati di pagamento se il flusso non Ã¨ chiaro.",
+          "Prima di usare funzioni private, controlla sempre se il sito usa crediti, pacchetti o altre condizioni. Non inserire dati di pagamento se il flusso non è chiaro.",
           "Le informazioni economiche possono cambiare e vanno lette sulla piattaforma ufficiale."
         ]
       },
       {
         title: "Scelta pratica",
         paragraphs: [
-          "Se cerchi ordine, privacy e un percorso guidato, parti da una piattaforma piÃ¹ premium. Se vuoi esplorare ambienti live differenti, confronta anche alternative.",
+          "Se cerchi ordine, privacy e un percorso guidato, parti da una piattaforma più premium. Se vuoi esplorare ambienti live differenti, confronta anche alternative.",
           "In entrambi i casi, evita decisioni basate su classifiche non motivate."
         ]
       }
@@ -167,7 +167,7 @@ export const confrontiPages: ConfrontiPage[] = [
     checklistTitle: "Cosa controllare nel confronto",
     checklist: [
       "Come vengono separate anteprima, registrazione e chat privata.",
-      "Se l'esperienza mobile Ã¨ leggibile e senza passaggi confusi.",
+      "Se l'esperienza mobile è leggibile e senza passaggi confusi.",
       "Dove sono spiegati crediti, limiti e pagamenti.",
       "Se il tono della piattaforma corrisponde alle tue aspettative."
     ],
@@ -180,7 +180,7 @@ export const confrontiPages: ConfrontiPage[] = [
       {
         question: "Quale scegliere per chat privata?",
         answer:
-          "Dipende da costi, controlli, privacy e disponibilitÃ  effettiva. Verifica sempre prima di usare funzioni private."
+          "Dipende da costi, controlli, privacy e disponibilità effettiva. Verifica sempre prima di usare funzioni private."
       },
       {
         question: "Questa pagina usa punteggi?",
@@ -213,20 +213,20 @@ export const confrontiPages: ConfrontiPage[] = [
     leftLabel: "LiveJasmin",
     rightLabel: "BongaCams",
     summary:
-      "LiveJasmin puÃ² risultare piÃ¹ orientato a un percorso premium, mentre BongaCams puÃ² essere valutato da chi cerca un ambiente cam live alternativo. Prima di scegliere, controlla accesso iniziale, registrazione, privacy e pagamenti.",
+      "LiveJasmin può risultare più orientato a un percorso premium, mentre BongaCams può essere valutato da chi cerca un ambiente cam live alternativo. Prima di scegliere, controlla accesso iniziale, registrazione, privacy e pagamenti.",
     matrix: [
-      { label: "Stile", left: "PiÃ¹ boutique e guidato", right: "PiÃ¹ orientato alla varietÃ  live" },
+      { label: "Stile", left: "Più boutique e guidato", right: "Più orientato alla varietà live" },
       { label: "Accesso iniziale", left: "Da valutare tramite anteprime", right: "Da leggere nei limiti ufficiali" },
       { label: "Privacy", left: "Controlla account e impostazioni", right: "Controlla registrazione e tracciamenti" },
       { label: "Pagamenti", left: "Verifica crediti prima dell'uso", right: "Verifica costi e condizioni" },
-      { label: "Decisione", left: "Per chi vuole piÃ¹ controllo", right: "Per chi confronta alternative live" }
+      { label: "Decisione", left: "Per chi vuole più controllo", right: "Per chi confronta alternative live" }
     ],
     sections: [
       {
         title: "Stile della piattaforma",
         paragraphs: [
-          "La prima differenza da osservare Ã¨ lo stile del percorso: quanto Ã¨ chiara la navigazione, dove sono le anteprime e come vengono spiegate funzioni private o registrazione.",
-          "Una piattaforma visivamente piÃ¹ ricca non Ã¨ sempre piÃ¹ chiara; conta la qualitÃ  delle informazioni prima del primo accesso."
+          "La prima differenza da osservare è lo stile del percorso: quanto è chiara la navigazione, dove sono le anteprime e come vengono spiegate funzioni private o registrazione.",
+          "Una piattaforma visivamente più ricca non è sempre più chiara; conta la qualità delle informazioni prima del primo accesso."
         ]
       },
       {
@@ -246,16 +246,16 @@ export const confrontiPages: ConfrontiPage[] = [
     ],
     checklistTitle: "Valutazione rapida",
     checklist: [
-      "Il percorso di registrazione Ã¨ chiaro.",
+      "Il percorso di registrazione è chiaro.",
       "Le anteprime non vengono confuse con funzioni complete.",
       "I pagamenti sono spiegati prima dell'uso privato.",
-      "Il sito Ã¨ leggibile da smartphone."
+      "Il sito è leggibile da smartphone."
     ],
     faq: [
       {
-        question: "BongaCams Ã¨ un'alternativa a LiveJasmin?",
+        question: "BongaCams è un'alternativa a LiveJasmin?",
         answer:
-          "PuÃ² essere considerata un'alternativa da valutare, ma la scelta dipende da esperienza desiderata, condizioni e chiarezza del servizio."
+          "Può essere considerata un'alternativa da valutare, ma la scelta dipende da esperienza desiderata, condizioni e chiarezza del servizio."
       },
       {
         question: "Posso confrontare i prezzi qui?",
@@ -263,7 +263,7 @@ export const confrontiPages: ConfrontiPage[] = [
           "No con numeri inventati. I prezzi possono cambiare e vanno verificati sulle piattaforme ufficiali."
       },
       {
-        question: "Quale piattaforma Ã¨ piÃ¹ discreta?",
+        question: "Quale piattaforma è più discreta?",
         answer:
           "La discrezione dipende da account, dispositivo, browser, pagamenti e impostazioni, non solo dal nome della piattaforma."
       }
@@ -289,16 +289,16 @@ export const confrontiPages: ConfrontiPage[] = [
       "Confronto tra Chaturbate e Stripchat per utenti italiani che vogliono capire accesso gratuito, chat pubblica, funzioni live e limiti da valutare.",
     kicker: "Confronto siti cam",
     intro:
-      "Chaturbate e Stripchat vengono spesso confrontati da chi cerca siti cam live piÃ¹ orientati alla scoperta pubblica. Questa guida resta prudente: niente voti, niente dati inventati, solo criteri per capire cosa controllare.",
+      "Chaturbate e Stripchat vengono spesso confrontati da chi cerca siti cam live più orientati alla scoperta pubblica. Questa guida resta prudente: niente voti, niente dati inventati, solo criteri per capire cosa controllare.",
     leftLabel: "Chaturbate",
     rightLabel: "Stripchat",
     summary:
       "Entrambe le piattaforme possono interessare chi cerca chat cam live con accesso iniziale e aree pubbliche. Prima di scegliere, valuta limiti, account, privacy, funzioni private e condizioni economiche.",
     matrix: [
-      { label: "Esperienza", left: "PiÃ¹ pubblica e immediata", right: "Live discovery con funzioni da valutare" },
+      { label: "Esperienza", left: "Più pubblica e immediata", right: "Live discovery con funzioni da valutare" },
       { label: "Accesso gratis", left: "Da distinguere dai servizi privati", right: "Da leggere in base ai limiti" },
-      { label: "Registrazione", left: "PuÃ² servire per funzioni avanzate", right: "PuÃ² servire per interazioni e account" },
-      { label: "Mobile", left: "Controlla ordine e leggibilitÃ ", right: "Controlla stabilitÃ  e pulsanti" },
+      { label: "Registrazione", left: "Può servire per funzioni avanzate", right: "Può servire per interazioni e account" },
+      { label: "Mobile", left: "Controlla ordine e leggibilità", right: "Controlla stabilità e pulsanti" },
       { label: "Cosa verificare", left: "Regole, crediti, privacy", right: "Limiti, account, pagamenti" }
     ],
     sections: [
@@ -312,21 +312,21 @@ export const confrontiPages: ConfrontiPage[] = [
       {
         title: "Funzioni live e controllo",
         paragraphs: [
-          "Un ambiente molto dinamico puÃ² essere interessante ma anche piÃ¹ dispersivo. Valuta sempre se trovi facilmente regole, privacy, impostazioni e pagamenti.",
-          "Da smartphone, la chiarezza dei comandi diventa ancora piÃ¹ importante."
+          "Un ambiente molto dinamico può essere interessante ma anche più dispersivo. Valuta sempre se trovi facilmente regole, privacy, impostazioni e pagamenti.",
+          "Da smartphone, la chiarezza dei comandi diventa ancora più importante."
         ]
       },
       {
-        title: "Quando scegliere una piattaforma piÃ¹ guidata",
+        title: "Quando scegliere una piattaforma più guidata",
         paragraphs: [
-          "Se vuoi un percorso piÃ¹ curato, potrebbe avere senso confrontare anche siti premium o guide dedicate a LiveJasmin.",
-          "Non serve decidere subito: osserva prima cosa Ã¨ visibile senza account e cosa richiede credito."
+          "Se vuoi un percorso più curato, potrebbe avere senso confrontare anche siti premium o guide dedicate a LiveJasmin.",
+          "Non serve decidere subito: osserva prima cosa è visibile senza account e cosa richiede credito."
         ]
       }
     ],
     checklistTitle: "Prima di entrare in siti cam live gratuiti",
     checklist: [
-      "Capisci cosa Ã¨ gratis e cosa Ã¨ solo anteprima.",
+      "Capisci cosa è gratis e cosa è solo anteprima.",
       "Controlla se la chat privata richiede crediti.",
       "Leggi impostazioni privacy e account.",
       "Evita pulsanti o promesse poco chiare."
@@ -335,12 +335,12 @@ export const confrontiPages: ConfrontiPage[] = [
       {
         question: "Chaturbate e Stripchat sono siti completamente gratis?",
         answer:
-          "Non Ã¨ corretto generalizzare. Alcune aree possono essere accessibili, mentre funzioni private o avanzate possono richiedere registrazione o pagamento."
+          "Non è corretto generalizzare. Alcune aree possono essere accessibili, mentre funzioni private o avanzate possono richiedere registrazione o pagamento."
       },
       {
-        question: "Quale ha piÃ¹ modelli?",
+        question: "Quale ha più modelli?",
         answer:
-          "Non usiamo conteggi inventati. La disponibilitÃ  cambia e va verificata sulle piattaforme."
+          "Non usiamo conteggi inventati. La disponibilità cambia e va verificata sulle piattaforme."
       },
       {
         question: "Meglio un sito gratuito o premium?",
@@ -353,7 +353,7 @@ export const confrontiPages: ConfrontiPage[] = [
       { href: "/siti/siti-cam-gratis", title: "Siti cam gratis", copy: "Anteprime, limiti e scelta consapevole." },
       { href: "/guida/differenza-tra-chat-gratis-e-chat-privata", title: "Chat gratis o privata", copy: "Differenze pratiche da conoscere." }
     ],
-    ctaTitle: "Preferisci valutare un percorso piÃ¹ guidato?",
+    ctaTitle: "Preferisci valutare un percorso più guidato?",
     ctaCopy:
       "Apri la piattaforma live e confronta l'esperienza live con i criteri della guida.",
     ctaHref: "/go/signup",
@@ -366,33 +366,33 @@ export const confrontiPages: ConfrontiPage[] = [
     h1: "Siti Webcam Premium o Gratis: Come Capire la Differenza",
     metaTitle: "Siti Webcam Premium o Gratis: Differenze da Conoscere",
     description:
-      "Capisci cosa cambia tra siti webcam premium e siti cam gratis: anteprime, registrazione, chat privata, pagamenti, privacy e qualitÃ  dellâ€™esperienza.",
+      "Capisci cosa cambia tra siti webcam premium e siti cam gratis: anteprime, registrazione, chat privata, pagamenti, privacy e qualità dell’esperienza.",
     kicker: "Decisione economica",
     intro:
       "La differenza tra siti webcam premium e siti cam gratis non si riduce al prezzo. Conta come vengono presentati profili, privacy, pagamenti, chat privata, assistenza e accesso mobile.",
     leftLabel: "Siti premium",
     rightLabel: "Siti gratis",
     summary:
-      "Un sito premium puÃ² offrire un percorso piÃ¹ ordinato; un sito gratis puÃ² essere utile per esplorare anteprime. La scelta migliore dipende da chiarezza, limiti e aspettative reali.",
+      "Un sito premium può offrire un percorso più ordinato; un sito gratis può essere utile per esplorare anteprime. La scelta migliore dipende da chiarezza, limiti e aspettative reali.",
     matrix: [
-      { label: "Accesso iniziale", left: "PiÃ¹ guidato e strutturato", right: "Spesso orientato ad anteprime" },
-      { label: "Chat privata", left: "Da leggere con costi e crediti", right: "PuÃ² essere limitata o a pagamento" },
+      { label: "Accesso iniziale", left: "Più guidato e strutturato", right: "Spesso orientato ad anteprime" },
+      { label: "Chat privata", left: "Da leggere con costi e crediti", right: "Può essere limitata o a pagamento" },
       { label: "Privacy", left: "Controlla account e pagamenti", right: "Controlla tracciamenti e limiti" },
-      { label: "Esperienza", left: "PiÃ¹ curata se ben spiegata", right: "PiÃ¹ variabile e da verificare" },
-      { label: "Rischio confusione", left: "Minore se il flusso Ã¨ chiaro", right: "Maggiore se gratis non Ã¨ spiegato" }
+      { label: "Esperienza", left: "Più curata se ben spiegata", right: "Più variabile e da verificare" },
+      { label: "Rischio confusione", left: "Minore se il flusso è chiaro", right: "Maggiore se gratis non è spiegato" }
     ],
     sections: [
       {
         title: "Che cosa significa premium",
         paragraphs: [
-          "Premium non deve essere letto come garanzia assoluta. PuÃ² indicare un percorso piÃ¹ curato, maggiore attenzione all'interfaccia o una presentazione piÃ¹ ordinata delle funzioni.",
-          "La qualitÃ  va verificata osservando condizioni, privacy, mobile e chiarezza dei pagamenti."
+          "Premium non deve essere letto come garanzia assoluta. Può indicare un percorso più curato, maggiore attenzione all'interfaccia o una presentazione più ordinata delle funzioni.",
+          "La qualità va verificata osservando condizioni, privacy, mobile e chiarezza dei pagamenti."
         ]
       },
       {
         title: "Che cosa significa gratis",
         paragraphs: [
-          "Gratis puÃ² indicare anteprime, accesso iniziale o registrazione senza pagamento immediato. Non va confuso con uso completo di funzioni private.",
+          "Gratis può indicare anteprime, accesso iniziale o registrazione senza pagamento immediato. Non va confuso con uso completo di funzioni private.",
           "Una pagina seria dovrebbe spiegare quando iniziano eventuali costi."
         ]
       },
@@ -400,22 +400,22 @@ export const confrontiPages: ConfrontiPage[] = [
         title: "Come scegliere senza sorprese",
         paragraphs: [
           "Se vuoi esplorare, parti dalle anteprime. Se vuoi usare funzioni private, leggi prima costi, crediti e condizioni.",
-          "Il punto non Ã¨ evitare ogni servizio a pagamento, ma capire che cosa stai scegliendo."
+          "Il punto non è evitare ogni servizio a pagamento, ma capire che cosa stai scegliendo."
         ]
       }
     ],
     checklistTitle: "Premium o gratis: domande utili",
     checklist: [
       "Gratis significa anteprima o funzione completa?",
-      "Il pagamento Ã¨ spiegato prima della chat privata?",
-      "La registrazione Ã¨ separata dall'acquisto?",
+      "Il pagamento è spiegato prima della chat privata?",
+      "La registrazione è separata dall'acquisto?",
       "Il sito funziona bene da mobile?"
     ],
     faq: [
       {
         question: "I siti premium sono sempre migliori?",
         answer:
-          "No. Possono essere piÃ¹ ordinati, ma vanno comunque valutati su privacy, costi, mobile e condizioni."
+          "No. Possono essere più ordinati, ma vanno comunque valutati su privacy, costi, mobile e condizioni."
       },
       {
         question: "I siti cam gratis sono davvero gratis?",
@@ -433,7 +433,7 @@ export const confrontiPages: ConfrontiPage[] = [
       { href: "/siti/siti-webcam-senza-carta-di-credito", title: "Senza carta", copy: "Opzioni prima del pagamento." },
       { href: "/guida/prezzi-chat-webcam", title: "Prezzi chat webcam", copy: "Crediti e costi spiegati." }
     ],
-    ctaTitle: "Vuoi confrontare un accesso piÃ¹ premium?",
+    ctaTitle: "Vuoi confrontare un accesso più premium?",
     ctaCopy:
       "Usa il percorso interno per valutare anteprime, profili e condizioni prima della registrazione.",
     ctaHref: "/go/signup",
@@ -446,33 +446,33 @@ export const confrontiPages: ConfrontiPage[] = [
     h1: "Chat Privata o Chat Gratis Webcam: Differenze Pratiche",
     metaTitle: "Chat Privata o Chat Gratis Webcam: Quale Scegliere",
     description:
-      "Guida italiana per confrontare chat webcam privata e chat gratis: differenze, limiti, costi possibili, privacy e scelta piÃ¹ consapevole.",
+      "Guida italiana per confrontare chat webcam privata e chat gratis: differenze, limiti, costi possibili, privacy e scelta più consapevole.",
     kicker: "Funzioni a confronto",
     intro:
-      "Chat gratis e chat privata rispondono a intenzioni diverse. La prima puÃ² aiutare a esplorare; la seconda puÃ² richiedere account, crediti e maggiore attenzione alla privacy.",
+      "Chat gratis e chat privata rispondono a intenzioni diverse. La prima può aiutare a esplorare; la seconda può richiedere account, crediti e maggiore attenzione alla privacy.",
     leftLabel: "Chat privata",
     rightLabel: "Chat gratis",
     summary:
-      "La chat privata puÃ² offrire un'esperienza piÃ¹ riservata ma spesso richiede condizioni precise. La chat gratis puÃ² essere utile per orientarsi, ma va letta nei suoi limiti.",
+      "La chat privata può offrire un'esperienza più riservata ma spesso richiede condizioni precise. La chat gratis può essere utile per orientarsi, ma va letta nei suoi limiti.",
     matrix: [
-      { label: "Scopo", left: "Interazione piÃ¹ riservata", right: "Esplorazione iniziale o pubblica" },
+      { label: "Scopo", left: "Interazione più riservata", right: "Esplorazione iniziale o pubblica" },
       { label: "Costo", left: "Possibili crediti o pagamento", right: "Spesso limitata ad anteprime" },
-      { label: "Registrazione", left: "Di solito piÃ¹ probabile", right: "PuÃ² non essere immediata" },
-      { label: "Privacy", left: "Da controllare con piÃ¹ attenzione", right: "Comunque importante" },
+      { label: "Registrazione", left: "Di solito più probabile", right: "Può non essere immediata" },
+      { label: "Privacy", left: "Da controllare con più attenzione", right: "Comunque importante" },
       { label: "Quando usarla", left: "Solo dopo aver letto condizioni", right: "Per capire ambiente e profili" }
     ],
     sections: [
       {
-        title: "PerchÃ© la chat gratis Ã¨ utile",
+        title: "Perché la chat gratis è utile",
         paragraphs: [
           "La chat gratis o l'anteprima servono a capire ambiente, profili e interfaccia senza impegnarsi subito.",
-          "Non bisogna perÃ² dedurre che ogni funzione avanzata sia inclusa senza costi."
+          "Non bisogna però dedurre che ogni funzione avanzata sia inclusa senza costi."
         ]
       },
       {
-        title: "PerchÃ© la chat privata richiede piÃ¹ attenzione",
+        title: "Perché la chat privata richiede più attenzione",
         paragraphs: [
-          "La chat privata puÃ² essere regolata da crediti, impostazioni e condizioni specifiche. Prima di usarla, controlla come uscire, quanto costa e quali dati vengono richiesti.",
+          "La chat privata può essere regolata da crediti, impostazioni e condizioni specifiche. Prima di usarla, controlla come uscire, quanto costa e quali dati vengono richiesti.",
           "Da mobile verifica che conferme e pulsanti siano leggibili."
         ]
       },
@@ -493,17 +493,17 @@ export const confrontiPages: ConfrontiPage[] = [
     ],
     faq: [
       {
-        question: "La chat privata Ã¨ sempre a pagamento?",
+        question: "La chat privata è sempre a pagamento?",
         answer:
-          "Spesso puÃ² richiedere crediti o pagamento, ma le condizioni esatte variano e vanno verificate."
+          "Spesso può richiedere crediti o pagamento, ma le condizioni esatte variano e vanno verificate."
       },
       {
         question: "La chat gratis basta per scegliere?",
         answer:
-          "PuÃ² bastare per capire ambiente e profili, non sempre per valutare funzioni private."
+          "Può bastare per capire ambiente e profili, non sempre per valutare funzioni private."
       },
       {
-        question: "Quale opzione Ã¨ piÃ¹ prudente per iniziare?",
+        question: "Quale opzione è più prudente per iniziare?",
         answer:
           "Partire dalle anteprime e leggere condizioni prima di usare funzioni private."
       }
@@ -529,15 +529,15 @@ export const confrontiPages: ConfrontiPage[] = [
       "Scopri come confrontare alternative a LiveJasmin per chat webcam live, modelli online, accesso mobile, chat privata e navigazione discreta.",
     kicker: "Alternative piattaforma",
     intro:
-      "Cercare alternative a LiveJasmin ha senso se vuoi confrontare stili, accesso iniziale, privacy, mobile e funzioni private. L'obiettivo non Ã¨ trovare un clone, ma capire quale percorso Ã¨ piÃ¹ leggibile per te.",
+      "Cercare alternative a LiveJasmin ha senso se vuoi confrontare stili, accesso iniziale, privacy, mobile e funzioni private. L'obiettivo non è trovare un clone, ma capire quale percorso è più leggibile per te.",
     leftLabel: "LiveJasmin",
     rightLabel: "Alternative",
     summary:
-      "LiveJasmin puÃ² essere un riferimento premium; le alternative possono offrire approcci diversi. Valuta sempre condizioni, funzioni disponibili, privacy e mobile senza fidarti di liste con punteggi inventati.",
+      "LiveJasmin può essere un riferimento premium; le alternative possono offrire approcci diversi. Valuta sempre condizioni, funzioni disponibili, privacy e mobile senza fidarti di liste con punteggi inventati.",
     matrix: [
       { label: "Ruolo", left: "Riferimento premium", right: "Opzioni da confrontare" },
-      { label: "Esperienza", left: "Percorso piÃ¹ guidato", right: "Stili e flussi variabili" },
-      { label: "Modelli", left: "Schede reali quando disponibili", right: "DisponibilitÃ  da verificare" },
+      { label: "Esperienza", left: "Percorso più guidato", right: "Stili e flussi variabili" },
+      { label: "Modelli", left: "Schede reali quando disponibili", right: "Disponibilità da verificare" },
       { label: "Pagamenti", left: "Crediti e condizioni da leggere", right: "Sistemi diversi da controllare" },
       { label: "Decisione", left: "Per chi cerca controllo", right: "Per chi vuole esplorare alternative" }
     ],
@@ -552,15 +552,15 @@ export const confrontiPages: ConfrontiPage[] = [
       {
         title: "Quando restare su un riferimento premium",
         paragraphs: [
-          "Se cerchi un percorso piÃ¹ ordinato, un riferimento premium puÃ² essere piÃ¹ semplice da leggere. Questo non elimina la necessitÃ  di verificare condizioni ufficiali.",
+          "Se cerchi un percorso più ordinato, un riferimento premium può essere più semplice da leggere. Questo non elimina la necessità di verificare condizioni ufficiali.",
           "SessoChat.net usa link interni e non espone URL partner grezzi nelle pagine."
         ]
       },
       {
         title: "Quando esplorare alternative",
         paragraphs: [
-          "Se vuoi confrontare ambienti piÃ¹ pubblici, accessi diversi o stili di chat differenti, le alternative possono aiutare.",
-          "Mantieni perÃ² lo stesso metodo: nessun punteggio inventato, nessuna promessa di prezzo o disponibilitÃ ."
+          "Se vuoi confrontare ambienti più pubblici, accessi diversi o stili di chat differenti, le alternative possono aiutare.",
+          "Mantieni però lo stesso metodo: nessun punteggio inventato, nessuna promessa di prezzo o disponibilità."
         ]
       }
     ],
@@ -569,7 +569,7 @@ export const confrontiPages: ConfrontiPage[] = [
       "Il sito spiega chiaramente anteprime e registrazione.",
       "Le funzioni private sono separate dall'accesso gratis.",
       "Le condizioni economiche sono visibili prima dell'uso.",
-      "La pagina mobile Ã¨ ordinata e discreta."
+      "La pagina mobile è ordinata e discreta."
     ],
     faq: [
       {
@@ -580,10 +580,10 @@ export const confrontiPages: ConfrontiPage[] = [
       {
         question: "LiveJasmin resta una scelta premium?",
         answer:
-          "PuÃ² essere valutato come riferimento premium, ma la scelta dipende dalle tue esigenze e dalle condizioni ufficiali."
+          "Può essere valutato come riferimento premium, ma la scelta dipende dalle tue esigenze e dalle condizioni ufficiali."
       },
       {
-        question: "Le alternative sono piÃ¹ economiche?",
+        question: "Le alternative sono più economiche?",
         answer:
           "Non possiamo affermarlo senza dati reali aggiornati. Controlla sempre costi e crediti sulla piattaforma."
       }
@@ -609,24 +609,24 @@ export const confrontiPages: ConfrontiPage[] = [
       "Guida italiana per scegliere tra siti webcam live, chat cam gratis, piattaforme premium, modelli verificati, accesso mobile e opzioni private.",
     kicker: "Scelta editoriale",
     intro:
-      "Quando cerchi i migliori siti webcam live, Ã¨ facile trovare classifiche piene di voti senza spiegazioni. SessoChat.net usa un approccio diverso: criteri pratici per scegliere senza classifiche inventate.",
+      "Quando cerchi i migliori siti webcam live, è facile trovare classifiche piene di voti senza spiegazioni. SessoChat.net usa un approccio diverso: criteri pratici per scegliere senza classifiche inventate.",
     leftLabel: "Percorso premium",
     rightLabel: "Percorso gratuito",
     summary:
       "Il miglior sito per te dipende da obiettivo, privacy, mobile, pagamenti e tipo di chat desiderata. Questa pagina offre una cornice editoriale, non una graduatoria inventata.",
     matrix: [
-      { label: "Obiettivo", left: "Esperienza piÃ¹ curata", right: "Esplorazione iniziale" },
+      { label: "Obiettivo", left: "Esperienza più curata", right: "Esplorazione iniziale" },
       { label: "Anteprime", left: "Da leggere prima dell'account", right: "Spesso parte centrale della scelta" },
-      { label: "Chat privata", left: "Da valutare con condizioni chiare", right: "PuÃ² essere limitata o a pagamento" },
+      { label: "Chat privata", left: "Da valutare con condizioni chiare", right: "Può essere limitata o a pagamento" },
       { label: "Modelli verificati", left: "Controlla dati reali e regole", right: "Non dare per scontata la verifica" },
       { label: "Decisione", left: "Per chi vuole controllo", right: "Per chi vuole capire l'ambiente" }
     ],
     sections: [
       {
-        title: "PerchÃ© non usiamo una classifica numerica",
+        title: "Perché non usiamo una classifica numerica",
         paragraphs: [
           "Senza dati verificabili, una classifica con voti sarebbe fuorviante. Preferiamo spiegare criteri: privacy, mobile, registrazione, costi e chiarezza delle funzioni.",
-          "Questo aiuta a scegliere con piÃ¹ controllo e senza promesse eccessive."
+          "Questo aiuta a scegliere con più controllo e senza promesse eccessive."
         ]
       },
       {
@@ -648,20 +648,20 @@ export const confrontiPages: ConfrontiPage[] = [
     checklist: [
       "Anteprime e registrazione sono separate chiaramente.",
       "Chat privata e crediti sono spiegati prima dell'uso.",
-      "Il sito Ã¨ leggibile da mobile.",
+      "Il sito è leggibile da mobile.",
       "Non vengono usati voti o recensioni inventate.",
-      "La privacy Ã¨ trattata in modo concreto."
+      "La privacy è trattata in modo concreto."
     ],
     faq: [
       {
-        question: "Qual Ã¨ il miglior sito webcam live?",
+        question: "Qual è il miglior sito webcam live?",
         answer:
           "Dipende dal tipo di esperienza che cerchi. Questa pagina non usa classifiche inventate, ma criteri per scegliere."
       },
       {
         question: "I siti gratis sono inclusi nella valutazione?",
         answer:
-          "SÃ¬, ma come anteprime o accesso iniziale da distinguere dalle funzioni private."
+          "Sì, ma come anteprime o accesso iniziale da distinguere dalle funzioni private."
       },
       {
         question: "I modelli mostrati sono reali?",
@@ -671,7 +671,7 @@ export const confrontiPages: ConfrontiPage[] = [
     ],
     relatedLinks: [
       { href: "/siti/siti-webcam-live", title: "Siti webcam live", copy: "Percorso principale per la scelta." },
-      { href: "/siti/siti-webcam-con-modelli-verificati", title: "Modelli verificati", copy: "PerchÃ© la verifica conta." },
+      { href: "/siti/siti-webcam-con-modelli-verificati", title: "Modelli verificati", copy: "Perché la verifica conta." },
       { href: "/guida/come-scegliere-un-sito-webcam", title: "Come scegliere", copy: "Metodo pratico per utenti italiani." }
     ],
     ctaTitle: "Valuta le opzioni live con un criterio chiaro",
