@@ -55,6 +55,19 @@ export function Footer() {
           ))}
         </nav>
         <p className="affiliate-disclosure">
+          SessoChat.net fa parte di un piccolo gruppo di risorse editoriali dedicate alle chat
+          webcam e alla scoperta di piattaforme live. Se preferisci leggere contenuti in inglese,
+          puoi consultare anche{" "}
+          <a href="https://webcamsex.me" rel="nofollow noopener">
+            webcamsex.me
+          </a>{" "}
+          per confronti e{" "}
+          <a href="https://webcamsex.site" rel="nofollow noopener">
+            webcamsex.site
+          </a>{" "}
+          per una panoramica più ampia dei modelli live.
+        </p>
+        <p className="affiliate-disclosure">
           SessoChat.net può ricevere una commissione quando un utente visita piattaforme partner
           tramite link interni. Questo non deve influenzare il tono editoriale o creare recensioni
           false.

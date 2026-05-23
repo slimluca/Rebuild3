@@ -36,6 +36,19 @@ export default function ChiSiamoPage() {
           partner. Il nostro ruolo è rendere più semplice capire differenze, aspettative di
           pagamento, impostazioni di privacy e punti da controllare prima di entrare.
         </p>
+        <p>
+          SessoChat.net fa parte di un piccolo gruppo di risorse editoriali dedicate alle chat
+          webcam e alla scoperta di piattaforme live. Se preferisci leggere contenuti in inglese,
+          puoi consultare anche{" "}
+          <a href="https://webcamsex.me" rel="noopener">
+            webcamsex.me
+          </a>{" "}
+          per confronti e{" "}
+          <a href="https://webcamsex.site" rel="noopener">
+            webcamsex.site
+          </a>{" "}
+          per una panoramica più ampia dei modelli live.
+        </p>
       </article>
       <article className="page-card">
         <h2>Che cosa vogliamo rendere chiaro</h2>
