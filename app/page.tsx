@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import { ArgomentiPreviewSection } from "@/components/ArgomentiPreviewSection";
 import { CategoryPreviewSection } from "@/components/CategoryPreviewSection";
 import { ComparisonPreviewSection } from "@/components/ComparisonPreviewSection";
+import { DecisionePreviewSection } from "@/components/DecisionePreviewSection";
+import { DomandePreviewSection } from "@/components/DomandePreviewSection";
 import { FinalCTA } from "@/components/FinalCTA";
 import { GuidePreviewSection } from "@/components/GuidePreviewSection";
 import { Hero } from "@/components/Hero";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
 import { QuickPathCards } from "@/components/QuickPathCards";
+import { QuizPreviewSection } from "@/components/QuizPreviewSection";
 import { RicerchePreviewSection } from "@/components/RicerchePreviewSection";
 import { TrustSection } from "@/components/TrustSection";
 import { webPageSchema } from "@/lib/schema";
@@ -51,6 +54,9 @@ export default function HomePage() {
       <CategoryPreviewSection />
       <ArgomentiPreviewSection />
       <RicerchePreviewSection />
+      <DecisionePreviewSection />
+      <DomandePreviewSection />
+      <QuizPreviewSection />
       <FinalCTA variant="models" />
       <FinalCTA />
     </>

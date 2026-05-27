@@ -9,6 +9,9 @@ const validChecks = [
   ["/categorie", [200]],
   ["/argomenti", [200]],
   ["/ricerche", [200]],
+  ["/decisione", [200]],
+  ["/domande", [200]],
+  ["/quiz", [200]],
   ["/sitemap.xml", [200]],
   ["/robots.txt", [200]],
   ["/go/signup", [307, 308]]

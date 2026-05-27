@@ -1,7 +1,10 @@
 import { argomentiPublicPages } from "@/lib/argomenti-pages";
 import { categoriePublicPages } from "@/lib/categorie-pages";
 import { confrontiPublicPages } from "@/lib/confronti-pages";
+import { decisionePublicPages } from "@/lib/decisione-pages";
+import { domandePublicPages } from "@/lib/domande-pages";
 import { guidaPublicPages } from "@/lib/guida-pages";
+import { quizPublicPages } from "@/lib/quiz-pages";
 import { ricerchePublicPages } from "@/lib/ricerche-pages";
 import { sitiPublicPages } from "@/lib/siti-pages";
 
@@ -20,6 +23,9 @@ export const siteConfig = {
     ...categoriePublicPages,
     ...argomentiPublicPages,
     ...ricerchePublicPages,
+    ...decisionePublicPages,
+    ...domandePublicPages,
+    ...quizPublicPages,
     { path: "/chi-siamo", label: "Chi siamo" },
     { path: "/contatti", label: "Contatti" },
     { path: "/politica-editoriale", label: "Politica editoriale" },

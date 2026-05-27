@@ -4,7 +4,10 @@ import { PageShell } from "@/components/PageShell";
 import { argomentiHubCards } from "@/lib/argomenti-pages";
 import { categorieHubCards } from "@/lib/categorie-pages";
 import { confrontiHubCards } from "@/lib/confronti-pages";
+import { decisioneHubCards } from "@/lib/decisione-pages";
+import { domandeHubCards } from "@/lib/domande-pages";
 import { guidaHubCards } from "@/lib/guida-pages";
+import { quizHubCards } from "@/lib/quiz-pages";
 import { ricercheHubCards } from "@/lib/ricerche-pages";
 import { sitiHubCards } from "@/lib/siti-pages";
 
@@ -35,6 +38,9 @@ const existingResources = [
   { href: "/categorie", title: "Categorie modelli", copy: "Percorsi per esplorare modelli webcam live e filtri disponibili." },
   { href: "/argomenti", title: "Argomenti", copy: "Ricerche rapide su registrazione, mobile, privacy, LiveJasmin Italia e anteprime." },
   { href: "/ricerche", title: "Ricerche", copy: "Landing rapide per chat webcam gratis, live, mobile, sicure e senza account." },
+  { href: "/decisione", title: "Decisione", copy: "Guide buyer-intent su costi, privacy, crediti, pagamenti e LiveJasmin." },
+  { href: "/domande", title: "Domande", copy: "Risposte rapide su registrazione, carta, crediti, privacy e LiveJasmin." },
+  { href: "/quiz", title: "Quiz", copy: "Quiz rapidi e discreti per scegliere il percorso webcam più adatto." },
   { href: "/chi-siamo", title: "Chi siamo", copy: "Il ruolo editoriale del progetto." },
   { href: "/politica-editoriale", title: "Politica editoriale", copy: "Standard di chiarezza e trasparenza." },
   { href: "/privacy-policy", title: "Privacy Policy", copy: "Informazioni iniziali su privacy e dati tecnici." },
@@ -65,6 +71,60 @@ export default function RisorsePage() {
           per una panoramica più ampia dei modelli live.
         </p>
       </article>
+      <article className="page-card">
+        <h2>Quiz e strumenti rapidi</h2>
+        <p>
+          I quiz aiutano a scegliere un percorso tra anteprime gratuite, chat privata, mobile,
+          privacy, LiveJasmin e alternative senza raccogliere dati personali.
+        </p>
+      </article>
+      <section className="resource-grid" aria-label="Quiz e strumenti rapidi">
+        {quizHubCards.map((resource) => (
+          <article className="resource-card" key={resource.href}>
+            <h2>{resource.title}</h2>
+            <p>{resource.copy}</p>
+            <Link className="text-link" href={resource.href}>
+              Apri quiz
+            </Link>
+          </article>
+        ))}
+      </section>
+      <article className="page-card">
+        <h2>Domande frequenti</h2>
+        <p>
+          Le domande raccolgono risposte rapide per utenti italiani su chat webcam gratis,
+          registrazione, carta di credito, crediti, privacy, mobile e LiveJasmin.
+        </p>
+      </article>
+      <section className="resource-grid" aria-label="Domande frequenti">
+        {domandeHubCards.map((resource) => (
+          <article className="resource-card" key={resource.href}>
+            <h2>{resource.title}</h2>
+            <p>{resource.copy}</p>
+            <Link className="text-link" href={resource.href}>
+              Leggi risposta
+            </Link>
+          </article>
+        ))}
+      </section>
+      <article className="page-card">
+        <h2>Guide alla decisione</h2>
+        <p>
+          La sezione decisione raccoglie pagine per chi sta valutando costi, crediti, privacy,
+          pagamenti, LiveJasmin Italia e affidabilità prima della registrazione.
+        </p>
+      </article>
+      <section className="resource-grid" aria-label="Guide alla decisione">
+        {decisioneHubCards.map((resource) => (
+          <article className="resource-card" key={resource.href}>
+            <h2>{resource.title}</h2>
+            <p>{resource.copy}</p>
+            <Link className="text-link" href={resource.href}>
+              Apri guida
+            </Link>
+          </article>
+        ))}
+      </section>
       <article className="page-card">
         <h2>Ricerche più cercate</h2>
         <p>
