@@ -6,6 +6,8 @@ import { DomandeHero } from "@/components/DomandeHero";
 import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { domandeHubCards } from "@/lib/domande-pages";
 
@@ -74,6 +76,7 @@ export default function DomandeHubPage() {
         copy="Ogni risposta affronta un singolo dubbio e collega a guide più complete già pubblicate."
         cards={domandeHubCards}
       />
+      <RecommendedPaths cards={recommendedPathGroups.domande} />
       <FAQSection items={hubFaq} />
       <section className="section">
         <div className="container">

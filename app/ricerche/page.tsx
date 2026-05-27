@@ -4,8 +4,10 @@ import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
 import { QuickAnswerPanel } from "@/components/QuickAnswerPanel";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
 import { RicercheCardGrid } from "@/components/RicercheCardGrid";
 import { RicercheHero } from "@/components/RicercheHero";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { ricercheHubCards } from "@/lib/ricerche-pages";
 
@@ -74,6 +76,7 @@ export default function RicercheHubPage() {
         copy="Ogni pagina ha un intento autonomo e rimanda a risorse più profonde quando serve contesto."
         cards={ricercheHubCards}
       />
+      <RecommendedPaths cards={recommendedPathGroups.ricerche} />
       <FAQSection items={hubFaq} />
       <section className="section">
         <div className="container">

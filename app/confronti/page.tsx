@@ -7,6 +7,8 @@ import { EditorialChecklist } from "@/components/EditorialChecklist";
 import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { confrontiHubCards } from "@/lib/confronti-pages";
 
@@ -80,6 +82,7 @@ export default function ConfrontiHubPage() {
         copy="Pagine pensate per utenti italiani che vogliono confrontare piattaforme, modelli live, accesso mobile e condizioni prima dell'ingresso."
         cards={confrontiHubCards}
       />
+      <RecommendedPaths cards={recommendedPathGroups.confronti} />
       <EditorialChecklist
         title="Criteri usati nei confronti"
         intro="Ogni pagina segue lo stesso principio: aiutare a decidere senza inventare dati."

@@ -6,6 +6,8 @@ import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
 import { QuickAnswerPanel } from "@/components/QuickAnswerPanel";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { decisioneHubCards } from "@/lib/decisione-pages";
 
@@ -74,6 +76,7 @@ export default function DecisioneHubPage() {
         copy="Ogni pagina affronta un momento concreto della scelta, con link verso guide più ampie e sezioni già pubblicate."
         cards={decisioneHubCards}
       />
+      <RecommendedPaths cards={recommendedPathGroups.decisione} />
       <FAQSection items={hubFaq} />
       <section className="section">
         <div className="container">

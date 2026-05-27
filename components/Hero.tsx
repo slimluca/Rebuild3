@@ -16,7 +16,7 @@ export function Hero() {
             <div className="hero-badges" aria-label="Punti di orientamento">
               <span>Privacy prima dell&apos;accesso</span>
               <span>Modelli live reali</span>
-              <span>link interni interni</span>
+              <span>Link interni ordinati</span>
             </div>
             <div className="hero-actions" aria-label="Azioni principali">
               <Link className="button" href="/go/signup" prefetch={false}>

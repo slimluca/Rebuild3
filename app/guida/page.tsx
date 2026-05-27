@@ -6,6 +6,8 @@ import { GuidaCardGrid } from "@/components/GuidaCardGrid";
 import { GuidaHero } from "@/components/GuidaHero";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { guidaHubCards } from "@/lib/guida-pages";
 
@@ -78,6 +80,7 @@ export default function GuidaHubPage() {
         copy="Ogni approfondimento risponde a un intento diverso, senza pagine vuote e senza promesse eccessive."
         cards={guidaHubCards}
       />
+      <RecommendedPaths cards={recommendedPathGroups.guida} />
       <section className="section">
         <div className="container split-section">
           <article className="rich-panel">

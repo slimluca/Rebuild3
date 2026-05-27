@@ -4,6 +4,8 @@ import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
 import { QuizCardGrid } from "@/components/QuizCardGrid";
 import { QuizHero } from "@/components/QuizHero";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { breadcrumbSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { quizHubCards } from "@/lib/quiz-pages";
 
@@ -52,6 +54,7 @@ export default function QuizHubPage() {
         copy="Ogni quiz lavora solo nel browser: nessun account, nessuna email e nessuna risposta salvata."
         cards={quizHubCards}
       />
+      <RecommendedPaths cards={recommendedPathGroups.quiz} />
       <section className="section">
         <div className="container">
           <div className="cta-band">

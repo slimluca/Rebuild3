@@ -7,6 +7,8 @@ import { CategoryInsightPanel } from "@/components/CategoryInsightPanel";
 import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { categorieHubCards } from "@/lib/categorie-pages";
 
@@ -83,6 +85,7 @@ export default function CategorieHubPage() {
         copy="Percorsi SEO e editoriali per esplorare modelli live, verificati, mobile, online e categorie di preferenza senza dati finti."
         cards={categorieHubCards}
       />
+      <RecommendedPaths cards={recommendedPathGroups.categorie} />
       <CategoryFilterGuide
         title="Come usare le categorie"
         intro="Tratta ogni categoria come punto di partenza, non come garanzia assoluta."

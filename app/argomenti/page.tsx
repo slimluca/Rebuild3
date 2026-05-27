@@ -6,7 +6,9 @@ import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
 import { QuickAnswerPanel } from "@/components/QuickAnswerPanel";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
 import { RelatedPathPanel } from "@/components/RelatedPathPanel";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { argomentiHubCards } from "@/lib/argomenti-pages";
 
@@ -75,6 +77,7 @@ export default function ArgomentiHubPage() {
         copy="Ogni pagina risponde a una ricerca diversa senza duplicare guide, confronti o categorie già pubblicate."
         cards={argomentiHubCards}
       />
+      <RecommendedPaths cards={recommendedPathGroups.argomenti} />
       <RelatedPathPanel
         title="Come usare questa sezione"
         steps={[

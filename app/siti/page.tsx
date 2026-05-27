@@ -4,8 +4,10 @@ import { EditorialChecklist } from "@/components/EditorialChecklist";
 import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
 import { SitiCardGrid } from "@/components/SitiCardGrid";
 import { SitiHero } from "@/components/SitiHero";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { breadcrumbSchema, faqPageSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { sitiHubCards } from "@/lib/siti-pages";
 
@@ -78,6 +80,7 @@ export default function SitiHubPage() {
         copy="Ogni guida affronta un dubbio specifico e rimanda solo a pagine realmente disponibili in questa fase."
         cards={sitiHubCards}
       />
+      <RecommendedPaths cards={recommendedPathGroups.siti} />
       <section className="section">
         <div className="container split-section">
           <article className="rich-panel">

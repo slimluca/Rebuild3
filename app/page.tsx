@@ -11,8 +11,10 @@ import { JsonLd } from "@/components/JsonLd";
 import { ModelGrid } from "@/components/ModelGrid";
 import { QuickPathCards } from "@/components/QuickPathCards";
 import { QuizPreviewSection } from "@/components/QuizPreviewSection";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
 import { RicerchePreviewSection } from "@/components/RicerchePreviewSection";
 import { TrustSection } from "@/components/TrustSection";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { webPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -48,6 +50,11 @@ export default function HomePage() {
       <Hero />
       <ModelGrid />
       <QuickPathCards />
+      <RecommendedPaths
+        title="Percorsi principali"
+        copy="Le sezioni più importanti per Google e per chi deve decidere: guide, confronti, domande, quiz e pagine buyer-intent."
+        cards={recommendedPathGroups.home}
+      />
       <TrustSection />
       <GuidePreviewSection />
       <ComparisonPreviewSection />

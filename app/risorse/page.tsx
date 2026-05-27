@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
+import { RecommendedPaths } from "@/components/RecommendedPaths";
 import { argomentiHubCards } from "@/lib/argomenti-pages";
 import { categorieHubCards } from "@/lib/categorie-pages";
 import { confrontiHubCards } from "@/lib/confronti-pages";
@@ -8,6 +9,7 @@ import { decisioneHubCards } from "@/lib/decisione-pages";
 import { domandeHubCards } from "@/lib/domande-pages";
 import { guidaHubCards } from "@/lib/guida-pages";
 import { quizHubCards } from "@/lib/quiz-pages";
+import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { ricercheHubCards } from "@/lib/ricerche-pages";
 import { sitiHubCards } from "@/lib/siti-pages";
 
@@ -71,6 +73,11 @@ export default function RisorsePage() {
           per una panoramica più ampia dei modelli live.
         </p>
       </article>
+      <RecommendedPaths
+        title="Percorsi consigliati"
+        copy="Questi collegamenti aiutano a passare rapidamente dalle risorse generali alle pagine più utili per scelta, costi, privacy e LiveJasmin."
+        cards={recommendedPathGroups.risorse}
+      />
       <article className="page-card">
         <h2>Quiz e strumenti rapidi</h2>
         <p>
