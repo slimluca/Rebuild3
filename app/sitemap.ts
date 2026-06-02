@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
-import { canonicalUrl, siteConfig } from "@/lib/site";
+import { indexPriorityPages } from "@/lib/index-priority-pages";
+import { canonicalUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return siteConfig.publicPages.map((page) => ({
-    url: canonicalUrl(page.path),
-    changeFrequency: page.path === "/" ? "weekly" : "monthly",
-    priority: page.path === "/" ? 1 : 0.6
+  return indexPriorityPages.map((path) => ({
+    url: canonicalUrl(path),
+    changeFrequency: path === "/" ? "weekly" : "monthly",
+    priority: path === "/" ? 1 : path.includes("/decisione") || path.includes("/domande") ? 0.75 : 0.65
   }));
 }

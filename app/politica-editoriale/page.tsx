@@ -25,24 +25,35 @@ export default function PoliticaEditorialePage() {
   return (
     <PageShell path="/politica-editoriale" title="Politica editoriale" description={description}>
       <article className="page-card">
-        <h2>Principi di scrittura</h2>
+        <h2>Metodo editoriale</h2>
         <p>
-          I contenuti di SessoChat.net devono essere chiari, discreti e utili per adulti che stanno
-          valutando servizi di chat webcam live. Evitiamo linguaggio volgare, promesse aggressive e
-          contenuti costruiti solo per accumulare parole chiave.
+          SessoChat.net pubblica contenuti per adulti che vogliono valutare chat webcam live con
+          più contesto prima di registrarsi. Ogni pagina deve aiutare a chiarire una scelta:
+          privacy, costi, crediti, accesso mobile, alternative, modelli verificati o differenze tra
+          anteprime e chat private.
         </p>
         <p>
-          Non pubblichiamo recensioni false, voti inventati, conteggi non verificati o affermazioni
-          di test diretto quando non esiste una verifica reale. Le informazioni sui modelli vengono
-          mostrate solo quando provengono da una fonte reale configurata.
+          Non siamo un operatore webcam e non presentiamo le guide come recensioni ufficiali. Il
+          tono resta discreto, professionale e adult-safe, senza linguaggio volgare o promesse
+          aggressive.
         </p>
       </article>
       <article className="page-card">
-        <h2>Link partner e indipendenza del tono</h2>
+        <h2>Cosa evitiamo</h2>
+        <ul>
+          <li>Recensioni false, voti inventati o classifiche non basate su dati verificabili.</li>
+          <li>Prezzi, conteggi utenti, paesi, status o dettagli modello aggiunti senza fonte reale.</li>
+          <li>Test dichiarati quando non esiste una verifica documentabile.</li>
+          <li>Pagine create solo per ripetere parole chiave senza valore editoriale.</li>
+        </ul>
+      </article>
+      <article className="page-card">
+        <h2>Link interni e affiliazione</h2>
         <p>
-          Alcuni collegamenti possono passare da redirect interni verso piattaforme partner. Questo
-          sistema serve a mantenere ordinata la struttura del sito e non deve creare recensioni
-          artificiali, valutazioni gonfiate o consigli privi di contesto.
+          Alcuni collegamenti possono passare da redirect interni verso servizi esterni. Questa
+          impostazione serve a mantenere ordinata la struttura del sito e non autorizza contenuti
+          gonfiati, recensioni artificiali o consigli privi di contesto. Le pagine devono restare
+          utili anche prima di qualunque clic commerciale.
         </p>
       </article>
     </PageShell>

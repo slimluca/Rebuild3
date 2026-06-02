@@ -7,12 +7,13 @@ import { confrontiPublicPages } from "@/lib/confronti-pages";
 import { decisionePublicPages } from "@/lib/decisione-pages";
 import { domandePublicPages } from "@/lib/domande-pages";
 import { guidaPublicPages } from "@/lib/guida-pages";
+import { isPriorityIndexPath } from "@/lib/index-priority-pages";
 import { quizPublicPages } from "@/lib/quiz-pages";
 import { ricerchePublicPages } from "@/lib/ricerche-pages";
 import { sitiPublicPages } from "@/lib/siti-pages";
 
 const description =
-  "Mappa HTML di SessoChat.net con home, siti webcam, guide pratiche, risorse e pagine editoriali pubbliche.";
+  "Mappa HTML prioritaria di SessoChat.net con le pagine editoriali e le guide più importanti per iniziare la navigazione.";
 
 export const metadata: Metadata = {
   title: "Mappa del Sito: Tutte le Guide Chat Webcam",
@@ -31,6 +32,9 @@ export const metadata: Metadata = {
   }
 };
 
+const priorityOnly = <T extends { path: string }>(pages: T[]) =>
+  pages.filter((page) => isPriorityIndexPath(page.path));
+
 const sitemapGroups = [
   {
     title: "Pagine principali",
@@ -40,15 +44,15 @@ const sitemapGroups = [
       { path: "/mappa-del-sito", label: "Mappa del sito" }
     ]
   },
-  { title: "Siti", pages: sitiPublicPages },
-  { title: "Guida", pages: guidaPublicPages },
-  { title: "Confronti", pages: confrontiPublicPages },
-  { title: "Categorie", pages: categoriePublicPages },
-  { title: "Argomenti", pages: argomentiPublicPages },
-  { title: "Ricerche", pages: ricerchePublicPages },
-  { title: "Decisione", pages: decisionePublicPages },
-  { title: "Domande", pages: domandePublicPages },
-  { title: "Quiz", pages: quizPublicPages },
+  { title: "Siti", pages: priorityOnly([...sitiPublicPages]) },
+  { title: "Guida", pages: priorityOnly([...guidaPublicPages]) },
+  { title: "Confronti", pages: priorityOnly([...confrontiPublicPages]) },
+  { title: "Categorie", pages: priorityOnly([...categoriePublicPages]) },
+  { title: "Argomenti", pages: priorityOnly([...argomentiPublicPages]) },
+  { title: "Ricerche", pages: priorityOnly([...ricerchePublicPages]) },
+  { title: "Decisione", pages: priorityOnly([...decisionePublicPages]) },
+  { title: "Domande", pages: priorityOnly([...domandePublicPages]) },
+  { title: "Quiz", pages: priorityOnly([...quizPublicPages]) },
   {
     title: "Pagine editoriali",
     pages: [

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "audit:index": "node scripts/audit-index-cleanup.mjs"
+    "audit:index": "node scripts/audit-index-cleanup.mjs",
+    "audit:priority-index": "node scripts/audit-priority-indexing.mjs"
   },
   "dependencies": {
     "next": "^15.3.0",

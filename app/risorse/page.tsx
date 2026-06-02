@@ -8,6 +8,7 @@ import { confrontiHubCards } from "@/lib/confronti-pages";
 import { decisioneHubCards } from "@/lib/decisione-pages";
 import { domandeHubCards } from "@/lib/domande-pages";
 import { guidaHubCards } from "@/lib/guida-pages";
+import { isPriorityIndexPath } from "@/lib/index-priority-pages";
 import { quizHubCards } from "@/lib/quiz-pages";
 import { recommendedPathGroups } from "@/lib/recommended-paths";
 import { ricercheHubCards } from "@/lib/ricerche-pages";
@@ -54,6 +55,9 @@ const futureAreas = [
   "Approfondimenti avanzati sui percorsi partner"
 ];
 
+const priorityCards = <T extends { href: string }>(cards: T[]) =>
+  cards.filter((card) => isPriorityIndexPath(card.href));
+
 export default function RisorsePage() {
   return (
     <PageShell path="/risorse" title="Risorse" description={description}>
@@ -86,7 +90,7 @@ export default function RisorsePage() {
         </p>
       </article>
       <section className="resource-grid" aria-label="Quiz e strumenti rapidi">
-        {quizHubCards.map((resource) => (
+        {priorityCards(quizHubCards).map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
             <p>{resource.copy}</p>
@@ -104,7 +108,7 @@ export default function RisorsePage() {
         </p>
       </article>
       <section className="resource-grid" aria-label="Domande frequenti">
-        {domandeHubCards.map((resource) => (
+        {priorityCards(domandeHubCards).map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
             <p>{resource.copy}</p>
@@ -122,7 +126,7 @@ export default function RisorsePage() {
         </p>
       </article>
       <section className="resource-grid" aria-label="Guide alla decisione">
-        {decisioneHubCards.map((resource) => (
+        {priorityCards(decisioneHubCards).map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
             <p>{resource.copy}</p>
@@ -140,7 +144,7 @@ export default function RisorsePage() {
         </p>
       </article>
       <section className="resource-grid" aria-label="Ricerche più cercate">
-        {ricercheHubCards.map((resource) => (
+        {priorityCards(ricercheHubCards).map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
             <p>{resource.copy}</p>
@@ -158,7 +162,7 @@ export default function RisorsePage() {
         </p>
       </article>
       <section className="resource-grid" aria-label="Argomenti più cercati">
-        {argomentiHubCards.map((resource) => (
+        {priorityCards(argomentiHubCards).map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
             <p>{resource.copy}</p>
@@ -176,7 +180,7 @@ export default function RisorsePage() {
         </p>
       </article>
       <section className="resource-grid" aria-label="Categorie modelli">
-        {categorieHubCards.map((resource) => (
+        {priorityCards(categorieHubCards).map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
             <p>{resource.copy}</p>
@@ -194,7 +198,7 @@ export default function RisorsePage() {
         </p>
       </article>
       <section className="resource-grid" aria-label="Confronti utili">
-        {confrontiHubCards.map((resource) => (
+        {priorityCards(confrontiHubCards).map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
             <p>{resource.copy}</p>
@@ -212,7 +216,7 @@ export default function RisorsePage() {
         </p>
       </article>
       <section className="resource-grid" aria-label="Guide pratiche">
-        {guidaHubCards.map((resource) => (
+        {priorityCards(guidaHubCards).map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
             <p>{resource.copy}</p>
@@ -230,7 +234,7 @@ export default function RisorsePage() {
         </p>
       </article>
       <section className="resource-grid" aria-label="Guide siti webcam">
-        {sitiHubCards.map((resource) => (
+        {priorityCards(sitiHubCards).map((resource) => (
           <article className="resource-card" key={resource.href}>
             <h2>{resource.title}</h2>
             <p>{resource.copy}</p>

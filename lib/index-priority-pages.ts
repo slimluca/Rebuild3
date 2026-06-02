@@ -1,0 +1,53 @@
+export const indexPriorityPages = [
+  "/",
+  "/risorse",
+  "/mappa-del-sito",
+  "/chi-siamo",
+  "/politica-editoriale",
+  "/privacy-policy",
+  "/termini-di-servizio",
+  "/contatti",
+  "/siti",
+  "/guida",
+  "/confronti",
+  "/categorie",
+  "/argomenti",
+  "/ricerche",
+  "/decisione",
+  "/domande",
+  "/quiz",
+  "/siti/siti-webcam-live",
+  "/siti/siti-cam-gratis",
+  "/siti/siti-cam-private",
+  "/siti/siti-webcam-mobile",
+  "/siti/siti-webcam-con-modelli-verificati",
+  "/guida/come-scegliere-un-sito-webcam",
+  "/guida/chat-webcam-sicura",
+  "/guida/prezzi-chat-webcam",
+  "/guida/modelli-webcam-verificati",
+  "/confronti/migliori-siti-webcam-live",
+  "/confronti/alternative-livejasmin",
+  "/confronti/siti-premium-vs-siti-gratis",
+  "/categorie/modelli-webcam-live",
+  "/categorie/modelli-webcam-verificati",
+  "/categorie/modelli-webcam-mobile",
+  "/argomenti/livejasmin-italia",
+  "/argomenti/siti-webcam-sicuri",
+  "/argomenti/chat-webcam-senza-carta-di-credito",
+  "/ricerche/livejasmin-alternative-italia",
+  "/ricerche/webcam-live-sicure",
+  "/ricerche/chat-webcam-gratis",
+  "/decisione/costi-chat-webcam",
+  "/decisione/prezzi-livejasmin",
+  "/decisione/chat-webcam-privacy",
+  "/decisione/livejasmin-italia-recensione-guida",
+  "/domande/le-chat-webcam-sono-gratis",
+  "/domande/livejasmin-e-sicuro",
+  "/quiz/livejasmin-o-alternative"
+] as const;
+
+export const indexPriorityPathSet = new Set<string>(indexPriorityPages);
+
+export function isPriorityIndexPath(path: string) {
+  return indexPriorityPathSet.has(path);
+}
