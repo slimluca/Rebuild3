@@ -1,4 +1,5 @@
 const LIVEJASMIN_BASE_URL = "https://www.livejasmin.com/en/";
+const BECOME_MODEL_URL = "https://ctwmsg.com/?siteId=npc&pageName=home&prm[refererid]=affil28";
 
 export const liveJasminAffiliateParams = {
   psid: "affil28",
@@ -71,6 +72,10 @@ export function getSignupUrl() {
 
 export function getLiveJasminUrl() {
   return createLiveJasminUrl({ path: "/" });
+}
+
+export function getBecomeModelUrl() {
+  return BECOME_MODEL_URL;
 }
 
 export function getRandomModelUrl() {

@@ -10,6 +10,7 @@ const footerLinks = [
   { href: "/decisione", label: "Decisione" },
   { href: "/domande", label: "Domande" },
   { href: "/quiz", label: "Quiz" },
+  { href: "/diventa-modella-webcam", label: "Diventa modella" },
   { href: "/domande/le-chat-webcam-sono-gratis", label: "Chat gratis?" },
   { href: "/domande/livejasmin-e-sicuro", label: "LiveJasmin sicuro?" },
   { href: "/decisione/costi-chat-webcam", label: "Costi chat webcam" },

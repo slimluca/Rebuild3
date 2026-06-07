@@ -40,6 +40,7 @@ const sitemapGroups = [
     title: "Pagine principali",
     pages: [
       { path: "/", label: "Home" },
+      { path: "/diventa-modella-webcam", label: "Diventa modella webcam" },
       { path: "/risorse", label: "Risorse" },
       { path: "/mappa-del-sito", label: "Mappa del sito" }
     ]

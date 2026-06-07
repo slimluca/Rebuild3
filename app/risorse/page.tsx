@@ -44,6 +44,11 @@ const existingResources = [
   { href: "/decisione", title: "Decisione", copy: "Guide buyer-intent su costi, privacy, crediti, pagamenti e LiveJasmin." },
   { href: "/domande", title: "Domande", copy: "Risposte rapide su registrazione, carta, crediti, privacy e LiveJasmin." },
   { href: "/quiz", title: "Quiz", copy: "Quiz rapidi e discreti per scegliere il percorso webcam più adatto." },
+  {
+    href: "/diventa-modella-webcam",
+    title: "Diventa modella webcam",
+    copy: "Guida discreta per adulti che valutano il lavoro webcam online da casa."
+  },
   { href: "/chi-siamo", title: "Chi siamo", copy: "Il ruolo editoriale del progetto." },
   { href: "/politica-editoriale", title: "Politica editoriale", copy: "Standard di chiarezza e trasparenza." },
   { href: "/privacy-policy", title: "Privacy Policy", copy: "Informazioni iniziali su privacy e dati tecnici." },

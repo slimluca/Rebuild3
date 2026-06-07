@@ -26,6 +26,7 @@ export const siteConfig = {
     ...decisionePublicPages,
     ...domandePublicPages,
     ...quizPublicPages,
+    { path: "/diventa-modella-webcam", label: "Diventa modella webcam" },
     { path: "/chi-siamo", label: "Chi siamo" },
     { path: "/contatti", label: "Contatti" },
     { path: "/politica-editoriale", label: "Politica editoriale" },

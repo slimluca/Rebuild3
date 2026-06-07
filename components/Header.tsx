@@ -19,6 +19,9 @@ export function Header() {
           <Link href="/contatti">Contatti</Link>
         </nav>
         <div className="header-actions">
+          <Link className="button-secondary" href="/diventa-modella-webcam">
+            Diventa una modella
+          </Link>
           <Link className="button" href="/go/signup" prefetch={false}>
             Entra ora
           </Link>

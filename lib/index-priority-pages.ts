@@ -16,6 +16,7 @@ export const indexPriorityPages = [
   "/decisione",
   "/domande",
   "/quiz",
+  "/diventa-modella-webcam",
   "/siti/siti-webcam-live",
   "/siti/siti-cam-gratis",
   "/siti/siti-cam-private",
@@ -42,8 +43,7 @@ export const indexPriorityPages = [
   "/decisione/chat-webcam-privacy",
   "/decisione/livejasmin-italia-recensione-guida",
   "/domande/le-chat-webcam-sono-gratis",
-  "/domande/livejasmin-e-sicuro",
-  "/quiz/livejasmin-o-alternative"
+  "/domande/livejasmin-e-sicuro"
 ] as const;
 
 export const indexPriorityPathSet = new Set<string>(indexPriorityPages);
