@@ -37,6 +37,12 @@ const footerLinks = [
   { href: "/mappa-del-sito", label: "Mappa del sito" }
 ];
 
+const friendSites = [
+  { href: "https://webcamsex.site", label: "Webcam Sex" },
+  { href: "https://webcamsex.me", label: "Cam Sex" },
+  { href: "https://modellewebcam.com", label: "Modelle Webcam" }
+];
+
 export function Footer() {
   return (
     <footer className="site-footer">
@@ -63,19 +69,16 @@ export function Footer() {
             </Link>
           ))}
         </nav>
-        <p className="affiliate-disclosure">
-          SessoChat.net fa parte di un piccolo gruppo di risorse editoriali dedicate alle chat
-          webcam e alla scoperta di piattaforme live. Se preferisci leggere contenuti in inglese,
-          puoi consultare anche{" "}
-          <a href="https://webcamsex.me" rel="nofollow noopener">
-            webcamsex.me
-          </a>{" "}
-          per confronti e{" "}
-          <a href="https://webcamsex.site" rel="nofollow noopener">
-            webcamsex.site
-          </a>{" "}
-          per una panoramica più ampia dei modelli live.
-        </p>
+        <nav className="friend-sites" aria-label="Friend Sites">
+          <h2>Friend Sites</h2>
+          <div>
+            {friendSites.map((site) => (
+              <a key={site.href} href={site.href}>
+                {site.label}
+              </a>
+            ))}
+          </div>
+        </nav>
         <p className="affiliate-disclosure">
           SessoChat.net può ricevere una commissione quando un utente visita piattaforme partner
           tramite link interni. Questo non deve influenzare il tono editoriale o creare recensioni

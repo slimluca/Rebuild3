@@ -66,22 +66,6 @@ const priorityCards = <T extends { href: string }>(cards: T[]) =>
 export default function RisorsePage() {
   return (
     <PageShell path="/risorse" title="Risorse" description={description}>
-      <article className="page-card">
-        <h2>Risorse editoriali collegate</h2>
-        <p>
-          SessoChat.net fa parte di un piccolo gruppo di risorse editoriali dedicate alle chat
-          webcam e alla scoperta di piattaforme live. Se preferisci leggere contenuti in inglese,
-          puoi consultare anche{" "}
-          <a href="https://webcamsex.me" rel="noopener">
-            webcamsex.me
-          </a>{" "}
-          per confronti e{" "}
-          <a href="https://webcamsex.site" rel="noopener">
-            webcamsex.site
-          </a>{" "}
-          per una panoramica più ampia dei modelli live.
-        </p>
-      </article>
       <RecommendedPaths
         title="Percorsi consigliati"
         copy="Questi collegamenti aiutano a passare rapidamente dalle risorse generali alle pagine più utili per scelta, costi, privacy e LiveJasmin."

@@ -37,19 +37,6 @@ export default function ChiSiamoPage() {
           mobile, LiveJasmin, alternative e modelli verificati. Non pubblichiamo classifiche
           inventate, recensioni finte o valutazioni numeriche costruite per spingere una scelta.
         </p>
-        <p>
-          SessoChat.net fa parte di un piccolo gruppo di risorse editoriali dedicate alle chat
-          webcam e alla scoperta di piattaforme live. Se preferisci leggere contenuti in inglese,
-          puoi consultare anche{" "}
-          <a href="https://webcamsex.me" rel="noopener">
-            webcamsex.me
-          </a>{" "}
-          per confronti e{" "}
-          <a href="https://webcamsex.site" rel="noopener">
-            webcamsex.site
-          </a>{" "}
-          per una panoramica più ampia dei modelli live.
-        </p>
       </article>
       <article className="page-card">
         <h2>Che cosa vogliamo rendere chiaro</h2>
