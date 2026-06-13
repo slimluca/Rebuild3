@@ -14,16 +14,25 @@ const validChecks = [
   ["/quiz", [200]],
   ["/sitemap.xml", [200]],
   ["/robots.txt", [200]],
-  ["/go/signup", [307, 308]]
+  ["/go/signup", [307, 308]],
+  ["/go/diventa-modella", [307, 308]]
 ];
 
 const goneChecks = [
   "/teens",
+  "/teens/",
   "/latina",
+  "/latina/",
   "/trans",
+  "/trans/",
   "/sex-chat-russian-teen",
+  "/sex-chat-russian-teen/",
+  "/joss-caprice-chaturbate-live-cam",
+  "/joss-caprice-chaturbate-live-cam/",
   "/joss-caprice-chaturbate-live-cam-model",
+  "/joss-caprice-chaturbate-live-cam-model/",
   "/random-old-model-page",
+  "/random-old-model-page/",
   "/fake-old-category",
   "/old-english-webcam-page"
 ].map((path) => [path, [410]]);

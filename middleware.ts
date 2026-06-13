@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { isLegacyGonePath } from "@/lib/legacy-gone-paths";
 import { isValidPublicPath, normalizePublicPath } from "@/lib/valid-public-paths";
 
 const goneBody = `<!doctype html>
@@ -33,6 +34,16 @@ function shouldBypassMiddleware(pathname: string) {
 }
 
 export function middleware(request: NextRequest) {
+  if (isLegacyGonePath(request.nextUrl.pathname)) {
+    return new NextResponse(goneBody, {
+      status: 410,
+      headers: {
+        "Content-Type": "text/html; charset=utf-8",
+        "X-Robots-Tag": "noindex, nofollow"
+      }
+    });
+  }
+
   if (shouldBypassMiddleware(request.nextUrl.pathname)) {
     return NextResponse.next();
   }
