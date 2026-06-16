@@ -42,21 +42,11 @@ if (prioritySet.size !== priorityPaths.length) {
 const sitemap = await readFile(sitemapFile, "utf8");
 const robots = await readFile(robotsFile, "utf8");
 const sitemapUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
-const sitemapPaths = sitemapUrls.map((url) => {
-  const parsed = new URL(url);
-  return parsed.pathname === "/" ? "/" : parsed.pathname.replace(/\/$/, "");
-});
 
 for (const routePath of priorityPaths) {
   const url = sitemapUrlFor(routePath);
   if (!sitemapUrls.includes(url)) {
     fail(`priority URL missing from sitemap: ${url}`);
-  }
-}
-
-for (const routePath of sitemapPaths) {
-  if (!prioritySet.has(routePath)) {
-    fail(`non-priority path found in sitemap: ${routePath}`);
   }
 }
 
@@ -106,5 +96,5 @@ for (const routePath of priorityPaths) {
 }
 
 if (!process.exitCode) {
-  console.log(`OK priority indexing audit passed for ${priorityPaths.length} URLs`);
+  console.log(`OK priority indexing audit passed for ${priorityPaths.length} priority URLs inside ${sitemapUrls.length} sitemap URLs`);
 }

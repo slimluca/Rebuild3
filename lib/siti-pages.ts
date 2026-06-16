@@ -262,7 +262,7 @@ export const sitiPages: SitiPage[] = [
     path: "/siti/siti-webcam-mobile",
     navTitle: "Siti webcam mobile",
     h1: "Siti Webcam Mobile: Chat Cam Live da Smartphone Senza Confusione",
-    metaTitle: "Siti Webcam Mobile: Chat Cam Live da Smartphone",
+    metaTitle: "Siti Webcam Mobile: Piattaforme Cam da Smartphone",
     description:
       "Guida italiana ai siti webcam mobile: leggibilità, velocità, privacy su smartphone, account, pagamenti e navigazione senza confusione.",
     kicker: "Esperienza mobile",
@@ -416,7 +416,7 @@ export const sitiPages: SitiPage[] = [
     path: "/siti/siti-webcam-senza-carta-di-credito",
     navTitle: "Senza carta di credito",
     h1: "Chat Webcam Senza Carta di Credito: Come Capire le Opzioni Disponibili",
-    metaTitle: "Chat Webcam Senza Carta di Credito: Opzioni e Limiti",
+    metaTitle: "Siti Webcam Senza Carta di Credito: Anteprime e Limiti",
     description:
       "Guida italiana per capire chat webcam senza carta di credito, anteprime, registrazione, crediti, pagamenti e attenzione ai passaggi economici.",
     kicker: "Pagamenti e accesso",

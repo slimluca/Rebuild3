@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "eslint .",
     "audit:index": "node scripts/audit-index-cleanup.mjs",
-    "audit:priority-index": "node scripts/audit-priority-indexing.mjs"
+    "audit:priority-index": "node scripts/audit-priority-indexing.mjs",
+    "audit:emergency-index": "node scripts/emergency-indexing-audit.mjs",
+    "audit:internal-links": "node scripts/find-broken-internal-links.mjs",
+    "audit:production-index": "node scripts/production-indexing-check.mjs"
   },
   "dependencies": {
     "next": "^15.3.0",
