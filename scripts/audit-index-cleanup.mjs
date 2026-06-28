@@ -76,7 +76,11 @@ const redirectChecks = [
   ["/joss-caprice-chaturbate-live-cam", "/categorie/modelli-webcam-live"],
   ["/category/livejasmin", "/decisione/livejasmin-italia-recensione-guida"],
   ["/tag/prezzi-chat-webcam", "/decisione/costi-chat-webcam"],
+  ["/tag/prezzi-livejasmin", "/decisione/prezzi-livejasmin"],
+  ["/category/chat-webcam-sicura", "/guida/chat-webcam-sicura"],
+  ["/tag/privacy-chat-webcam", "/guida/chat-webcam-sicura"],
   ["/2024/05/livejasmin-italia", "/decisione/livejasmin-italia-recensione-guida"],
+  ["/2024/05/prezzi-livejasmin", "/decisione/prezzi-livejasmin"],
   ["/page/2", "/mappa-del-sito"],
   ["/guida/", "/guida"]
 ];
@@ -112,12 +116,15 @@ async function checkRedirect(path, expectedLocationPath) {
   const response = await fetchUrl(new URL(path, baseUrl), { method: "HEAD" });
   const location = response.headers.get("location") ?? "";
   const locationPath = location ? new URL(location, baseUrl).pathname : "";
+  const targetResponse = locationPath
+    ? await fetchUrl(new URL(locationPath, baseUrl), { method: "HEAD" })
+    : null;
 
   return {
     path,
     status: response.status,
     location,
-    ok: [301, 308].includes(response.status) && locationPath === expectedLocationPath
+    ok: [301, 308].includes(response.status) && locationPath === expectedLocationPath && targetResponse?.status === 200
   };
 }
 

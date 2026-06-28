@@ -51,10 +51,10 @@ function keywordRedirect(pathname: string, fallback: string) {
   const normalizedPath = normalizePublicPath(pathname);
   const compact = normalizedPath.replace(/^\/(?:category|tag)\//, "/");
 
+  if (/(prezzi-livejasmin|crediti-livejasmin|costi-livejasmin)/.test(compact)) return "/decisione/prezzi-livejasmin";
   if (/(livejasmin|jasmin)/.test(compact)) return "/decisione/livejasmin-italia-recensione-guida";
-  if (/(prezzi-livejasmin|crediti-livejasmin|costi-livejasmin)/.test(compact)) return "/decisione/livejasmin-costi-crediti";
   if (/(prezzi|costi|crediti|pagamenti)/.test(compact)) return "/decisione/costi-chat-webcam";
-  if (/(privacy|sicura|sicurezza|affidabili)/.test(compact)) return "/decisione/chat-webcam-sicura";
+  if (/(privacy|sicura|sicurezza|affidabili)/.test(compact)) return "/guida/chat-webcam-sicura";
   if (/(gratis|gratuita|anteprima)/.test(compact)) return "/ricerche/chat-webcam-gratis";
   if (/(registrazione|senza-account)/.test(compact)) return "/argomenti/chat-webcam-senza-registrazione";
   if (/(carta|pagamento)/.test(compact)) return "/argomenti/chat-webcam-senza-carta-di-credito";

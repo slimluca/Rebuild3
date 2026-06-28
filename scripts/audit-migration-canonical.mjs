@@ -79,8 +79,17 @@ async function checkRedirect(path, expectedPath) {
   const response = await fetchUrl(new URL(path, baseUrl), { method: "HEAD" });
   const location = response.headers.get("location") ?? "";
   const locationPath = location ? new URL(location, baseUrl).pathname : "";
+  let targetStatus = 0;
 
-  record([301, 308].includes(response.status) && locationPath === expectedPath, `${path} permanently redirects to ${expectedPath}`);
+  if (locationPath) {
+    const targetResponse = await fetchUrl(new URL(locationPath, baseUrl), { method: "HEAD" });
+    targetStatus = targetResponse.status;
+  }
+
+  record(
+    [301, 308].includes(response.status) && locationPath === expectedPath && targetStatus === 200,
+    `${path} permanently redirects to ${expectedPath} and target returns 200`
+  );
 }
 
 async function checkGone(path) {
@@ -125,7 +134,11 @@ await checkRedirect("/latina", "/categorie/modelli-webcam-latine");
 await checkRedirect("/trans", "/categorie/modelli-webcam-live");
 await checkRedirect("/category/livejasmin", "/decisione/livejasmin-italia-recensione-guida");
 await checkRedirect("/tag/prezzi-chat-webcam", "/decisione/costi-chat-webcam");
+await checkRedirect("/tag/prezzi-livejasmin", "/decisione/prezzi-livejasmin");
+await checkRedirect("/category/chat-webcam-sicura", "/guida/chat-webcam-sicura");
+await checkRedirect("/tag/privacy-chat-webcam", "/guida/chat-webcam-sicura");
 await checkRedirect("/2024/05/livejasmin-italia", "/decisione/livejasmin-italia-recensione-guida");
+await checkRedirect("/2024/05/prezzi-livejasmin", "/decisione/prezzi-livejasmin");
 await checkRedirect("/guida/", "/guida");
 
 await checkGone("/wp-admin");
