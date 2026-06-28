@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       disallow: "/go/"
     },
     sitemap: `${siteConfig.url}/sitemap.xml`,
-    host: siteConfig.url
+    host: siteConfig.domain
   };
 }

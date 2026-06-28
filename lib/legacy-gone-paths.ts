@@ -1,11 +1,12 @@
 export const legacyGonePaths = [
-  "/teens",
-  "/latina",
-  "/trans",
-  "/sex-chat-russian-teen",
-  "/joss-caprice-chaturbate-live-cam",
-  "/joss-caprice-chaturbate-live-cam-model",
-  "/random-old-model-page"
+  "/random-old-model-page",
+  "/fake-old-category",
+  "/old-english-webcam-page",
+  "/wp-admin",
+  "/wp-login.php",
+  "/xmlrpc.php",
+  "/wp-content",
+  "/wp-includes"
 ] as const;
 
 export function normalizeLegacyPath(pathname: string) {
@@ -19,5 +20,9 @@ export function normalizeLegacyPath(pathname: string) {
 }
 
 export function isLegacyGonePath(pathname: string) {
-  return legacyGonePaths.includes(normalizeLegacyPath(pathname) as (typeof legacyGonePaths)[number]);
+  const normalizedPath = normalizeLegacyPath(pathname);
+
+  return legacyGonePaths.some(
+    (gonePath) => normalizedPath === gonePath || normalizedPath.startsWith(`${gonePath}/`)
+  );
 }
